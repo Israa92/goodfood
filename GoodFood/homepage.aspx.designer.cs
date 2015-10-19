@@ -11,7 +11,7 @@ namespace GoodFood
 {
 
 
-    public partial class _default
+    public partial class defult
     {
     }
 }
