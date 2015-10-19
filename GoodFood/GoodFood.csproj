@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\veckanslunch.jpg" />
     <Content Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -76,10 +77,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="homepage.aspx" />
+    <Content Include="defult.aspx" />
     <Content Include="images\background.jpg" />
     <Content Include="images\logo.jpg" />
-    <Content Include="images\veckanslunch.jpg" />
     <Content Include="Global.asax" />
     <Content Include="images\1.jpg" />
     <Content Include="images\2.jpg" />
@@ -89,12 +89,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="homepage.aspx.cs">
-      <DependentUpon>homepage.aspx</DependentUpon>
+    <Compile Include="defult.aspx.cs">
+      <DependentUpon>defult.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="homepage.aspx.designer.cs">
-      <DependentUpon>homepage.aspx</DependentUpon>
+    <Compile Include="defult.aspx.designer.cs">
+      <DependentUpon>defult.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
