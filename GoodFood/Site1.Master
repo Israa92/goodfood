@@ -24,7 +24,7 @@
         <div id="content">
             <!--navigation bar horisentel-->
             <nav id="meny">
-                <div><a href="defult.aspx">Home</a></div>
+                <div><a href="default.aspx">Home</a></div>
                 <div><a href="mat.aspx">Mat</a></div>
                 <div><a href="Aptitretare.aspx">Aptitretare</a></div>
                 <div><a href="Efterrätt.aspx">Efterrätt</a></div>
