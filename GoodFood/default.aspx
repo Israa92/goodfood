@@ -1,8 +1,14 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="defult.aspx.cs" Inherits="GoodFood.defult" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="GoodFood.defult" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <section class="container">
+        <div class="Logga in">
+            <a href="RegistrationPage.aspx" style="margin-top: -120px;">Logga in</a>
+        </div>
+    </section>
 
     <div>
         <!--huvud text i homepage-->

@@ -8,32 +8,42 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    
+
 </head>
 <body>
+    <form id="form1" runat="server">
 
-    <div>
-        <!--logotypen-->
-    <a id="logo" href="defult.aspx" title="Return to the homepage" >
-    <img src="images/logo.jpg" alt="Good Food logo" style="border:10px solid white; border-radius:20px" /></a>
-    </div>
-    
-       
-    <div id="content">
-            <!--navigation bar horisentel-->
-             <nav id="meny">
-                 <div><a href="defult.aspx">Home</a></div>
-                 <div><a href="mat.aspx">Mat</a></div>
-                 <div><a href="Aptitretare.aspx">Aptitretare</a></div>
-                 <div><a href="Efterrätt.aspx">Efterrätt</a></div>
-                 <div><a href="omoss.aspx">Om oss</a></div>
-             </nav>
+        <div id="logo">
+            <a href="default.aspx" title="Return to the homepage" id="logo.jpg">
+                <img src="logo.jpg" alt="Good Food logo" style="border: 10px solid white; border-radius: 20px" />
 
-        <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
+            </a>
         </div>
 
-    </div>
+
+        <div id="content">
+            <!--navigation bar horisentel-->
+            <nav id="meny">
+                <div><a href="defult.aspx">Home</a></div>
+                <div><a href="mat.aspx">Mat</a></div>
+                <div><a href="Aptitretare.aspx">Aptitretare</a></div>
+                <div><a href="Efterrätt.aspx">Efterrätt</a></div>
+                <div><a href="omoss.aspx">Om oss</a></div>
+            </nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+    </form>
+    <footer>
+        <p>Posted by: Exotiska Recept</p>
+        <p>
+            Contact information: <a href="mailto:someone@example.com">Exotiskarecept@hotmail.com
+            </a>
+        </p>
+    </footer>
 </body>
 </html>
+

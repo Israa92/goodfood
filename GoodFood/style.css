@@ -1,6 +1,6 @@
 /*the background of the webbside*/
 body{
-background-image:url(images/background.jpg);
+background-image:url(background.jpg);
 background-size: cover;                      
 background-repeat: no-repeat;
 background-position: center center;
@@ -10,8 +10,8 @@ text-align: center;
 
 /*logotypen*/
 #logo{
-width:180px;
-height:170px;
+width:170px;
+height:160px;
 display:block;
 margin-left:auto;
 margin-right:auto;
@@ -21,7 +21,7 @@ margin-bottom:30px;
 /*gröna genomskinliga background*/ 
 #content{
 background-color:rgba(118, 244, 79, 0.21);
-width: 1300px;
+width: 1000px;
 height: 900px;
 margin: 0 auto;
 margin-top:3px;
@@ -38,7 +38,7 @@ inset 0 0 0 3px rgba(54, 163, 46, 0.83),
 display: block;
 float:left;
 width: 150px;
-padding: 5px 10px 5px 10px;
+padding: 3px 7px 3px 7px;
 margin: 10px;
 margin-top:30px;
 margin-bottom:20px;
@@ -61,22 +61,272 @@ text-decoration: none;
 }
 /*pic of the veckanslunch*/
 #veckanslunch{
-margin-top:250px;
+margin-top:100px;
 }
 
-/*text in defult*/ 
+/*Style till "våra recept" text*/
+h2 {
+    margin-top: 0px;
+    text-align: initial;
+    color: #000;
+    font-size: x-large;
+    margin-left: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* En plats som visar var texter och bilder måste vara,som ram */
+.listContainer {
+    width: 500px;
+    margin-top: 25px;
+}
+
+/*Style till text inne listContainer */
+.listItem {
+    width: 400px;
+    float: left;
+    min-height: 100px;
+    overflow: hidden;
+    margin-top: 0px;
+    font-size: 23px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+    /*Style till bilder somm är i listContainer*/
+    .listItem img {
+        width: 300px;
+        margin-top: 30px;
+        height: 200px;
+    }
+
+/*pagecolumn gör en vertical column till båda texter och bilder, 2,2*/
+.pagecolumn {
+    width: 400px;
+    float: left;
+    padding: 20px;
+    margin-top: 7px;
+}
+
+/*bottom text*/
+footer {
+    float:left;
+    display: block;
+    position: static;
+    color: #45ad54;
+    font-size: medium;
+    margin-bottom: 30px;
+    text-align: center center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/*jag har tagit bort "a receptSidan" och "nav img"!!!*/
+
+
+/*Style till första text in receptSidan 1*/
+h3 {
+    text-align: initial;
+    margin-top: 130px;
+}
+
+/*Style till andra column, till två andra texter och bilder */
+.pagecolumn2 {
+    float: left;
+}
+
+/*Style till ingredienser till alla receptSidor*/
+.text2 {
+    margin-left: 150px;
+    padding: 10px;
+    font-style: oblique;
+    width: 900px;
+    margin-top: 20px;
+}
+
+/*Style till "Gör så här" till alla receptSidor*/
+.text3 {
+    margin-top: 0 auto;
+    text-align: left;
+    font-size: large;
+}
+
+
+/*Israa*/
+#content {
+    background-color: rgba(118, 244, 79, 0.21);
+    width: 920px;
+    min-height: 900px;
+    margin: 0 auto;
+    margin-top: 3px;
+    border: 9px solid;
+    border-radius: 20px;
+    border-color: rgba(54, 163, 46, 0.83);
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+}
+
 #text {
-float:left;
-margin-left:150px;
-margin-right:0 auto;
-text-align: center;
-border: 4px solid rgba(54, 163, 46, 0.83);
-border-radius: 20px;
-box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
-width: 950px;
-height: 130px;
-color: #368a2b;
-font-size: 35px;
-font-family: "Comic Sans MS", cursive, sans-seri;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    border: 4px solid rgba(54, 163, 46, 0.83);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+    width: 800px;
+    height: 130px;
+    color: #368a2b;
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 30px;
 }
 
+/*the navigation*/
+#meny div a {
+    display: block;
+    float: left;
+    width: 110px;
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 35px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+}
+
+#meny a:link, #meny a:visited {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+/*pic of the veckanslunch*/
+#veckanslunch {
+    height: 10px;
+    float: left;
+    border-color: rgba(181, 135, 45, 0.85);
+    border-image: fill;
+    margin-left: 200px;
+    padding: 30px;
+    position: relative;
+    align-content: center;
+    margin-top:30px;
+}
+
+    #veckanslunch img {
+        width: 480px;
+        height: 120px;
+        align-items: center;
+        background: url(logo.jpg);
+        border-radius: 5px;
+        margin-top: 0 auto;
+    }
+
+#content {
+    background-color: rgba(118, 244, 79, 0.21);
+    width: 1000px;
+    min-height: 900px;
+    margin: 0 auto;
+    margin-top: 3px;
+    border: 9px solid;
+    border-radius: 20px;
+    border-color: rgba(54, 163, 46, 0.83);
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+}
+
+/*form {
+    margin-top: 600px;
+    font: x-large;
+    padding: 20px;
+    margin-top: 0 auto;
+    
+}*/
+
+/*Style till om oss text*/
+.text5 {
+    align-self: flex-start;
+    padding: 30px;
+    font-size: 25px;
+}
+
+/*style till texarea*/
+#aboutDescription {
+    font-size: 20px;
+    font-weight: normal;
+    resize: none;
+    overflow-y: scroll;
+    margin-left: 0 auto;
+    margin-top: 30px;
+    margin-right: 0 auto;
+    margin-bottom: 20px;
+    align-items: flex-end;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*-----------------------------------------------------------------------------------*/
+
+/*Style till asp-form - Master.site1*/
+Form {
+    margin: 0 !important;
+}
+
+/*Style till label och text i dafault*/
+div.Logga.in a {
+    margin-top: -50px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+/*Style till "Logga in" på index.html*/
+.container a {
+    margin-right: 30px;
+    float: right;
+    font-size: large;
+    margin: 20px;
+}
+/*format av table och border i default.aspx sidan*/
+table {
+    float: left;
+    margin: 0 auto;
+    border: solid;
+    border-width: 90px;
+    background-color:rgba(122,199,67,1);
+    border-color: rgba(122,199,67,1);
+    border-radius: 20px;
+    border-spacing: 30px;
+    margin-top: 60px;
+    margin-left: 200px;
+
+}
+/*Style till table-head : Font av alla Label1,2 button 1,2, LinkButton1,2*/
+th {
+    text-align: left;
+    font-size: large;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*Style till själva Button 1: Sign in*/
+.Button1 {
+    width: 100px;
+    position: absolute;
+    height: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: large;
+}
+/*Style till "Forgot your password?"*/
+#ContentPlaceHolder1_LinkButton1 {
+    font-size: small;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 10px;
+}
+/*Style till "Sign up"*/
+.Button2 {
+    width: 100px;
+    height: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: medium;
+}
+/*Style till ""New User*/
+#ContentPlaceHolder1_LinkButton2 {
+    font-size: small;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
