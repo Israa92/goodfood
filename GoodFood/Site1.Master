@@ -15,7 +15,7 @@
 
         <div id="logo">
             <a href="default.aspx" title="Return to the homepage" id="logo.jpg">
-                <img src="logo.jpg" alt="Good Food logo" style="border: 10px solid white; border-radius: 20px" />
+                <img src="images/logo.jpg" alt="Good Food logo" style="border: 10px solid white; border-radius: 20px; width:140px;" />
 
             </a>
         </div>

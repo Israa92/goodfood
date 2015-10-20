@@ -1,6 +1,6 @@
 /*the background of the webbside*/
 body{
-background-image:url(background.jpg);
+background-image:url("images/background.jpg");
 background-size: cover;                      
 background-repeat: no-repeat;
 background-position: center center;
