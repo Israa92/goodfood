@@ -39,7 +39,7 @@ display: block;
 float:left;
 width: 150px;
 padding: 3px 7px 3px 7px;
-margin: 10px;
+margin: 30px;
 margin-top:30px;
 margin-bottom:20px;
 margin-left:60px;
@@ -310,6 +310,7 @@ div.Logga.in a {
     margin-top: -50px;
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
+
 /*Style till "Logga in" på index.html*/
 .container a {
     margin-right: 30px;
@@ -317,6 +318,7 @@ div.Logga.in a {
     font-size: large;
     margin: 20px;
 }
+
 /*format av table och border i default.aspx sidan*/
 table {
     float: left;
@@ -331,12 +333,14 @@ table {
     margin-left: 200px;
 
 }
+
 /*Style till table-head : Font av alla Label1,2 button 1,2, LinkButton1,2*/
 th {
     text-align: left;
     font-size: large;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
 /*Style till själva Button 1: Sign in*/
 .Button1 {
     width: 100px;
@@ -345,12 +349,14 @@ th {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: large;
 }
+
 /*Style till "Forgot your password?"*/
 #ContentPlaceHolder1_LinkButton1 {
     font-size: small;
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin-bottom: 10px;
 }
+
 /*Style till "Sign up"*/
 .Button2 {
     width: 100px;
@@ -358,6 +364,7 @@ th {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: medium;
 }
+
 /*Style till ""New User*/
 #ContentPlaceHolder1_LinkButton2 {
     font-size: small;

@@ -9,7 +9,7 @@
             <a href="RegistrationPage.aspx" style="margin-top: -140px;">Logga in</a>
         </div>
     </section>
-
+    
     <div>
         <!--huvud text i homepage-->
           <p id="text">
