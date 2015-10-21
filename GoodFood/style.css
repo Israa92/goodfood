@@ -54,16 +54,35 @@ box-shadow:
 inset 0 0 0 1px rgba(255, 255, 255, 0.3), 
 0 2px 3px rgba(0,0,0,0.70);
 }
-
 #meny a:link, #meny a:visited { 
 color: rgba(255,255,255,1);
 text-decoration: none;
 }
-/*pic of the veckanslunch*/
+
+/**********************defult page /Home Page ***********************************/
+
+/*pic of the veckanslunch in defult*/
 #veckanslunch{
 margin-top:100px;
 }
 
+/*text in the defult page*/
+#text {
+float: left;
+margin-left: 50px;
+text-align: center;
+border: 4px solid rgba(54, 163, 46, 0.83);
+border-radius: 20px;
+box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+width: 800px;
+height: 130px;
+color: #368a2b;
+font-size: 30px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+margin-top: 30px;
+}
+
+/***********************Mat Page****************************************************/
 /*Style till "våra recept" text*/
 h2 {
     margin-top: 0px;
@@ -91,8 +110,8 @@ h2 {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-    /*Style till bilder somm är i listContainer*/
-    .listItem img {
+/*Style till bilder somm är i listContainer*/
+.listItem img {
         width: 300px;
         margin-top: 30px;
         height: 200px;
@@ -106,6 +125,13 @@ h2 {
     margin-top: 7px;
 }
 
+
+/*Style till andra column, till två andra texter och bilder */
+.pagecolumn2 {
+    float: left;
+}
+
+/*******************  Footer  ***********************************/
 /*bottom text*/
 footer {
 float:left;
@@ -118,8 +144,6 @@ float:left;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/*jag har tagit bort "a receptSidan" och "nav img"!!!*/
-
 
 /*Style till första text in receptSidan 1*/
 h3 {
@@ -127,10 +151,6 @@ h3 {
     margin-top: 130px;
 }
 
-/*Style till andra column, till två andra texter och bilder */
-.pagecolumn2 {
-    float: left;
-}
 
 /*Style till ingredienser till alla receptSidor*/
 .text2 {
@@ -148,89 +168,9 @@ h3 {
     font-size: large;
 }
 
-#text {
-    float: left;
-    margin-left: 50px;
-text-align: center;
-border: 4px solid rgba(54, 163, 46, 0.83);
-border-radius: 20px;
-box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
-    width: 800px;
-height: 130px;
-color: #368a2b;
-    font-size: 30px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    margin-top: 30px;
-}
 
-/*the navigation*/
-#meny div a {
-    display: block;
-    float: left;
-    width: 110px;
-    padding: 5px 10px 5px 10px;
-    margin: 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 70px;
-    margin-right: 35px;
-    text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 20px;
-    color: rgba(66,48,1,1);
-    border-radius: 10px;
-    border: 1px solid rgba(105,181,50,1);
-    background: rgba(122,199,67,1);
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-}
 
-#meny a:link, #meny a:visited {
-    color: rgba(255,255,255,1);
-    text-decoration: none;
-}
-
-/*pic of the veckanslunch*/
-#veckanslunch {
-    height: 10px;
-    float: left;
-    border-color: rgba(181, 135, 45, 0.85);
-    border-image: fill;
-    margin-left: 200px;
-    padding: 30px;
-    position: relative;
-    align-content: center;
-    margin-top:30px;
-}
-
-    #veckanslunch img {
-        width: 480px;
-        height: 120px;
-        align-items: center;
-        background: url(logo.jpg);
-        border-radius: 5px;
-        margin-top: 0 auto;
-    }
-
-#content {
-    background-color: rgba(118, 244, 79, 0.21);
-    width: 1000px;
-    min-height: 900px;
-    margin: 0 auto;
-    margin-top: 3px;
-    border: 9px solid;
-    border-radius: 20px;
-    border-color: rgba(54, 163, 46, 0.83);
-    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
-}
-
-/*form {
-    margin-top: 600px;
-    font: x-large;
-    padding: 20px;
-    margin-top: 0 auto;
-    
-}*/
-
+/****************** Om Oss Page***************************************/
 /*Style till om oss text*/
 .text5 {
     align-self: flex-start;
@@ -251,66 +191,14 @@ color: #368a2b;
     align-items: flex-end;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
-/*-----------------------------------------------------------------------------------*/
-/*Mat sidan*/
-.article {
-    text-align: center;
-    width: 920px;
-    align-content: center;
-    align-items: center;
-    align-self: center;
-    height: 100%;
-    min-height: 1080px;
-    margin-top: 0 auto;
-    margin-bottom: 0 auto;
-}
 
-.mainMenuDiv {
-    float: left;
-    width: 100px;
-    height: 10px;
-    background-color: rgba(122,199,67,1);
-    border: none;
-    overflow: hidden;
-    padding: 15px;
-    margin-left: 80px;
-    border-radius: 10px;
-    text-align: match-parent;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-    .mainMenuDiv a {
-        text-decoration: none;
-        color: #ffffff;
-        text-align: center;
-    }
-
-nav {
-    text-align: center;
-    font-size: large;
-    font: bold;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-    nav img {
-        height: auto;
-        width: 100%;
-        align-content: center;
-        margin-top: 50px;
-    }
-
-
-/*Style till asp-form - Master.site1*/
-Form {
-    margin: 0 !important;
-}
+/****************Registration page start here************************/
 
 /*Style till label och text i dafault*/
 div.Logga.in a {
     margin-top: -50px;
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
-
 /*Style till "Logga in" på index.html*/
 .container a {
     margin-right: 30px;
