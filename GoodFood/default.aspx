@@ -6,7 +6,7 @@
 
         <section class="container">
         <div class="Logga in">
-            <a href="RegistrationPage.aspx" style="margin-top: -140px;">Logga in</a>
+            <a href="login.aspx" style="margin-top: -140px;">Logga in</a>
         </div>
     </section>
     

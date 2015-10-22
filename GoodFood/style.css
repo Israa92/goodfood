@@ -240,7 +240,7 @@ th {
 }
 
 /*Style till själva Button 1: Sign in*/
-.Button1 {
+.button_signin {
     width: 100px;
     position: absolute;
     height: 30px;
@@ -248,23 +248,23 @@ th {
     font-size: large;
 }
 
-/*Style till "Forgot your password?"*/
-#ContentPlaceHolder1_LinkButton1 {
-    font-size: small;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    margin-bottom: 10px;
-}
-
 /*Style till "Sign up"*/
-.Button2 {
+.button_signup {
     width: 100px;
     height: 30px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: medium;
 }
 
+/*Style till "Forgot your password?"*/
+#linkbutton_forgotpass {
+    font-size: small;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 10px;
+}
+
 /*Style till ""New User*/
-#ContentPlaceHolder1_LinkButton2 {
+#linkbutton_newuser {
     font-size: small;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
