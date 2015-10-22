@@ -1,9 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="RegistrationPage.aspx.cs" Inherits="GoodFood.RegistrationPage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            width: 547px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <div class="logga in">
-       <table>
+       <table class="auto-style1">
             <!--table row-->
             <tr>
                 <!--table head-->
@@ -13,7 +18,7 @@
                 <!--header cells-->
                 <td>
                     <!--navigation till första tompt textbox-->
-                    <asp:textbox id="textbox1" runat="server" cssclass="txt.textbox1"></asp:textbox></td>
+                    <asp:textbox id="textbox1" runat="server" cssclass="txt.textbox1" Width="180px"></asp:textbox></td>
             </tr>
             <tr>
                 <th>
@@ -21,7 +26,7 @@
                     <asp:label id="label2" runat="server" text="label2"></asp:label></th>
                 <td>
                     <!--navigation till andra tompt textbox-->
-                    <asp:textbox id="textbox2" runat="server" cssclass="txt.textbox2"></asp:textbox></td>
+                    <asp:textbox id="textbox2" runat="server" cssclass="txt.textbox2" Width="180px"></asp:textbox></td>
             </tr>
             <tr>
                 <th>

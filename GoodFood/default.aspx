@@ -22,9 +22,7 @@
          <div>
              <!--img of the veckanslunch-->
              <a id="veckanslunch" href="veckanslunch.aspx">
-                 <img src="images/veckanslunch.jpg" alt="veckans lunch"
-                      style="border-radius:20px; border:solid; border-color:rgba(181, 135, 45, 0.85); 
-                             border-width:7px; margin:auto; display:block;" width="500" height="150" />
+                 <img src="images/veckanslunch.jpg" alt="veckans lunch"/>
              </a>
           </div>
     
