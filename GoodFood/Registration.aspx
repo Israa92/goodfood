@@ -50,10 +50,9 @@
             <!--Sign up button-->
             <tr>
                 <th>
-                    <asp:Button ID="Button_signup" runat="server" cssclass="button_signup" Text="Sign up" />
+                    <asp:Button ID="Button_signup" runat="server" cssclass="button_signup" Text="Sign up" OnClick="Button_signup_Click" />
                 </th>
             </tr>
-
         </table>
     </div>
 

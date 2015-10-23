@@ -144,40 +144,14 @@ h2 {
 /*bottom text*/
 footer {
 float:left;
-    display: block;
-    position: static;
-    color: #45ad54;
-    font-size: medium;
-    margin-bottom: 30px;
-    text-align: center center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+display: block;
+position:center;
+color:#ffffff;
+font-size: 20px;
+margin-bottom: 30px;
+text-align: center center;
+font-family: "Comic Sans MS", cursive, sans-serif;
 }
-
-
-/*Style till första text in receptSidan 1*/
-h3 {
-    text-align: initial;
-    margin-top: 130px;
-}
-
-
-/*Style till ingredienser till alla receptSidor*/
-.text2 {
-    margin-left: 150px;
-    padding: 10px;
-    font-style: oblique;
-    width: 900px;
-    margin-top: 20px;
-}
-
-/*Style till "Gör så här" till alla receptSidor*/
-.text3 {
-    margin-top: 0 auto;
-    text-align: left;
-    font-size: large;
-}
-
-
 
 /****************** Om Oss Page***************************************/
 /*Style till om oss text*/
@@ -209,7 +183,7 @@ div.Logga.in a {
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
-/*Style till "Logga in" på index.html*/
+/*Style till "Logga in" i homepage*/
 .container a {
     margin-right: 30px;
     float: right;
@@ -219,6 +193,7 @@ div.Logga.in a {
 
 /*format av table och border i default.aspx sidan*/
 table {
+    height:600px;
     float: left;
     margin: 0 auto;
     border: solid;
@@ -234,18 +209,24 @@ table {
 
 /*Style till table-head : Font av alla Label1,2 button 1,2, LinkButton1,2*/
 th {
+    color:rgba(255,255,255,1);
     text-align: left;
-    font-size: large;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
-/*Style till själva Button 1: Sign in*/
+td{
+    margin-right:20px;
+}
+
+/*Style till Sign in button*/
 .button_signin {
     width: 100px;
-    position: absolute;
+    position:absolute;
     height: 30px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: large;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:18px;
+    margin-left:450px;
 }
 
 /*Style till "Sign up"*/
@@ -253,18 +234,6 @@ th {
     width: 100px;
     height: 30px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: medium;
-}
-
-/*Style till "Forgot your password?"*/
-#linkbutton_forgotpass {
-    font-size: small;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    margin-bottom: 10px;
-}
-
-/*Style till ""New User*/
-#linkbutton_newuser {
-    font-size: small;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:18px;
+    margin-top:50px;
 }

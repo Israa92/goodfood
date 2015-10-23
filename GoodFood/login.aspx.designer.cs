@@ -22,13 +22,13 @@ namespace GoodFood {
         protected global::System.Web.UI.WebControls.Label label1;
         
         /// <summary>
-        /// textbox1 control.
+        /// textboxuname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textbox1;
+        protected global::System.Web.UI.WebControls.TextBox textboxuname;
         
         /// <summary>
         /// label2 control.
@@ -40,13 +40,13 @@ namespace GoodFood {
         protected global::System.Web.UI.WebControls.Label label2;
         
         /// <summary>
-        /// textbox2 control.
+        /// textboxpass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textbox2;
+        protected global::System.Web.UI.WebControls.TextBox textboxpass;
         
         /// <summary>
         /// button1 control.
@@ -58,30 +58,12 @@ namespace GoodFood {
         protected global::System.Web.UI.WebControls.Button button1;
         
         /// <summary>
-        /// linkbutton_forgotpass control.
+        /// lblMsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkbutton_forgotpass;
-        
-        /// <summary>
-        /// linkbutton_newuser control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkbutton_newuser;
-        
-        /// <summary>
-        /// button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button button2;
+        protected global::System.Web.UI.WebControls.Label lblMsg;
     }
 }
