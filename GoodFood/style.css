@@ -180,7 +180,19 @@ th {
 
 
 
+/***************Ipad anpassad*************************/
+@media screen and (max-width: 768px) 
+{
+#content{
+width: 650px;
 
+}
+
+
+
+}
+
+/**************Mobil anpassad****************/
 @media screen and (max-width: 414px) 
 {
 #content{
