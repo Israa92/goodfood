@@ -6,8 +6,17 @@
             text-align: right;
         }
         .auto-style4 {
-            text-align: right;
+            text-align: left;
             width: 334px;
+        }
+        .auto-style5 {
+            text-align: right;
+            height: 94px;
+        }
+        .auto-style6 {
+            text-align: left;
+            width: 334px;
+            height: 94px;
         }
     </style>
 </asp:Content>
@@ -17,11 +26,11 @@
 
             <!--user name label and textbox-->
             <tr>
-                <th class="auto-style3">
-                    <asp:label id="label1" runat="server" text="label1">User Name</asp:label>
+                <th class="auto-style5">
+                    <asp:label id="labeluname" runat="server" text="label1">User Name</asp:label>
                 </th>
-                <td class="auto-style4">
-                    <asp:textbox id="textboxuname" runat="server" cssclass="txt.textbox_username" Width="180px"></asp:textbox>
+                <td class="auto-style6">
+                    <asp:textbox id="textboxuname" runat="server" cssclass="txt.textbox_username" Width="180px" Height="29px" style="margin-left: 0px"></asp:textbox>
                 </td>
             </tr>
 
@@ -32,7 +41,7 @@
 
                 </th>
                 <td class="auto-style4">
-                    <asp:textbox id="textboxpass" runat="server" cssclass="txt.textbox_password" Width="180px"></asp:textbox>
+                    <asp:textbox id="textboxpass" runat="server" cssclass="txt.textbox_password" Width="180px" Height="30px"></asp:textbox>
 
                 </td>
             </tr>
