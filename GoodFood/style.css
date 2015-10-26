@@ -24,7 +24,8 @@ margin-bottom:30px;
 background-color:rgba(118, 244, 79, 0.21);
 width: 1200px;
 height: 1500px;
-margin: 0 auto;
+margin-left:auto;
+margin-right:auto;
 margin-top:3px;
 border:9px solid;
 border-radius:20px;
@@ -89,61 +90,11 @@ color: #368a2b;
 font-size: 30px;
 font-family: "Comic Sans MS", cursive, sans-serif;
 margin-top: 30px;
-}
-
-/***********************Mat Page****************************************************/
-/*Style till "våra recept" text*/
-h2 {
-    margin-top: 0px;
-    text-align: initial;
-    color: #000;
-    font-size: x-large;
-    margin-left: 30px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-/* En plats som visar var texter och bilder måste vara,som ram */
-.listContainer {
-    width: 500px;
-    margin-top: 25px;
-}
-
-/*Style till text inne listContainer */
-.listItem {
-    width: 400px;
-    float: left;
-    min-height: 100px;
-    overflow: hidden;
-    margin-top: 0px;
-    font-size: 23px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-/*Style till bilder somm är i listContainer*/
-.listItem img {
-        width: 300px;
-        margin-top: 30px;
-        height: 200px;
     }
-
-/*pagecolumn gör en vertical column till båda texter och bilder, 2,2*/
-.pagecolumn {
-    width: 400px;
-    float: left;
-    padding: 20px;
-    margin-top: 7px;
-}
-
-
-/*Style till andra column, till två andra texter och bilder */
-.pagecolumn2 {
-    float: left;
-}
 
 /*******************  Footer  ***********************************/
 /*bottom text*/
 footer {
-float:left;
 display: block;
 color:#ffffff;
 font-size: 20px;
@@ -225,4 +176,17 @@ th {
     font-family:"Comic Sans MS", cursive, sans-serif;
     font-size:18px;
     margin-left:450px;
+}
+
+
+
+
+@media screen and (max-width: 414px) 
+{
+#content{
+width: 390px;
+}
+
+
+
 }
