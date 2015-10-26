@@ -72,6 +72,7 @@
     <Content Include="Registration.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="welcome.aspx" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -22,7 +22,7 @@ margin-bottom:30px;
 /*gröna genomskinliga background*/ 
 #content{
 background-color:rgba(118, 244, 79, 0.21);
-width: 1300px;
+width: 1200px;
 height: 1500px;
 margin: 0 auto;
 margin-top:3px;
@@ -145,7 +145,6 @@ h2 {
 footer {
 float:left;
 display: block;
-position:center;
 color:#ffffff;
 font-size: 20px;
 margin-bottom: 30px;
