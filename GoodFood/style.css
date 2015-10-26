@@ -192,15 +192,16 @@ div.Logga.in a {
 
 /*format av table och border i default.aspx sidan*/
 table {
-    height:600px;
+    width:100px;
+    height:350px;
     float: left;
     margin: 0 auto;
     border: solid;
-    border-width: 90px;
+    border-width: 10px;
     background-color:rgba(122,199,67,1);
-    border-color: rgba(122,199,67,1);
+    border-color:#bcfbad;
     border-radius: 20px;
-    border-spacing: 30px;
+    border-spacing: 10px;
     margin-top: 60px;
     margin-left: 200px;
 
@@ -212,27 +213,17 @@ th {
     text-align: left;
     font-size: 25px;
     font-family:"Comic Sans MS", cursive, sans-serif;
+    
 }
 
-td{
-    margin-right:20px;
-}
 
 /*Style till Sign in button*/
 .button_signin {
     width: 100px;
     position:absolute;
-    height: 30px;
+    height: 50px;
     font-family:"Comic Sans MS", cursive, sans-serif;
     font-size:18px;
     margin-left:450px;
 }
 
-/*Style till "Sign up"*/
-.button_signup {
-    width: 100px;
-    height: 30px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size:18px;
-    margin-top:50px;
-}
