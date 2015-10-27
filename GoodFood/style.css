@@ -272,8 +272,8 @@ th {
     }
 
     #logo {
-        width: 170px;
-        height: 160px;
+        width: 100px;
+        height: 130px;
     }
 
     .listItem {
@@ -299,6 +299,7 @@ th {
         height: 100px;
         margin-top: 0 auto;
     }
+}
 
     /**************Mobil anpassad****************/
     @media screen and (max-width: 414px) {
@@ -323,4 +324,4 @@ th {
             font-size: 20px;
         }
     }
-}
+
