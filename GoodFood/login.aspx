@@ -1,64 +1,46 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="GoodFood.login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style1 {width: 800px;}
-        .auto-style3 {
-            text-align: right;
-        }
-        .auto-style4 {
-            text-align: left;
-            width: 334px;
-        }
-        .auto-style5 {
-            text-align: right;
-            height: 94px;
-        }
-        .auto-style6 {
-            text-align: left;
-            width: 334px;
-            height: 94px;
-        }
-    </style>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    <div class="logga in">
-       <table class="auto-style1">
+       <table>
 
             <!--user name label and textbox-->
             <tr>
-                <th class="auto-style5">
+                <th class="userpasslabel">
                     <asp:label id="labeluname" runat="server" text="label1">User Name</asp:label>
                 </th>
-                <td class="auto-style6">
-                    <asp:textbox id="textboxuname" runat="server" cssclass="txt.textbox_username" Width="180px" Height="29px" style="margin-left: 0px"></asp:textbox>
+                <td class="userpasstxtbox">
+                    <asp:textbox id="textboxuname" runat="server" cssclass="userpasstxtbox" Width="180px" Height="29px" style="margin-left: 0px"></asp:textbox>
                 </td>
             </tr>
 
            <!--password label and textbox-->
             <tr>
-                <th class="auto-style3">
+                <th class="userpasslabel">
                     <asp:label id="label2" runat="server" text="label2">Password</asp:label>
 
                 </th>
-                <td class="auto-style4">
-                    <asp:textbox id="textboxpass" runat="server" cssclass="txt.textbox_password" Width="180px" Height="30px"></asp:textbox>
+                <td class="userpasstxtbox" >
+                    <asp:textbox id="textboxpass" runat="server" cssclass="userpasstxtbox" Width="180px" Height="30px" style="margin-bottom: 4px"></asp:textbox>
 
                 </td>
             </tr>
 
              <!--sign in button-->
             <tr>
-                <th>
+                <th class="signinbttn">
                    
-                    <asp:button id="button1" runat="server" text="Sign in" cssclass="button_signin" OnClick="button1_Click" />
+                    <asp:button id="button1" runat="server" text="Sign in" cssclass="signinbttn" OnClick="button1_Click" />
 
                 </th>
             </tr>
 
            <!--Label to show registred succssefuly-->
             <tr>
-                <th>
-                    <asp:Label ID="lblMsg" runat="server" Text="Label">""</asp:Label>
+                <th class="lblMsg">
+                    <asp:Label ID="lblMsg" runat="server" Text="Label">Note:</asp:Label>
                 </th>
             </tr>
         </table>

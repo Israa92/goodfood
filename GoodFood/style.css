@@ -205,15 +205,14 @@ h3 {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/****************Registration page start here************************/
-
+/****************login button i homepage***********************/
 /*Style till label och text i dafault*/
 div.Logga.in a {
     margin-top: -140px;
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
-/*Style till "Logga in" i homepage*/
+/*Style till "Logga in button" i homepage*/
 .container a {
     margin-right: 30px;
     float: right;
@@ -221,10 +220,11 @@ div.Logga.in a {
     margin: 20px;
 }
 
+/****************Registration page start here************************/
 /*format av table och border i default.aspx sidan*/
 table {
-    width:100px;
-    height:350px;
+    width:625px;
+    height:423px;
     float: left;
     margin: 0 auto;
     border: solid;
@@ -233,31 +233,40 @@ table {
     border-color:#bcfbad;
     border-radius: 20px;
     border-spacing: 10px;
-    margin-top: 60px;
-    margin-left: 200px;
-
+    margin-top: 70px;
+    margin-left: 331px;
 }
 
-/*Style till table-head : Font av alla Label1,2 button 1,2, LinkButton1,2*/
-th {
+/*class for username and password label*/
+.userpasslabel{
     color:rgba(255,255,255,1);
     text-align: left;
     font-size: 25px;
     font-family:"Comic Sans MS", cursive, sans-serif;
-    
 }
 
+/*class for username and password textbox*/
+.userpasstxtbox{
+    margin-left:1px;
+}
 
 /*Style till Sign in button*/
-.button_signin {
+.signinbttn{
     width: 100px;
     position:absolute;
     height: 50px;
     font-family:"Comic Sans MS", cursive, sans-serif;
     font-size:18px;
-    margin-left:450px;
+    margin-left:180px;
 }
 
+.lblMsg{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:18px;
+    color:rgba(255,255,255,1);
+    margin-left:10px;
+    float:left;
+}
 
 
 /***************Ipad anpassad*************************/
@@ -293,6 +302,10 @@ margin-top: -303px;
 #veckanslunch img{
 margin-left:93px
 }
+
+table {
+margin-left: 37px;
+}
 h2 {
         font-family: "Comic Sans MS", cursive, sans-serif;
         margin-left: 250px;
@@ -319,46 +332,51 @@ h2 {
     }
 }
 
-    /**************Mobil anpassad****************/
-    @media screen and (max-width: 414px) {
-        #content {
-            width: 355px;
-            border: 6px solid;
-            border-color: rgba(54, 163, 46, 0.83);
-            box-shadow: 0 1px 2px rgba(54, 163, 46, 0.83);
-        }
+/**************Mobil anpassad****************/
+@media screen and (max-width: 414px) {
+#content {
+width: 355px;
+border: 6px solid;
+border-color: rgba(54, 163, 46, 0.83);
+box-shadow: 0 1px 2px rgba(54, 163, 46, 0.83);
+}
 
-        #logo {
-            width: 150px;
-            height: 140px;
-        }
+#logo {
+width: 150px;
+height: 140px;
+}
 
-        #meny div a {
-            width: 90%;
-            margin: 8px;
-            margin-top: 15px;
-            margin-bottom: 1px;
-            margin-left: 10px;
-            font-size: 20px;
-        }
+#meny div a {
+width: 90%;
+margin: 8px;
+margin-top: 15px;
+margin-bottom: 1px;
+margin-left: 10px;
+font-size: 20px;
+}
 
-        div.Logga.in a {
-            margin-top: -297px;
-        }
+div.Logga.in a {
+margin-top: -297px;
+}
 
-        /*text in the defult page*/
-        #text {
-            float: left;
-            margin-left: 10px;
-            width: 332px;
-            height: 169px;
-            font-size: 27px;
-        }
+/*text in the defult page*/
+#text {
+float: left;
+margin-left: 10px;
+width: 332px;
+height: 169px;
+font-size: 27px;
+}
 
-        /*pic of the veckanslunch in defult*/
-        #veckanslunch img {
-            width: 253px;
-            height: 150px;
-margin-left:41px
-        }
-    }
+/*pic of the veckanslunch in defult*/
+#veckanslunch img {
+width: 253px;
+height: 150px;
+margin-left:41px;
+}
+
+table {
+margin-left: 37px;
+}
+
+}
