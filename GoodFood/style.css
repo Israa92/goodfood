@@ -27,6 +27,7 @@ height: 1500px;
 margin-left:auto;
 margin-right:auto;
 margin-top:3px;
+
 border:9px solid;
 border-radius:20px;
 border-color:rgba(54, 163, 46, 0.83);
@@ -37,7 +38,6 @@ inset 0 0 0 3px rgba(54, 163, 46, 0.83),
 
 /*the navigation*/
 #meny  div a { 
-display: block;
 float:left;
 width: 150px;
 padding: 3px 7px 3px 7px;
@@ -184,12 +184,12 @@ th {
 /***************Ipad anpassad*************************/
 @media screen and (max-width: 768px) 
 {
-#content{
-width: 650px;
+#content{width: 650px;}
 
+#logo {
+width: 170px;
+height: 160px;
 }
-
-
 
 }
 
@@ -197,10 +197,38 @@ width: 650px;
 @media screen and (max-width: 414px) 
 {
 #content{
-width: 390px;
+width: 355px;
+border:6px solid;
+border-color:rgba(54, 163, 46, 0.83);
+box-shadow:
+0 1px 2px rgba(54, 163, 46, 0.83);
+}
 
+#logo {
+width: 150px;
+height: 140px;
+}
+
+#meny  div a {
+width: 90%;
+margin: 8px;
+margin-top:15px;
+margin-bottom:1px;
+margin-left:10px;
+font-size: 20px;
 }
 
 
+div.Logga.in a {
+    margin-top: -50px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
 
+/*Style till "Logga in" i homepage*/
+.container a {
+    margin-right: 30px;
+    float: right;
+    font-size: large;
+    margin: 20px;
+}
 }
