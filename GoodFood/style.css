@@ -130,7 +130,7 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 
 /*Style till label och text i dafault*/
 div.Logga.in a {
-    margin-top: -50px;
+    margin-top: -140px;
     font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
@@ -194,41 +194,44 @@ height: 160px;
 }
 
 /**************Mobil anpassad****************/
-@media screen and (max-width: 414px) 
-{
-#content{
+@media screen and (max-width: 414px) {
+#content {
 width: 355px;
-border:6px solid;
-border-color:rgba(54, 163, 46, 0.83);
-box-shadow:
-0 1px 2px rgba(54, 163, 46, 0.83);
+border: 6px solid;
+border-color: rgba(54, 163, 46, 0.83);
+box-shadow: 0 1px 2px rgba(54, 163, 46, 0.83);
 }
 
 #logo {
-width: 150px;
-height: 140px;
-}
+        width: 150px;
+        height: 140px;
+    }
 
-#meny  div a {
-width: 90%;
-margin: 8px;
-margin-top:15px;
-margin-bottom:1px;
-margin-left:10px;
-font-size: 20px;
-}
-
+#meny div a {
+        width: 90%;
+        margin: 8px;
+        margin-top: 15px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
 
 div.Logga.in a {
-    margin-top: -50px;
-    font-family:"Comic Sans MS", cursive, sans-serif;
+margin-top: -297px;
 }
 
-/*Style till "Logga in" i homepage*/
-.container a {
-    margin-right: 30px;
-    float: right;
-    font-size: large;
-    margin: 20px;
+/*text in the defult page*/
+#text{
+float: left;
+margin-left:10px;
+width: 332px;
+height: 169px;
+font-size: 27px;
+}
+
+/*pic of the veckanslunch in defult*/
+#veckanslunch img{
+width:500px;
+height:150px;
 }
 }
