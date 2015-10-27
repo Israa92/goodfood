@@ -67,8 +67,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\veckanslunch.jpg" />
+    <Content Include="mat.aspx" />
     <Content Include="packages.config" />
     <Content Include="login.aspx" />
+    <Content Include="ReceptSidan1.aspx" />
+    <Content Include="ReceptSidan2.aspx" />
+    <Content Include="ReceptSidan3.aspx" />
+    <Content Include="ReceptSidan4.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="welcome.aspx" />
@@ -103,6 +108,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="mat.aspx.cs">
+      <DependentUpon>mat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mat.aspx.designer.cs">
+      <DependentUpon>mat.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -110,6 +122,34 @@
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptSidan1.aspx.cs">
+      <DependentUpon>ReceptSidan1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceptSidan1.aspx.designer.cs">
+      <DependentUpon>ReceptSidan1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptSidan2.aspx.cs">
+      <DependentUpon>ReceptSidan2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceptSidan2.aspx.designer.cs">
+      <DependentUpon>ReceptSidan2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptSidan3.aspx.cs">
+      <DependentUpon>ReceptSidan3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceptSidan3.aspx.designer.cs">
+      <DependentUpon>ReceptSidan3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceptSidan4.aspx.cs">
+      <DependentUpon>ReceptSidan4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReceptSidan4.aspx.designer.cs">
+      <DependentUpon>ReceptSidan4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Registration.aspx.cs">
       <DependentUpon>Registration.aspx</DependentUpon>

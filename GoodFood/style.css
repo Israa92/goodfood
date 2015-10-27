@@ -22,8 +22,8 @@ margin-bottom:30px;
 /*gröna genomskinliga background*/ 
 #content{
 background-color:rgba(118, 244, 79, 0.21);
-width: 1200px;
-height: 1500px;
+width: 1300px;
+height: 1000px;
 margin-left:auto;
 margin-right:auto;
 margin-top:3px;
@@ -74,6 +74,7 @@ margin:auto;
 display:block;
 width:500px;
 height:150px;
+margin-left:360px
 }
 
 /*text in the defult page*/
@@ -102,6 +103,85 @@ margin-bottom: 30px;
 text-align: center center;
 font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+/********************mat*************************************************/
+
+/*Style till "våra recept" text*/
+h2 {
+    margin-top: 0px;
+    text-align: initial;
+    color: #000;
+    font-size: x-large;
+    margin-left: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/* En plats som visar var texter och bilder måste ligger,som ram */
+.listContainer {
+    width: 500px;
+    margin-top: 25px;
+}
+
+/*Style till text inne listContainer */
+.listItem {
+    width: 550px;
+    float: left;
+    min-height: 100px;
+    overflow: hidden;
+    margin-top: 0px;
+    font-size: 23px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+    /*Style till bilder som är i listContainer*/
+    .listItem img {
+        width: 300px;
+        margin-top: 30px;
+        height: 200px;
+    }
+
+/*pagecolumn gör en vertical column till båda texter och bilder*/
+.pagecolumn {
+    width: 600px;
+    float: left;
+    padding: 20px;
+    margin-top: 7px;
+}
+
+/**********************ReceptSidor************************************/
+
+/****************Namn till värje mat********************************************/
+h3 {
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    margin-left:20px;
+    margin-top:30px;
+    float:left;
+}
+
+/*Style till andra column, till två andra texter och bilder */
+.pagecolumn2 {
+    float: left;
+}
+
+/*Style till ingredienser till alla receptSidor*/
+.text2 {
+    margin-left: 130px;
+    padding: 20px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    width: 800px;
+    margin-top: 80px;
+}
+
+/*Style till "Gör så här" till alla receptSidor*/
+.text3 {
+    margin-top: 0 auto;
+    text-align: left;
+    font-size: large;
+    margin-left:20px;
+    font-family:"Comic Sans MS", cursive, sans-serif
+}
+
 
 /****************** Om Oss Page***************************************/
 /*Style till om oss text*/
@@ -181,24 +261,43 @@ th {
 
 
 /***************Ipad anpassad*************************/
-@media screen and (max-width: 768px) 
-{
-#content{
-width: 650px;
+@media screen and (max-width: 768px) {
+    #content {
+        width: 650px;
+    }
 
-}
+    h2 {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-left:250px;
+    }
 
+    .listItem {
+        width: 200px;
+        font-size: 20px;
+        margin-top:10px;
+    }
 
+        .listItem img {
+            width: 150px;
+            height: 110px;
+            margin-left: 60px;
+            float:right;
+            margin-top:10px;
+       }
 
-}
+    .pagecolumn {
+        height: 300px;
+    }
+    .listContainer{
+        width:500px;
+        height:100px;
+        margin-top:0 auto;
+    }
 
-/**************Mobil anpassad****************/
-@media screen and (max-width: 414px) 
-{
-#content{
-width: 390px;
-}
-
-
-
+    /**************Mobil anpassad****************/
+    @media screen and (max-width: 414px) {
+        #content {
+            width: 390px;
+        }
+    }
 }
