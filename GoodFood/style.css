@@ -27,6 +27,7 @@ height: 1000px;
 margin-left:auto;
 margin-right:auto;
 margin-top:3px;
+
 border:9px solid;
 border-radius:20px;
 border-color:rgba(54, 163, 46, 0.83);
@@ -37,7 +38,6 @@ inset 0 0 0 3px rgba(54, 163, 46, 0.83),
 
 /*the navigation*/
 #meny  div a { 
-display: block;
 float:left;
 width: 150px;
 padding: 3px 7px 3px 7px;
@@ -91,7 +91,7 @@ color: #368a2b;
 font-size: 30px;
 font-family: "Comic Sans MS", cursive, sans-serif;
 margin-top: 30px;
-    }
+}
 
 /*******************  Footer  ***********************************/
 /*bottom text*/
@@ -269,7 +269,10 @@ th {
     h2 {
         font-family: "Comic Sans MS", cursive, sans-serif;
         margin-left:250px;
-    }
+#logo {
+width: 170px;
+height: 160px;
+}
 
     .listItem {
         width: 200px;
@@ -292,12 +295,48 @@ th {
         width:500px;
         height:100px;
         margin-top:0 auto;
-    }
+}
 
-    /**************Mobil anpassad****************/
+/**************Mobil anpassad****************/
+@media screen and (max-width: 414px) 
+{
+#content{
+width: 355px;
+border:6px solid;
+border-color:rgba(54, 163, 46, 0.83);
+box-shadow:
+0 1px 2px rgba(54, 163, 46, 0.83);
+}
+
+#logo {
+width: 150px;
+height: 140px;
+}
+
+#meny  div a {
+width: 90%;
+margin: 8px;
+margin-top:15px;
+margin-bottom:1px;
+margin-left:10px;
+font-size: 20px;
     @media screen and (max-width: 414px) {
         #content {
             width: 390px;
         }
-    }
+}
+
+
+div.Logga.in a {
+    margin-top: -50px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+/*Style till "Logga in" i homepage*/
+.container a {
+    margin-right: 30px;
+    float: right;
+    font-size: large;
+    margin: 20px;
+}
 }
