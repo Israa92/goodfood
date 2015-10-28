@@ -112,7 +112,6 @@
     </Compile>
     <Compile Include="mat.aspx.cs">
       <DependentUpon>mat.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="mat.aspx.designer.cs">
       <DependentUpon>mat.aspx</DependentUpon>
@@ -134,14 +133,12 @@
     </Compile>
     <Compile Include="ReceptSidan1.aspx.cs">
       <DependentUpon>ReceptSidan1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ReceptSidan1.aspx.designer.cs">
       <DependentUpon>ReceptSidan1.aspx</DependentUpon>
     </Compile>
     <Compile Include="ReceptSidan2.aspx.cs">
       <DependentUpon>ReceptSidan2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ReceptSidan2.aspx.designer.cs">
       <DependentUpon>ReceptSidan2.aspx</DependentUpon>
