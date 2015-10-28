@@ -384,8 +384,23 @@ table {
         height: 100px;
         margin-left: -23px;
     }
-}
+    /*style till texarea*/
+    #aboutDescription {
+        width: 600px;
+        font-size: large;
+        margin-top: 40px;
+    }
 
+    div.bild7 {
+        margin-left: 250px;
+        width: 150px;
+        margin-top: 30px;
+    }
+
+        div.bild7 img {
+            width: 350px;
+        }
+}
 /**************Mobil anpassad****************/
 @media screen and (max-width: 414px) {
     #content {
@@ -398,7 +413,7 @@ table {
     #logo {
         width: 150px;
         height: 140px;
-        margin-left: 225px;
+        margin-left: 250px;
     }
 
     #meny div a {
@@ -454,7 +469,7 @@ table {
         height: 250px;
         width: 300px;
         float: left;
-        margin-top:30px;
+        margin-top: 30px;
     }
     /*style till Reseptsidor bild*/
     img {
@@ -496,5 +511,15 @@ table {
 
     .text1 {
         width: 400px;
+    }
+
+    #aboutDescription {
+        width: 300px;
+        font-size: medium;
+    }
+
+    div.bild7 img {
+        width: 300px;
+        margin-left: -250px;
     }
 }
