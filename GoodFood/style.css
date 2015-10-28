@@ -210,15 +210,14 @@ h3 {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/****************Registration page start here************************/
-
+/****************login button i homepage***********************/
 /*Style till label och text i dafault*/
 div.Logga.in a {
     margin-top: -140px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/*Style till "Logga in" i homepage*/
+/*Style till "Logga in button" i homepage*/
 .container a {
     margin-right: 30px;
     float: right;
@@ -226,10 +225,11 @@ div.Logga.in a {
     margin: 20px;
 }
 
+/****************Registration page start here************************/
 /*format av table och border i default.aspx sidan*/
 table {
-    width: 100px;
-    height: 350px;
+    width: 625px;
+    height: 423px;
     float: left;
     margin: 0 auto;
     border: solid;
@@ -238,29 +238,40 @@ table {
     border-color: #bcfbad;
     border-radius: 20px;
     border-spacing: 10px;
-    margin-top: 60px;
-    margin-left: 200px;
+    margin-top: 70px;
+    margin-left: 331px;
 }
 
-/*Style till table-head : Font av alla Label1,2 button 1,2, LinkButton1,2*/
-th {
+/*class for username and password label*/
+.userpasslabel {
     color: rgba(255,255,255,1);
     text-align: left;
     font-size: 25px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+/*class for username and password textbox*/
+.userpasstxtbox {
+    margin-left: 1px;
+}
 
 /*Style till Sign in button*/
-.button_signin {
+.signinbttn {
     width: 100px;
     position: absolute;
     height: 50px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 18px;
-    margin-left: 450px;
+    margin-left: 180px;
 }
 
+.lblMsg {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+    margin-left: 10px;
+    float: left;
+}
 
 
 /***************Ipad anpassad*************************/
@@ -299,7 +310,10 @@ th {
         margin-left: 93px;
     }
 
-    /*Våra Recept text style*/
+    table {
+        margin-left: 37px;
+    }
+
     h2 {
         margin-left: 50px;
         margin-top: 30px;
