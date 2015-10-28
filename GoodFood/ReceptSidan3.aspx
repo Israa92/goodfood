@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="text21
+    <div class="text1">
         <h3>Kolja med potatissallad, löskokt ägg,gräddfilsdressing och sardeller</h3>
 
         <div class="image">
