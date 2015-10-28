@@ -146,6 +146,15 @@ h2 {
 /**********************ReceptSidor************************************/
 
 /****************Namn till värje mat********************************************/
+.text1 {
+    margin-left: 70px;
+    padding: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 500px;
+    float: left;
+    margin-top: 40px;
+}
+
 h3 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin-left: 20px;
@@ -153,17 +162,11 @@ h3 {
     margin-top: -40px;
 }
 
-.image {
+div.image {
     width: 400px;
     height: 300px;
     margin-left: 60px;
 }
-
-/*Style till andra column, till två andra texter och bilder */
-/*.pagecolumn2 {
-    float: left;
-    margin-top: 80px;
-}*/
 
 /*Style till ingredienser till alla receptSidor*/
 .text2 {
@@ -283,6 +286,7 @@ table {
     #logo {
         width: 170px;
         height: 160px;
+        margin-left: 400px;
     }
 
     #meny div a {
@@ -305,13 +309,23 @@ table {
         height: 169px;
         font-size: 34px;
     }
-    /*pic of the veckanslunch in defult*/
+    /*pic of the veckanslunch in default*/
     #veckanslunch img {
         margin-left: 93px;
     }
 
     table {
         margin-left: 37px;
+    }
+
+    .text1 {
+        margin-left: 70px;
+        padding: 20px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        width: 500px;
+        float: left;
+        margin-top: 40px;
+        height: 0px;
     }
 
     h2 {
@@ -339,26 +353,36 @@ table {
         margin-left: 10px;
     }
     /*style till Reseptsidor bild*/
-    div.image {
-        width: 80px;
-        height: 50px;
+    img {
+        border-radius: 20px;
+        width: 250px;
+        margin-left: -120px;
+        margin-top: -20px;
         float: left;
     }
 
     /*style till Ingredenser text i ReseptSidor- på gång*/
-    .text2 {
-        width: 400px;
+    div.text2 {
+        width: 220px;
+        height: 300px;
+        font-size: 13px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-top: -30px;
+        margin-left: 350px;
     }
     /*style till Går så här i Reseptsidor - på gång*/
-    .text3 {
+    div.text3 {
+        font-size: 16px;
+        width: 620px;
+        margin-left: 30px;
+        margin-top: -20px;
     }
     /*style till Värje namn av mat i Reseptsidor */
     h3 {
-        margin-left: 0px;
         font-size: large;
-        margin-top: 20px;
-        width: 400px;
+        width: 600px;
         height: 100px;
+        margin-left: -23px;
     }
 }
 
@@ -374,6 +398,7 @@ table {
     #logo {
         width: 150px;
         height: 140px;
+        margin-left: 225px;
     }
 
     #meny div a {
@@ -407,15 +432,15 @@ table {
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;
-        margin-top: 30px;
+        margin-top: 280px;
         font-size: large;
     }
     /*värje namn av mat*/
     .listItem {
         width: 150px;
-        font-size: 13px;
+        font-size: 15px;
         float: left;
-        margin-top: 20px;
+        margin-top: 0px;
     }
         /*Värje bilder till mat*/
         .listItem img {
@@ -426,8 +451,50 @@ table {
         }
     /*pagecolumn style som jag har för två column i mat sida*/
     .pagecolumn {
-        height: 300px;
+        height: 250px;
         width: 300px;
         float: left;
+        margin-top:30px;
+    }
+    /*style till Reseptsidor bild*/
+    img {
+        border-radius: 20px;
+        width: 130px;
+        margin-left: -130px;
+        margin-top: -10px;
+        float: left;
+    }
+
+    div.image {
+        float: left;
+        margin-left: 40px;
+        width: 130px;
+        height: 97px;
+    }
+
+    /*style till Ingredenser text i ReseptSidor- på gång*/
+    div.text2 {
+        margin-left: 110px;
+        margin-top: -10px;
+        font-size: 12px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    /*style till Går så här i Reseptsidor - på gång*/
+    div.text3 {
+        font-size: 12px;
+        width: 330px;
+        margin-left: 20px;
+        margin-top: -40px;
+    }
+    /*style till Värje namn av mat i Reseptsidor */
+    h3 {
+        font-size: medium;
+        width: 300px;
+        height: 70px;
+        margin-left: -50px;
+    }
+
+    .text1 {
+        width: 400px;
     }
 }
