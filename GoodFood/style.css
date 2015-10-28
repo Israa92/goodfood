@@ -276,6 +276,15 @@ table {
     float: left;
 }
 
+.welcomMsg{
+    float:right;
+    text-align:center;
+    color:coral;
+}
+
+.successMsg{
+    color:aliceblue;
+}
 
 /***************Ipad anpassad*************************/
 @media screen and (max-width: 768px) {
@@ -429,6 +438,37 @@ table {
         height: 150px;
         margin-left: 41px;
     }
+
+    /*format av table och border i default.aspx sidan*/
+table {
+    width: 346px;
+    height: 330px;
+    border-width: 0px;
+    margin-left: 3px;
+}
+
+/*class for username and password label*/
+.userpasslabel {
+    font-size: 23px;
+    
+}
+
+/*class for username and password textbox*/
+.userpasstxtbox {
+    margin-left: 1px;
+    Width:151px;
+    Height:26px; 
+}
+
+/*Style till Sign in button*/
+.signinbttn {
+    margin-left: 87px;
+    height:35px;
+}
+
+.lblMsg {
+    font-size: 17px;
+}
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;

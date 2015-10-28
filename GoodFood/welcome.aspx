@@ -4,8 +4,11 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<h1>
-    Welcome!
+
+    <p class="welcomMsg">
+          Welcome!
+    </p>
+<h1 class="successMsg">
     Your login is success
 </h1>
 </asp:Content>
