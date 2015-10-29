@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="images\7.jpg" />
     <Content Include="images\veckanslunch.jpg" />
+    <Content Include="JavaScript1.js" />
     <Content Include="mat.aspx" />
     <Content Include="Omoss.aspx" />
     <Content Include="packages.config" />
