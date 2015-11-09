@@ -6,10 +6,7 @@
 <link href="veclunch.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="weather.css" />
    <link rel="stylesheet" media="(min-width: 0px)" href="weather-large.css" />
-    <script src="jquery.min.js"></script>
-    <script src="app.js"></script>
-
-
+   
 <div class ="weeklymenu" >
 <h1><img class ="veckimg" width="250" height="100" src="images/veckanslunch2.jpg"/></h1>
 <table class="calander" >

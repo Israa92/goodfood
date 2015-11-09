@@ -1,12 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Omoss.aspx.cs" Inherits="GoodFood.Omoss" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-                   <div class="text5">
-                    <label for="aboutDescription" id="aboutHeading"></label>
-                    <textarea rows="15" cols="60" id="aboutDescription" 
-                              style="resize: none;">
+    <div class="text5">
+        <label for="aboutDescription" id="aboutHeading"></label>
+        <textarea rows="15" cols="60" id="aboutDescription"
+            style="resize: none;">
 
 Exotiska Recept är ett familjeföretag som drivs av annette & peter johansson och lotta & henrik norström samt daniel frick.
   efter att ha drivit fine-dining restaurangen lux stockholm i över sex år ville de öppna en spännande restaurang med enkelt utförande där gränserna mellan kök och matsal suddas ut.
@@ -21,8 +22,10 @@ Exotiska Recept är ett familjeföretag som drivs av annette & peter johansson o
 
 
                     </textarea>
-                    <img src="images/7.jpg" alt="mybild" />
-                </div>
-            
+        <div class="bild7">
+            <img src="images/7.jpg" alt="mybild" />
+        </div>
+    </div>
+
 
 </asp:Content>

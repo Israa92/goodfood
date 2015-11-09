@@ -73,6 +73,7 @@
     <Content Include="images\ky.png" />
     <Content Include="images\veckanslunch.jpg" />
     <Content Include="images\veckanslunch2.jpg" />
+    <Content Include="JavaScript1.js" />
     <Content Include="mat.aspx" />
     <Content Include="Omoss.aspx" />
     <Content Include="packages.config" />
