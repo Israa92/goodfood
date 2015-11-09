@@ -67,7 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\7.jpg" />
+    <Content Include="images\bur.jpg" />
+    <Content Include="images\fru.jpg" />
+    <Content Include="images\ind.jpg" />
+    <Content Include="images\ky.png" />
     <Content Include="images\veckanslunch.jpg" />
+    <Content Include="images\veckanslunch2.jpg" />
     <Content Include="mat.aspx" />
     <Content Include="Omoss.aspx" />
     <Content Include="packages.config" />
@@ -78,6 +83,8 @@
     <Content Include="ReceptSidan4.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Site1.Master" />
+    <Content Include="vecklunch.aspx" />
+    <Content Include="WebForm1.aspx" />
     <Content Include="welcome.aspx" />
     <Content Include="ClassDiagram1.cd" />
     <None Include="Web.Debug.config">
@@ -112,6 +119,7 @@
     </Compile>
     <Compile Include="mat.aspx.cs">
       <DependentUpon>mat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="mat.aspx.designer.cs">
       <DependentUpon>mat.aspx</DependentUpon>
@@ -133,12 +141,14 @@
     </Compile>
     <Compile Include="ReceptSidan1.aspx.cs">
       <DependentUpon>ReceptSidan1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ReceptSidan1.aspx.designer.cs">
       <DependentUpon>ReceptSidan1.aspx</DependentUpon>
     </Compile>
     <Compile Include="ReceptSidan2.aspx.cs">
       <DependentUpon>ReceptSidan2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ReceptSidan2.aspx.designer.cs">
       <DependentUpon>ReceptSidan2.aspx</DependentUpon>
@@ -170,6 +180,20 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="vecklunch.aspx.cs">
+      <DependentUpon>vecklunch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vecklunch.aspx.designer.cs">
+      <DependentUpon>vecklunch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="welcome.aspx.cs">
       <DependentUpon>welcome.aspx</DependentUpon>
