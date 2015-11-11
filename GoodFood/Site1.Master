@@ -5,10 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="JavaScript1.js"></script>
+        <script src="CreateElementDiv.js"></script>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-
 </head>
 <body>
     
@@ -16,11 +17,10 @@
 
         <div id="logo">
             <a href="default.aspx" title="Return to the homepage" id="logo.jpg">
-                <img src="images/logo.jpg" alt="Good Food logo" style="border: 10px solid white; border-radius: 20px; width:140px;" />
+                <img src="images/logo.jpg" alt="Good Food logo"/>
 
             </a>
         </div>
-
 
         <div id="content">
             <!--navigation bar horisentel-->
