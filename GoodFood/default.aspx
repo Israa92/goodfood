@@ -14,6 +14,7 @@
 
     <div>
         <!--huvud text i homepage-->
+
         <p id="text">
             Hos oss kan du hitta det
                  unika exotiska recept,
@@ -23,8 +24,8 @@
 
     <div>
         <!--img of the veckanslunch-->
-        <a id="veckanslunch" href="veckanslunch.aspx">
-            <img src="images/veckanslunch.jpg" alt="veckans lunch" />
+        <a id="veckanslunch" href="vecklunch.aspx">
+            <img src="images/veckanslunch.jpg" alt="veckans lunch"/>
         </a>
     </div>
 
