@@ -393,6 +393,7 @@ table {
         height: 100px;
         margin-left: -23px;
     }
+
     /*style till texarea*/
     #aboutDescription {
         width: 600px;
@@ -434,9 +435,9 @@ table {
         font-size: 20px;
     }
 
-    div.Logga.in a {
+    /*div.Logga.in a {
         margin-top: -297px;
-    }
+    }*/
 
     /*text in the defult page*/
     #text {

@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="text2">
-        <p>Ingredienser: portioner</p>
+        <p> Ingredienser: portioner</p>
         <p>
             40 kg fläsklägg, rimmad med ben -
                         Bakad spetskål, lök och bondbönor -
@@ -36,10 +36,10 @@
                     </p>
     </div>
     <div class="text3">
-        <p>
+        <p id="div1">
             Gör så här:
         </p>
-        <p>
+        <p id="text2" class="class">
             1. Koka läggen i vatten tills köttet lossnar från benet. Lyft och lägg på
                         galler med droppbleck under. Rosta fläskläggen i ugnen på 180° med öppet spjäll tills svålen är frasig.
         </p>
@@ -54,5 +54,6 @@
             6. Skär ner fläsklägg och spetskål i mindre bitar. Servera med lök, potatis, bondbönor och skummig buljong. Garnera med körvel och salladslök.
         </p>
     </div>
+ 
 
 </asp:Content>

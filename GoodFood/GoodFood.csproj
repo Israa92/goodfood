@@ -68,7 +68,7 @@
   <ItemGroup>
     <Content Include="images\7.jpg" />
     <Content Include="images\veckanslunch.jpg" />
-    <Content Include="JavaScript1.js" />
+    <Content Include="JavaScript.js" />
     <Content Include="mat.aspx" />
     <Content Include="Omoss.aspx" />
     <Content Include="packages.config" />
@@ -78,6 +78,8 @@
     <Content Include="ReceptSidan3.aspx" />
     <Content Include="ReceptSidan4.aspx" />
     <Content Include="Registration.aspx" />
+    <Content Include="script.js" />
+    <Content Include="Script\jquery-2.1.4.min.js" />
     <Content Include="Site1.Master" />
     <Content Include="welcome.aspx" />
     <Content Include="ClassDiagram1.cd" />
@@ -113,6 +115,7 @@
     </Compile>
     <Compile Include="mat.aspx.cs">
       <DependentUpon>mat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="mat.aspx.designer.cs">
       <DependentUpon>mat.aspx</DependentUpon>
@@ -134,12 +137,14 @@
     </Compile>
     <Compile Include="ReceptSidan1.aspx.cs">
       <DependentUpon>ReceptSidan1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ReceptSidan1.aspx.designer.cs">
       <DependentUpon>ReceptSidan1.aspx</DependentUpon>
     </Compile>
     <Compile Include="ReceptSidan2.aspx.cs">
       <DependentUpon>ReceptSidan2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ReceptSidan2.aspx.designer.cs">
       <DependentUpon>ReceptSidan2.aspx</DependentUpon>
