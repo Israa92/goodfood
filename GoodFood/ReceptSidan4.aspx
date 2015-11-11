@@ -60,4 +60,23 @@
 
     </div>
 
+    <div id="continer">
+
+    <div id="labelLeaveCom">
+        <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
+    </div>
+
+        <div id="TxtBoxName">
+            <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
+        </div>
+
+    <div id="textareacomment">
+        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
+    </div>
+
+    <div id="commentbttn">
+        <input id="Submit1" type="submit" value="Submit"/>
+    </div>
+        </div>
+
 </asp:Content>

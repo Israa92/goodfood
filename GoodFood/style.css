@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    text-align: center;
+    text-align:center;
 }
 
 /*logotypen*/
@@ -18,12 +18,15 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
 }
+#logo img{
+    border: 10px solid white; border-radius: 20px; width:140px;
+}
 
 /*gröna genomskinliga background*/
 #content {
     background-color: rgba(118, 244, 79, 0.21);
     width: 1300px;
-    height: 1000px;
+    min-height: 1400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3px;
@@ -96,7 +99,7 @@ footer {
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 30px;
-    text-align: center center;
+    text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
@@ -142,8 +145,6 @@ h2 {
     margin-right: 20px;
 }
 
-
-/**********************ReceptSidor************************************/
 
 /****************Namn till värje mat********************************************/
 .text1 {
@@ -284,6 +285,84 @@ table {
 
 .successMsg{
     color:aliceblue;
+}
+
+/****************Leave A Comment in ReceptPgaes***************************/
+/*#continer{
+    background-color:rgba(236, 160, 28, 0.67);
+    min-width:871px;
+    min-height:481px;
+    float:left;
+    margin-top: 409px;
+    margin-left: -930px;
+    border:5px solid;
+    border-color:#c47b09;
+}*/
+
+#labelLeaveCom{
+    float:left;
+    color:rgba(66,48,1,1);
+    font-size: 57px;
+    font-family: cursive;
+}
+
+#Button1 {
+    float:right;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 23px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    cursor:pointer;
+    margin-top:10px;
+}
+#Button1:hover{
+     background: #147C16;
+}
+
+#TextArea1{
+    width:450px;
+    height:122px;
+    float:left; 
+    font-family:cursive;
+    font-size:20px;
+    color:#22c81b;
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+
+}
+
+#TxtBoxName{
+    float:left;
+    width:100px;
+    color:#000;
+    font-family:cursive;
+    font-size:12px;
+}
+.commentstyle{
+    float: left;
+    position: relative;
+ margin-top:10px;
+    background-color: #F6E3CE;
+    width: 450px;
+    height: 53px;
+    font-family: cursive;
+    font-size:20px;
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    text-align:left;
+}
+
+#container {
+    width:450px;
+    height:400px;
+    margin-left:20px;
+    
 }
 
 /***************Ipad anpassad*************************/

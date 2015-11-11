@@ -23,7 +23,7 @@
 
                 </th>
                 <td class="userpasstxtbox" >
-                    <asp:textbox id="textboxpass" runat="server" cssclass="userpasstxtbox" Width="180px" Height="30px" style="margin-bottom: 4px"></asp:textbox>
+                    <asp:textbox id="textboxpass" runat="server" cssclass="userpasstxtbox" Width="180px" Height="30px" style="margin-bottom: 4px" OnTextChanged="textboxpass_TextChanged"></asp:textbox>
 
                 </td>
             </tr>

@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CreateElementDiv.js" />
     <Content Include="images\7.jpg" />
     <Content Include="images\bur.jpg" />
     <Content Include="images\fru.jpg" />
