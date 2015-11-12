@@ -585,13 +585,15 @@ img.veckimg {
     margin-top:0%;
 }
 
-tr.days{
+#days{
     line-height:70px;
     font-family:'Bookman Old Style';
     font-size:xx-large;
     font-style:oblique;
     font-weight:400;
-    color:white  
+    color:white ; 
+    background-color:WindowFrame;
+
 }
 
 
@@ -621,10 +623,6 @@ tr.days{
     margin-left:200px;
 }
 
-
-.days {
-    background-color:WindowFrame;
-}
 
 
 .foodimg {
