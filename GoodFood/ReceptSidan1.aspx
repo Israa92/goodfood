@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="text2">
-        <p>Ingredienser: portioner</p>
+        <p> Ingredienser: portioner</p>
         <p>
             40 kg fläsklägg, rimmad med ben -
                         Bakad spetskål, lök och bondbönor -
@@ -36,10 +36,10 @@
                     </p>
     </div>
     <div class="text3">
-        <p>
+        <p id="div1">
             Gör så här:
         </p>
-        <p>
+        <p id="text2" class="class">
             1. Koka läggen i vatten tills köttet lossnar från benet. Lyft och lägg på
                         galler med droppbleck under. Rosta fläskläggen i ugnen på 180° med öppet spjäll tills svålen är frasig.
         </p>
@@ -54,5 +54,22 @@
             6. Skär ner fläsklägg och spetskål i mindre bitar. Servera med lök, potatis, bondbönor och skummig buljong. Garnera med körvel och salladslök.
         </p>
     </div>
+ 
 
+    <div id="container">
+
+    <div id="labelLeaveCom">
+        <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
+    </div>
+
+    <div id="TxtBoxName">
+            <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
+    </div>
+
+    <div id="TextAreaComment">
+        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" onfocus=" clearContents(this); " cols="20" rows="2"></textarea>
+        <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
+    </div>
+        </div>
+    
 </asp:Content>

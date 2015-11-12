@@ -32,6 +32,7 @@ namespace GoodFood
             {
                 lblMsg.Text = ("Du har fyllt i fel löseornd eller användarnamn");
             }
+        
         }
     }
 }
