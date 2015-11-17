@@ -1,58 +1,84 @@
 ﻿
 
 
+/* Changing images with mouseover/out code begins here*/
 
+function changeImageMo() {
 
-/*if(document.images){
-    var image1 = new Image(); // Preload an image
-    image1.src = "images/ky.png";
-    var image2 = new Image(); // Preload second image
-    image2.src = "/images/http.gif";
+    if (document.getElementById("MonimgChange").src = "images/ky.png") {
+
+        document.getElementById("MonimgChange").src = "images/bur.jpg";
+    }
 }
+function changeImageTu() {
 
-/*do the dish images larger*/
-      
+        if (document.getElementById("TueimgChange").src = "images/fru.jpg") {
 
-/*function changeStyle() {
-    
-    document.getElementById("mon").style.backgroundColor.fontsize = "green";
-    document.getElementById("mon").style.display.blink = "black";
-    document.getElementById("mon").style.fontSize = "70px";
+            document.getElementById("TueimgChange").src = "images/4.jpg";
 
-
-    
-        
-           
         }
-function onClick() {
-    var el = document.getElementById('mon');
-    var img = document.getElementById('foodimage');
-    var container = document.getElementById('da');
 
-    el.onClick = function () {
-        container.appendChild(img);
-    };
+    }
+function changeImageWe() {
+
+    if (document.getElementById("WenimgChange").src = "images/ind.jpg") {
+
+        document.getElementById("WenimgChange").src = "images/1.jpg";
+
+    }
+
+}function changeImageTh() {
+
+    if (document.getElementById("ThimgChange").src = "images/bur.jpg") {
+
+        document.getElementById("ThimgChange").src = "images/2.jpg";
+
+    }
+
+}function changeImageFr() {
+
+    if (document.getElementById("FrimgChange").src = "images/ky.png") {
+
+        document.getElementById("FrimgChange").src = "images/3.jpg";
+
+    }
+
+}function changeImageSa() {
+
+    if (document.getElementById("SatimgChange").src = "images/fru.jpg") {
+
+        document.getElementById("SatimgChange").src = "images/4.jpg";
+
+    }
 
 }
+function changeImageSu() {
 
-var test = document.getElementById("mon");
-test.addEventListener("addEvent", function (event) {
-    // highlight the mouseenter target
-    event.target.style.color = "purple";
+    if (document.getElementById("SunimgChange").src = "images/ky.png") {
 
-    // reset the color after a short delay
-    setTimeout(function () {
-        event.target.style.color = "";
-    }, 500);
-}, false);
+        document.getElementById("SunimgChange").src = "images/7.jpg";
 
-test.addEventListener("onmouseover", function( event ) {   
-    // highlight the mouseover target
-    event.target.style.color = "orange";
+    }
+}
 
-    // reset the color after a short delay
-    setTimeout(function() {
-        event.target.style.color = "";
-    }, 500);
-}, false);
-*/
+function changeImageoutMo() {
+    document.getElementById("MonimgChange").src = "images/ky.png";
+}
+function changeImageoutTu() {
+    document.getElementById("TueimgChange").src = "images/ind.jpg";
+}
+function changeImageoutWe() {
+    document.getElementById("WenimgChange").src = "images/ind.jpg";
+}
+function changeImageoutTh() {
+    document.getElementById("ThimgChange").src = "images/bur.jpg";
+}
+function changeImageoutFr() {
+    document.getElementById("FrimgChange").src = "images/ky.png";
+}
+function changeImageoutSa() {
+    document.getElementById("SatimgChange").src = "images/fru.jpg";
+}
+function changeImageoutSu() {
+    document.getElementById("SunimgChange").src = "images/ky.png";
+}

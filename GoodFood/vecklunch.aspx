@@ -21,31 +21,29 @@
 >>></button></th></tr>
    
 
-    <tr id="days"  onmouseover="LoadJScript()" >
+    <tr id="days"  >
 
-	<td id="mon"> <a href="#" onmouseover="document.myImage.src=image2.src;" onmouseout="document.myImage.src=image1.src;">
-
-</a>Mon</td>
-	<td>Tue</td>
-	<td>Wen</td>
-	<td>Thu</td>
-	<td>Fri</td>
-	<td>Sat</td>
-	<td>Sun</td>	
+	<td id="mon">Mon</></td>
+	<td id="tue">Tue</td>
+	<td id="wen">Wen</td>
+	<td id="thu">Thu</td>
+	<td id="Fri">Fri</td>
+	<td id="Sat">Sat</td>
+	<td id="Sun">Sun</td>	
 </tr>
-<tr class="image">
-	<td><img id="foodimg" src="images/ky.png" alt="kycling"/></td>
-	<td><img class="foodimg" src="images/fru.jpg" alt="vegi"/></td>
-	<td><img class="foodimg" src="images/ind.jpg" alt="kycling"/></td>
-	<td><img class="foodimg" src="images/bur.jpg" alt="kycling"/></td>
-	<td><img class="foodimg" src="images/ky.png" alt="kycling"/></td>
-	<td><img class="foodimg" src="images/fru.jpg" alt="kycling"/></td>
-	<td><img class="foodimg" src="images/ky.png" alt="kycling"/></td>
+<tr class="image"  >
+	<td><img id="MonimgChange" onmouseover="changeImageMo()" onmouseout="changeImageoutMo()"  src="images/ky.png" alt="kycling"/></td>
+	<td><img id="TueimgChange" onmouseover="changeImageTu()" onmouseout="changeImageoutTu()" src="images/fru.jpg" alt="vegi"/></td>
+	<td><img id="WenimgChange" onmouseover="changeImageWe()" onmouseout="changeImageoutWe()" src="images/ind.jpg" alt="kycling"/></td>
+	<td><img id="ThimgChange" onmouseover="changeImageTh()" onmouseout="changeImageoutTh()" src="images/bur.jpg" alt="kycling"/></td>
+	<td><img id="FrimgChange" onmouseover="changeImageFr()" onmouseout="changeImageoutFr()" src="images/ky.png" alt="kycling"/></td>
+	<td><img id="SatimgChange" onmouseover="changeImageSa()" onmouseout="changeImageoutSa()" src="images/fru.jpg" alt="kycling"/></td>
+	<td><img id="SunimgChange" onmouseover="changeImageSu()" onmouseout="changeImageoutSu()" src="images/ky.png" alt="kycling"/></td>
 	
 </tr>
 
 
-<tr class="foodname">
+<tr class="foodname"  >
 	<td><p class="lunch">Kyckling med ris</p><p class="rec">(ris, kyk, cury, moroter,onion)</p></</td>
 	<td><p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p></td>
 	<td><p class="lunch">Indian Food</p><p class="rec">(ris, kyk, cury, moroter,onion)</p></td>
