@@ -70,22 +70,27 @@
     <Content Include="CreateElementDiv.js" />
     <Content Include="images\7.jpg" />
     <Content Include="images\bur.jpg" />
+    <Content Include="images\ChickenArtikel2.jpg" />
     <Content Include="images\fru.jpg" />
+    <Content Include="images\fruitYogurt.jpg" />
+    <Content Include="images\healthArtikel1.jpg" />
     <Content Include="images\ind.jpg" />
     <Content Include="images\ky.png" />
+    <Content Include="images\lazane.jpg" />
+    <Content Include="images\V.lunchmob..jpg" />
     <Content Include="images\veckanslunch.jpg" />
     <Content Include="images\veckanslunch2.jpg" />
     <Content Include="JavaScript1.js" />
+    <Content Include="jquery-2.1.4.min.js" />
+    <Content Include="Login.aspx" />
     <Content Include="mat.aspx" />
     <Content Include="Omoss.aspx" />
     <Content Include="packages.config" />
-    <Content Include="login.aspx" />
     <Content Include="ReceptSidan1.aspx" />
     <Content Include="ReceptSidan2.aspx" />
     <Content Include="ReceptSidan3.aspx" />
     <Content Include="ReceptSidan4.aspx" />
     <Content Include="Registration.aspx" />
-    <Content Include="script.js" />
     <Content Include="Script\jquery-2.1.4.min.js" />
     <Content Include="Site1.Master" />
     <Content Include="vecklunch.aspx" />
@@ -122,6 +127,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="mat.aspx.cs">
       <DependentUpon>mat.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -137,13 +149,6 @@
       <DependentUpon>Omoss.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ReceptSidan1.aspx.cs">
       <DependentUpon>ReceptSidan1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
