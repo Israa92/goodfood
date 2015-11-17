@@ -13,57 +13,59 @@
     </div>
     <div class="text2">
         <p>Ingredienser: portioner</p>
-        <p>
-            15 kg strömmingfilé, dragen
-                    <p>Marinad:</p>
-            2 vispgrädde -
-                    1 gräddfil -
-                    3 dl skånsk senap -
-                    3 dl dijonsenap -
-                    1,5 dl senapspulver -
-                    1,5 dl strösocker -
-                    salt -
-        </p>
-        <p>Panering:</p>
-        rågmjöl, grovt -
-                    Svenskt Smör, koncentrerat, till stekni -
-                    5 kg betor, i olika färger -
-                    15 kg potatis, skalad -
-                    1 kg kaprisbär -
-                    1 kg Svenskt Smör, brynt -
-                    Till garnering:
-                    1 kg pepparrot, riven -
-                    dill, plockad -
-                    körvel, plockad -
-                    citron, i klyftor
+        <ul>
+            <li>15 kg strömmingfilé, dragen</li>
+            <li>Marinad:</li>
+            <li>2 vispgrädde </li>
+            <li>1 gräddfil </li>
+            <li>3 dl skånsk senap </li>
+            <li>3 dl dijonsenap </li>
+            <li>1,5 dl senapspulver </li>
+            <li>1,5 dl strösocker </li>
+            <li>Panering:</li>
+            <li>rågmjöl, grovt </li>
+            <li>Svenskt Smör, koncentrerat, till stekni </li>
+            <li>5 kg betor, i olika färger </li>
+            <li>15 kg potatis, skalad </li>
+            <li>1 kg kaprisbär </li>
 
+
+        </ul>
     </div>
-    <div class="text3">
-        <p>
-            Gör så här:
-        </p>
-        <p>
-            1. Blanda samtliga ingredienser till marinaden och smaka av med salt.
-                        Blanda strömmingen med marinaden och låt stå ca 24 tim i kyl.
-        </p>
-        <p>
-            2. Vänd strömmingen i mjöl och stek till fin färg i smör.
-        </p>
-        <p>3. Koka betorna mjuka. Skala och skär ner i fina klyftor. Koka potatisen i saltat vatten.</p>
-        <p>
-            4. Värm betor, potatis och kapris i det brynta smöret (de röda betorna för sig).
-                        Toppa rätten med pepparrot, dill och körvel, servera med citronklyftor.
-        </p>
+    <button type="button" id="btn-jquery">Gör så här </button>
+    <div id="text3">
+        <ol>
+            <li>Blanda samtliga ingredienser till marinaden och smaka av med salt.</li>
+            <li>Blanda strömmingen med marinaden och låt stå ca 24 tim i kyl.</li>
+            <li>Vänd strömmingen i mjöl och stek till fin färg i smör.</li>
+            <li>Koka betorna mjuka. Skala och skär ner i fina klyftor. Koka potatisen i saltat vatten.</li>
+
+            <li>Värm betor, potatis och kapris i det brynta smöret (de röda betorna för sig).</li>
+            <li>Toppa rätten med pepparrot, dill och körvel, servera med citronklyftor.</li>
+
+        </ol>
     </div>
-    <div id="container">
+    <script>
+        $("button").click(function () {
+            if ($("#text3").is(":hidden") == true) {
+                $("#text3").fadeIn(500);
+            }
+            else {
+                $("#text3").fadeOut(500);
+            }
+
+        });
+    </script>
+
+    <div id="continer">
 
     <div id="labelLeaveCom">
         <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
     </div>
 
-    <div id="TxtBoxName">
+        <div id="TxtBoxName">
             <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
-    </div>
+        </div>
 
     <div id="TextAreaComment">
         <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>

@@ -21,7 +21,7 @@
 
         <asp:Button Class="ButtonLogin" ID="ButtonLogin" runat="server" Text="Logga in" OnClick="ButtonLogin_Click" />
         <asp:Label Class="lblmsg" ID="lblmsg" runat="server" Text="Label">Note:</asp:Label>
-
+                   
     </div>
 
 

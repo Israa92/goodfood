@@ -5,8 +5,13 @@
 
 <link href="veclunch.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="weather.css" />
+
    <link rel="stylesheet" media="(min-width: 0px)" href="weather-large.css" />
-   
+    <script type="text/javascript" src="foodmenu.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="app.js"></script>
+    
+
 <div class ="weeklymenu" >
 <h1><img class ="veckimg" width="250" height="100" src="images/veckanslunch2.jpg"/></h1>
 <table class="calander" >
@@ -14,9 +19,13 @@
 	<th colspan="7" border:"0px" align="center"><button class="button1"><<</button>Vecka 1<button class="button2" 
 
 >>></button></th></tr>
+   
 
-<tr class="days">
-	<td>Mon</td>
+    <tr id="days"  onmouseover="LoadJScript()" >
+
+	<td id="mon"> <a href="#" onmouseover="document.myImage.src=image2.src;" onmouseout="document.myImage.src=image1.src;">
+
+</a>Mon</td>
 	<td>Tue</td>
 	<td>Wen</td>
 	<td>Thu</td>
@@ -25,7 +34,7 @@
 	<td>Sun</td>	
 </tr>
 <tr class="image">
-	<td><img class="foodimg" src="images/ky.png" alt="kycling"/></td>
+	<td><img id="foodimg" src="images/ky.png" alt="kycling"/></td>
 	<td><img class="foodimg" src="images/fru.jpg" alt="vegi"/></td>
 	<td><img class="foodimg" src="images/ind.jpg" alt="kycling"/></td>
 	<td><img class="foodimg" src="images/bur.jpg" alt="kycling"/></td>
@@ -47,6 +56,11 @@
 
 
 </tr>
+
+<tr class="reservation">
+
+</tr>
+
 </table>
 </div>
 </asp:Content>

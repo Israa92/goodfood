@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="foodmenu.js" />
     <Content Include="CreateElementDiv.js" />
     <Content Include="images\7.jpg" />
     <Content Include="images\bur.jpg" />
@@ -80,7 +81,6 @@
     <Content Include="images\veckanslunch.jpg" />
     <Content Include="images\veckanslunch2.jpg" />
     <Content Include="JavaScript1.js" />
-    <Content Include="JavaScript.js" />
     <Content Include="jquery-2.1.4.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="mat.aspx" />
@@ -91,7 +91,6 @@
     <Content Include="ReceptSidan3.aspx" />
     <Content Include="ReceptSidan4.aspx" />
     <Content Include="Registration.aspx" />
-    <Content Include="script.js" />
     <Content Include="Script\jquery-2.1.4.min.js" />
     <Content Include="Site1.Master" />
     <Content Include="vecklunch.aspx" />
