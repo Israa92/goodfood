@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    text-align:center;
+    text-align: center;
 }
 
 /*logotypen*/
@@ -18,8 +18,11 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
 }
-#logo img{
-    border: 10px solid white; border-radius: 20px; width:140px;
+
+    #logo img {
+        border: 10px solid white;
+        border-radius: 20px;
+        width: 140px;
 }
 
 /*gröna genomskinliga background*/
@@ -135,6 +138,12 @@ h2 {
         height: 200px;
     }
 
+.hover {
+    outline-style: double;
+    outline-color: yellow;
+    outline-width: thick;
+}
+
 /*pagecolumn gör en vertical column till båda texter och bilder*/
 .pagecolumn {
     width: 600px;
@@ -146,51 +155,72 @@ h2 {
 }
 
 
-/****************Namn till värje mat********************************************/
+/****************Namn till värje mat i mat sidan**************/
 .text1 {
-    margin-left: 70px;
+    margin-left: 0px;
     padding: 20px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     width: 500px;
     float: left;
     margin-top: 40px;
 }
-
+/****Namn till varje mat i alla reseptsidor (mat)**********/
 h3 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin-left: 20px;
     float: left;
     margin-top: -40px;
 }
-
+/****style till varje image i reseptsidor (mat) ****/
 div.image {
     width: 400px;
     height: 300px;
     margin-left: 60px;
 }
 
-/*Style till ingredienser till alla receptSidor*/
+/*Style till ingredienser till alla receptSidor (mat) */
 .text2 {
-    margin-left: 70px;
+    margin-left: 50px;
     padding: 20px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     width: 500px;
     float: left;
-    margin-top: 40px;
+    margin-top: 0px;
 }
-
-/*Style till "Gör så här" till alla receptSidor*/
-.text3 {
+    /*style till första linje av ingredienser till varje reseptsidor (mat) */
+    .text2 p {
+        text-decoration: underline;
+        margin-left: 40px;
+    }
+    /*style till list av ingredienser i varje reseptsidor (mat)*/
+    .text2 ul {
+        list-style-position: inside;
+    }
+/*style till text under gör så här i varje reseptsidor (mat) */
+#text3 {
     text-align: left;
-    font-size: large;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    width: 900px;
-    margin-top: 20px;
-    margin-left: 80px;
+    display: none;
+    line-height: 2.5;
     float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 1082px;
 }
 
-
+/*Style till "Gör så här" till alla receptSidor (mat)*/
+#btn-jquery {
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 0px;
+    float: left;
+    background-color:rgba(105,181,50,1);
+    border-radius:10px;
+    border:solid;
+    border-color:rgba(105,181,50,1);
+}
 
 /****************** Om Oss Page***************************************/
 /*Style till om oss text*/
@@ -277,14 +307,14 @@ table {
     float: left;
 }
 
-.welcomMsg{
-    float:right;
-    text-align:center;
-    color:coral;
+.welcomMsg {
+    float: right;
+    text-align: center;
+    color: coral;
 }
 
-.successMsg{
-    color:aliceblue;
+.successMsg {
+    color: aliceblue;
 }
 
 /****************Leave A Comment in ReceptPgaes***************************/
@@ -299,15 +329,15 @@ table {
     border-color:#c47b09;
 }*/
 
-#labelLeaveCom{
-    float:left;
-    color:rgba(66,48,1,1);
+#labelLeaveCom {
+    float: left;
+    color: rgba(66,48,1,1);
     font-size: 57px;
     font-family: cursive;
 }
 
 #Button1 {
-    float:right;
+    float: right;
     width: 100px;
     height: 40px;
     text-align: center;
@@ -318,53 +348,56 @@ table {
     border: 1px solid rgba(105,181,50,1);
     background: rgba(122,199,67,1);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-    cursor:pointer;
-    margin-top:10px;
+    cursor: pointer;
+    margin-top: 10px;
 }
-#Button1:hover{
+
+    #Button1:hover {
      background: #147C16;
 }
 
-#TextArea1{
-    width:450px;
-    height:122px;
-    float:left; 
-    font-family:cursive;
-    font-size:20px;
-    color:#22c81b;
+#TextArea1 {
+    width: 450px;
+    height: 122px;
+    float: left;
+    font-family: cursive;
+    font-size: 20px;
+    color: #22c81b;
     border-radius: 10px;
     border: 1px solid rgba(105,181,50,1);
-
 }
 
-#TxtBoxName{
-    float:left;
-    width:100px;
-    color:#000;
-    font-family:cursive;
-    font-size:12px;
+#TxtBoxName {
+    float: left;
+    width: 100px;
+    color: #000;
+    font-family: cursive;
+    font-size: 12px;
 }
-.commentstyle{
+
+.commentstyle {
     float: left;
     position: relative;
- margin-top:10px;
+    margin-top: 10px;
     background-color: #F6E3CE;
     width: 450px;
     height: 53px;
     font-family: cursive;
-    font-size:20px;
+    font-size: 20px;
     border-radius: 10px;
     border: 1px solid rgba(105,181,50,1);
-    text-align:left;
+    text-align: left;
 }
 
 #container {
-    width:450px;
-    height:400px;
-    margin-left:20px;
-    
+    width: 450px;
+    height: 400px;
+    margin-left: 20px;
 }
 
+.dropdown {
+    display: none;
+}
 /***************Ipad anpassad*************************/
 @media screen and (max-width: 768px) {
 
@@ -444,7 +477,7 @@ table {
     /*style till Reseptsidor bild*/
     img {
         border-radius: 20px;
-        width: 250px;
+        width: 300px;
         margin-left: -120px;
         margin-top: -20px;
         float: left;
@@ -492,13 +525,27 @@ table {
         }
 
                 /**responsive styling for calander table to Ipad view */
-        table.calander{
-
+    table.calander {
 		overflow-x: auto;
 		display: block;
         }
    
+    .text2 p{
+        font-size:15px;
+    }
+    #btn-jquery {
+        width: 150px;
+        margin-left: 40px;
+        margin-top: 60px;
+    }
         
+    #text3 {
+        display: none;
+        line-height: 2.5;
+        margin-left: 0px;
+        width: 700px;
+        margin-top: 0px;
+}
 }
 /**************Mobil anpassad****************/
 @media screen and (max-width: 414px) {
@@ -518,15 +565,19 @@ table {
     #meny div a {
         width: 90%;
         margin: 8px;
-        margin-top: 15px;
+        margin-top: 1px;
         margin-bottom: 1px;
         margin-left: 10px;
         font-size: 20px;
     }
 
-    /*div.Logga.in a {
-        margin-top: -297px;
-    }*/
+
+    div.Logga.in a {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        float: left;
+        margin-left: 150px;
+    }
 
     /*text in the defult page*/
     #text {
@@ -555,20 +606,19 @@ table {
 /*class for username and password label*/
 .userpasslabel {
     font-size: 23px;
-    
 }
 
 /*class for username and password textbox*/
 .userpasstxtbox {
     margin-left: 1px;
-    Width:151px;
-    Height:26px; 
+        Width: 151px;
+        Height: 26px;
 }
 
 /*Style till Sign in button*/
 .signinbttn {
     margin-left: 87px;
-    height:35px;
+        height: 35px;
 }
 
 .lblMsg {
@@ -577,7 +627,6 @@ table {
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;
-        margin-top: 280px;
         font-size: large;
     }
     /*värje namn av mat*/
@@ -605,8 +654,7 @@ table {
     img {
         border-radius: 20px;
         width: 130px;
-        margin-left: -130px;
-        margin-top: -10px;
+        margin-top: 0px;
         float: left;
     }
 
@@ -619,8 +667,8 @@ table {
 
     /*style till Ingredenser text i ReseptSidor- på gång*/
     div.text2 {
-        margin-left: 110px;
-        margin-top: -10px;
+        float: right;
+        margin-top: initial;
         font-size: 12px;
         font-family: "Comic Sans MS", cursive, sans-serif;
     }
@@ -635,34 +683,68 @@ table {
     h3 {
         font-size: medium;
         width: 300px;
-        height: 70px;
         margin-left: -50px;
     }
-
-    .text1 {
-        width: 400px;
+    /*text i om oss sidan*/
+    div.text1 {
+        width: 246px;
     }
-
+    /*texarea i om oss sidan*/
     #aboutDescription {
         width: 300px;
         font-size: medium;
     }
-
+    /*image i om oss wibsidan*/
     div.bild7 img {
         width: 300px;
         margin-left: -250px;
     }
+    /*button "gör så här" i alla reseptsidor (mat)*/
+    #btn-jquery {
+        width: 150px;
+        margin-left: 100px;
+        margin-top: 50px;
+}
+    /*text under går så här i alla reseptsidor (mat)*/
+    #text3 {
+        display: none;
+        line-height: 1.5;
+        margin-left: 0px;
+        width: 350px;
+        margin-top: 0px;
+    }
+    /*****jquery dropdown menu**********/
+    .dropdown {
+        display: block;
+    }
+
+    #dropdownMenu1 {
+        width: 340px;
+        background-color: rgba(54, 163, 46, 0.83);
+        text-decoration: none;
+        border-radius: 10px;
+        height: 40px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: large;
+        color: #fff;
+    }
+
+    #meny {
+        display: none;
+    }
+
 }
 /**********************Veckanslunch page styling begins here!************************************/
 table.calander {
-    float:left;
-    margin-left:40px;
-    background-color:none;    
+    float: left;
+    margin-left: 40px;
+    background-color: none;
 }
+
 img.veckimg {
-    float:left;
-    margin-left:40%;
-    margin-top:0%;
+    float: left;
+    margin-left: 40%;
+    margin-top: 0%;
 }
 
 #days{
@@ -677,30 +759,30 @@ img.veckimg {
 }
 
 
-.header{
-    background-color:sandybrown;
-    line-height:80px;
-    font-family:'Agency FB';
-    font-size:50px;
-    font-stretch:extra-expanded;
-    font-weight:bold;
-    color:white;    
+.header {
+    background-color: sandybrown;
+    line-height: 80px;
+    font-family: 'Agency FB';
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    font-weight: bold;
+    color: white;
 }
 
-.button1{
-    background-color:darkgray;
-    color:white;
-    font-size:40px;
-    font-weight:bolder;
-    margin-right:200px;
+.button1 {
+    background-color: darkgray;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: 200px;
 }
 
-.button2
-{   background-color:darkgray;
-    color:white;
-    font-size:40px;
-    font-weight:bolder;
-    margin-left:200px;
+.button2 {
+    background-color: darkgray;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 200px;
 }
 
 /* styleing for images with in table*/
@@ -735,7 +817,7 @@ img.veckimg {
 #SatimgChange{
     max-width: 100%;
     height: auto;
-    width:160px;
+    width: 160px;
 }
 
 #SunimgChange {
@@ -745,16 +827,12 @@ img.veckimg {
 }
 
 p.lunch {
-
-
-font-family:  'Matura MT Script Capitals'; 
+    font-family: 'Matura MT Script Capitals';
 font-size: 25px; 
-
 } 
 
 p.rec {
-    font-family:'Comic Sans MS';
-    font-size:medium;
-    font-style:italic;
+    font-family: 'Comic Sans MS';
+    font-size: medium;
+    font-style: italic;
 }
-
