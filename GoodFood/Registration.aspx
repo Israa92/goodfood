@@ -10,7 +10,7 @@
             <!--user name label and textbox-->
             <tr>
                 <th>
-                    <asp:label runat="server" text="Label1">User name</asp:label>
+                    <asp:label runat="server" text="Label1">Username</asp:label>
                 </th>
                 <td>
                     <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>

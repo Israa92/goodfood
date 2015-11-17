@@ -4,27 +4,46 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <script src="JavaScript1.js"></script>
-        <script src="CreateElementDiv.js"></script>
-    <script src="script.js"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="JavaScript.js"></script>
+    <script src="CreateElementDiv.js"></script>
     <script src="Script/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    
+
     <form id="form1" runat="server">
 
         <div id="logo">
             <a href="default.aspx" title="Return to the homepage" id="logo.jpg">
-                <img src="images/logo.jpg" alt="Good Food logo"/>
+                <img src="images/logo.jpg" alt="Good Food logo" />
 
             </a>
         </div>
 
         <div id="content">
+
+            <div class="dropdown">
+                <button type="button" id="dropdownMenu1" data-toggle="dropdown">
+                    Show Menu 
+                    <i class="fa fa-angle-down" style=" width:10px; float:right"></i>
+                    <i class="fa fa-angle-up" style="display:none"></i>
+                </button>
+            </div>
+
+            <script>
+                $(document).ready(function () {
+                    $("#dropdownMenu1").click(function () {
+                        $("#meny").slideToggle("slow");
+                    });
+                });
+            </script>
+
             <!--navigation bar horisentel-->
             <nav id="meny">
                 <div><a href="default.aspx">Home</a></div>
@@ -38,6 +57,8 @@
             </asp:ContentPlaceHolder>
 
         </div>
+
+
 
     </form>
     <footer>
