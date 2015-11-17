@@ -16,20 +16,20 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 #logo img{
-    border: 10px solid white; border-radius: 20px; width:140px;
+    border: 5px solid rgba(54, 163, 46, 0.83); 
+    border-radius: 20px; 
+    width:140px;
 }
 
 /*gröna genomskinliga background*/
 #content {
-    background-color: rgba(118, 244, 79, 0.21);
+    background-color:rgba(118, 244, 79, 0.21);
     width: 1300px;
     min-height: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3px;
+    margin:0 auto;
     border: 9px solid;
     border-radius: 20px;
     border-color: rgba(54, 163, 46, 0.83);
@@ -39,7 +39,7 @@ body {
 /*the navigation*/
 #meny div a {
     float: left;
-    width: 150px;
+    width: 157px;
     padding: 3px 7px 3px 7px;
     margin: 20px;
     margin-top: 30px;
@@ -53,45 +53,145 @@ body {
     border: 1px solid rgba(105,181,50,1);
     background: rgba(122,199,67,1);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    text-transform: uppercase;
 }
 
-#meny a:link, #meny a:visited {
+#meny a:link, #meny a:visited{
     color: rgba(255,255,255,1);
     text-decoration: none;
+     
+}
+
+#meny a:hover{
+    background:#04B404;
+    text-decoration:underline;
 }
 
 /**********************defult page /Home Page ***********************************/
 
 /*pic of the veckanslunch in defult*/
 #veckanslunch img {
-    margin-top: 100px;
     border-radius: 20px;
     border: solid;
     border-color: rgba(181, 135, 45, 0.85);
     border-width: 7px;
-    margin: auto;
+    margin: 50px;
     display: block;
     width: 500px;
     height: 150px;
-    margin-left: 360px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*text in the defult page*/
-#text {
+#text p{
     float: left;
-    margin-left: 250px;
     text-align: center;
     border: 4px solid rgba(54, 163, 46, 0.83);
     border-radius: 20px;
     box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
     width: 800px;
     height: 130px;
-    color: #368a2b;
+    color: #ffffff;
     font-size: 30px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    margin-top: 30px;
+    margin:20px;
+    margin-top:20px;
+   margin-left:250px;
 }
 
+/**********All Articles************/
+
+.articelContainer{
+    width:1100px;
+    height:450px;
+    margin:50px;
+    border:solid 4px #760969;
+    border-radius:20px;
+    margin-left:95px;
+}
+.articelContainer h1{
+    color:#760969;
+    font-family:cursive;
+    font-size:30px;
+    text-align:left;
+    text-decoration:underline;
+}
+.articelContainer img{
+    float:left;
+    width:300px;
+    height:300px;
+    margin-right:15px;
+    margin-top:25px;
+    border:solid 2px #760969;
+    border-radius:20px;
+}
+.articelContainer p{
+    color:#760969;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size:30px;
+    text-align:justify;
+    width:1000px;
+}
+
+#article1{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article2{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article3{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article4{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+
+#next{
+    width: 84px;
+    height: 44px;
+    font-size: 25px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid #760969;
+    background: #760969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:#ffffff;
+    margin:10px;
+    cursor:pointer;
+}
+#next:hover{
+    background-color:#a340bc;
+    text-decoration:underline;
+}
+
+
+#prev{
+    width: 153px;
+    height: 44px;
+    font-size: 25px;
+    color: #760969;
+    border-radius: 10px;
+    border: 1px solid #760969;
+    background: #760969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:#ffffff;
+    cursor:pointer;
+}
+#prev:hover{
+    background-color:#a340bc;
+    text-decoration:underline;
+}
 /*******************  Footer  ***********************************/
 /*bottom text*/
 footer {
@@ -229,52 +329,79 @@ div.Logga.in a {
     margin: 20px;
 }
 
-/****************Registration page start here************************/
-/*format av table och border i default.aspx sidan*/
-table {
-    width: 625px;
-    height: 423px;
-    float: left;
-    margin: 0 auto;
-    border: solid;
-    border-width: 10px;
-    background-color: rgba(122,199,67,1);
-    border-color: #bcfbad;
+/****************Login page start here************************/
+#loginContainer{
+    width:478px;
+    height:200px;
+    border: 3px solid;
     border-radius: 20px;
-    border-spacing: 10px;
-    margin-top: 70px;
-    margin-left: 331px;
+    border-color: rgba(54, 163, 46, 0.83);
+    box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
+    margin:0 auto;
+    margin-top:250px;
+}
+/*******Användernamn****************/
+#logincont{
+    width:450px;
+    height:100px;
+    margin:0 auto;
 }
 
-/*class for username and password label*/
-.userpasslabel {
-    color: rgba(255,255,255,1);
-    text-align: left;
+#labelNamePass{
+    width: 177px;
+    height: 84px;
+    float: left;
+    text-align: right;
+    margin: 20px;
+}
+.labelNamn{
+   color: #ffffff;
     font-size: 25px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
-
-/*class for username and password textbox*/
-.userpasstxtbox {
-    margin-left: 1px;
+.labelPass{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/******Lösenord***********/
+#BoxNamePass{
+    width:193px;
+    margin:20px;
+    float:right;
+}
+.nameBox{
+    margin-bottom:10px;
+    width:200px;
+    height:25px;
 }
 
-/*Style till Sign in button*/
-.signinbttn {
-    width: 100px;
-    position: absolute;
-    height: 50px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 18px;
-    margin-left: 180px;
+.passBox{
+    width:200px;
+    height:25px;
 }
 
-.lblMsg {
+.ButtonLogin{
+    margin-right:25px;
+    float:right;
+    width: 120px;
+    height: 44px;
+    font-size: 25px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid rgba(122,199,67,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 18px;
-    color: rgba(255,255,255,1);
-    margin-left: 10px;
-    float: left;
+    color:#ffffff;
+    
+    cursor:pointer;
+}
+.lblmsg{
+    float:left;
+    color:#ffffff;
+    font-size:20px;
+    font-family:cursive;
 }
 
 .welcomMsg{
@@ -288,17 +415,6 @@ table {
 }
 
 /****************Leave A Comment in ReceptPgaes***************************/
-/*#continer{
-    background-color:rgba(236, 160, 28, 0.67);
-    min-width:871px;
-    min-height:481px;
-    float:left;
-    margin-top: 409px;
-    margin-left: -930px;
-    border:5px solid;
-    border-color:#c47b09;
-}*/
-
 #labelLeaveCom{
     float:left;
     color:rgba(66,48,1,1);
@@ -313,16 +429,16 @@ table {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 23px;
-    color: rgba(66,48,1,1);
+    color:#ffffff;
     border-radius: 10px;
     border: 1px solid rgba(105,181,50,1);
     background: rgba(122,199,67,1);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
     cursor:pointer;
-    margin-top:10px;
+    margin:5px;
 }
 #Button1:hover{
-     background: #147C16;
+     background:#04B404;
 }
 
 #TextArea1{
@@ -343,11 +459,11 @@ table {
     color:#000;
     font-family:cursive;
     font-size:12px;
+    margin:5px;
 }
 .commentstyle{
     float: left;
     position: relative;
- margin-top:10px;
     background-color: #F6E3CE;
     width: 450px;
     height: 53px;
@@ -362,7 +478,6 @@ table {
     width:450px;
     height:400px;
     margin-left:20px;
-    
 }
 
 /***************Ipad anpassad*************************/
@@ -524,17 +639,13 @@ table {
         font-size: 20px;
     }
 
-    /*div.Logga.in a {
-        margin-top: -297px;
-    }*/
 
     /*text in the defult page*/
     #text {
         float: left;
-        margin-left: 10px;
-        width: 332px;
+        width: 200px;
         height: 169px;
-        font-size: 27px;
+        font-size: 10px;
     }
 
     /*pic of the veckanslunch in defult*/
@@ -544,36 +655,90 @@ table {
         margin-left: 41px;
     }
 
-    /*format av table och border i default.aspx sidan*/
-table {
-    width: 346px;
-    height: 330px;
-    border-width: 0px;
-    margin-left: 3px;
+    /*******Article in homepage**************/
+.articelContainer{
+    width:300px;
+    height:650px;
+    margin:0 auto;
+    margin-top:700px;
+}
+.articelContainer h1{
+    font-size:10px;
+}
+.articelContainer img{
+    float:left;
+    width:250px;
+    height:250px;
+    margin:0 auto;
+    margin-top:10px;
+}
+.articelContainer p{
+    float:left;
+    font-size:20px;
+    width:280px;
+    margin:0 auto;
 }
 
-/*class for username and password label*/
-.userpasslabel {
-    font-size: 23px;
-    
+#article1{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article2{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article3{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article4{
+    float:left;
+    text-align:center;
+    margin-left:50px;
 }
 
-/*class for username and password textbox*/
-.userpasstxtbox {
-    margin-left: 1px;
-    Width:151px;
-    Height:26px; 
+#next{
+    width: 84px;
+    height: 44px;
+    font-size: 25px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid #760969;
+    background: #760969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:#ffffff;
+    margin:10px;
+    cursor:pointer;
+}
+#next:hover{
+    background-color:#a340bc;
+    text-decoration:underline;
 }
 
-/*Style till Sign in button*/
-.signinbttn {
-    margin-left: 87px;
-    height:35px;
+
+#prev{
+    width: 153px;
+    height: 44px;
+    font-size: 25px;
+    color: #760969;
+    border-radius: 10px;
+    border: 1px solid #760969;
+    background: #760969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:#ffffff;
+    cursor:pointer;
+}
+#prev:hover{
+    background-color:#a340bc;
+    text-decoration:underline;
 }
 
-.lblMsg {
-    font-size: 17px;
-}
+
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;

@@ -55,22 +55,19 @@
                         Toppa rätten med pepparrot, dill och körvel, servera med citronklyftor.
         </p>
     </div>
-    <div id="continer">
+    <div id="container">
 
     <div id="labelLeaveCom">
         <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
     </div>
 
-        <div id="TxtBoxName">
+    <div id="TxtBoxName">
             <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
-        </div>
-
-    <div id="textareacomment">
-        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
     </div>
 
-    <div id="commentbttn">
-        <input id="Submit1" type="submit" value="Submit"/>
+    <div id="TextAreaComment">
+        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
+        <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
     </div>
         </div>
 

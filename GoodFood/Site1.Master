@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="jquery-2.1.4.min.js"></script>
         <script src="JavaScript1.js"></script>
         <script src="CreateElementDiv.js"></script>
     <script src="script.js"></script>

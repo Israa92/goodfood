@@ -67,7 +67,7 @@
     </div>
 
     <div id="TextAreaComment">
-        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" onfocus=" clearContents(this); " cols="20" rows="2"></textarea>
+        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
         <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
     </div>
         </div>
