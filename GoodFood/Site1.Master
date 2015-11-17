@@ -33,15 +33,15 @@
             <div class="dropdown">
                 <button type="button" id="dropdownMenu1" data-toggle="dropdown">
                     Show Menu 
-                    <i class="fa fa-angle-down" id="angleDown" style="width: 10px; float: right"></i>
-                    <i class="fa fa-angle-up" style="display: none"></i>
+                    <i class="fa fa-angle-down" id="angleDown"></i>
+                    <i class="fa fa-angle-up" style="display:none"></i>
                 </button>
             </div>
-            <script>
+<%--            <script>
                 $("#dropdownMenu1").click(function () {
                     $("#meny").toggleClass('fa-caret-up ', 'fa-caret-down');
                 });
-            </script>
+            </script>--%>
 
             <script>
                 $(document).ready(function () {

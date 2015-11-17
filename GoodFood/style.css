@@ -898,7 +898,10 @@ div.Logga.in a {
     #meny {
         display: none;
     }
-
+    #angleDown{
+        width: 10px; 
+        float: right
+    }
 }
 /**********************Veckanslunch page styling begins here!************************************/
 table.calander {
