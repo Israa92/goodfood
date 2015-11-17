@@ -50,8 +50,7 @@
           (How long, O Catiline, will you abuse our patience? 
           And for how long will that madness of yours mock us?)
         Cicero famously orated against his political opponent Lucius Sergius Catilina.
-           Occasionally the first Oration against Catiline is taken for type specimens:
-           Quo usque tandem abutere, Catilina, patientia nostra?
+           Occasionally the first Oration against Catiline is taken for type specimens
     </p>
    </div>
 
@@ -65,7 +64,6 @@
           Cicero famously orated against his political opponent Lucius Sergius Catilina.
            Occasionally the first Oration against Catiline is taken for 
           (How long, O Catiline, will you abuse our patience? 
-          And for how long will that madness of yours mock us?)
     </p>
     </div>
 
@@ -76,8 +74,7 @@
         (How long, O Catiline, will you abuse our patience? 
           And for how long will that madness of yours mock us?)
           Cicero famously orated against his political opponent Lucius Sergius Catilina.
-           Occasionally the first Oration against Catiline is taken for type specimens:
-           Quo usque tandem abutere, Catilina, patientia nostra?
+           Occasionally the first Oration against Catiline is taken for type specimens
     </p>
     </div>
 

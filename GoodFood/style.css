@@ -447,6 +447,7 @@ div.Logga.in a {
     color:rgba(66,48,1,1);
     font-size: 57px;
     font-family: cursive;
+    margin-top:40px;
 }
 
 #Button1 {
@@ -536,7 +537,7 @@ div.Logga.in a {
         margin-top: -303px;
     }
     /*text in the default page*/
-    #text {
+    #text p {
         float: left;
         margin-left: 67px;
         width: 553px;
@@ -547,6 +548,71 @@ div.Logga.in a {
     #veckanslunch img {
         margin-left: 93px;
     }
+
+    /**********All Articles in homepage************/
+
+.articelContainer{
+    width:600px;
+    height:550px;
+    margin:50px;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    margin-top:720px;
+    text-align:center;
+}
+.articelContainer h1{
+    font-size:20px;
+    width:550px;
+    
+}
+.articelContainer img{
+    width:250px;
+    height:250px;
+    margin:0 auto;
+    margin-top:0px;
+    
+    float:none;
+}
+.articelContainer p{
+    font-size:20px;
+    width:500px;
+}
+
+#article1{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article2{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article3{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+#article4{
+    float:left;
+    text-align:center;
+    margin-left:50px;
+}
+
+#next{
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    
+    margin:5px;
+    cursor:pointer;
+}
+
+#prev{
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+}
 
     table {
         margin-left: 37px;
@@ -692,12 +758,12 @@ div.Logga.in a {
     }
 
     /*text in the defult page*/
-    #text {
-        float: left;
-        width: 200px;
-        height: 169px;
-        font-size: 10px;
-    }
+   #text p{
+    width: 340px;
+    height:126px;
+    font-size: 22px;
+    margin-left:4px;
+}
 
     /*pic of the veckanslunch in defult*/
     #veckanslunch img {
@@ -711,44 +777,38 @@ div.Logga.in a {
     width:300px;
     height:650px;
     margin:0 auto;
-    margin-top:700px;
+    margin-top:450px;
 }
 .articelContainer h1{
-    font-size:10px;
+    font-size:20px;
+    width:295px;
 }
 .articelContainer img{
     float:left;
-    width:250px;
-    height:250px;
+    width:245px;
+    height:245px;
     margin:0 auto;
     margin-top:10px;
+    margin-left:15px;
 }
 .articelContainer p{
     float:left;
-    font-size:20px;
-    width:280px;
+    font-size:18px;
+    width:285px;
     margin:0 auto;
 }
 
 #article1{
-    float:left;
-    text-align:center;
-    margin-left:50px;
+    margin-left:10px;
 }
 #article2{
-    float:left;
-    text-align:center;
-    margin-left:50px;
+    margin-left:10px;
 }
 #article3{
-    float:left;
-    text-align:center;
-    margin-left:50px;
+    margin-left:10px;
 }
 #article4{
-    float:left;
-    text-align:center;
-    margin-left:50px;
+    margin-left:10px;
 }
 
 #next{
@@ -789,7 +849,68 @@ div.Logga.in a {
     text-decoration:underline;
 }
 
+/****************Leave A Comment in ReceptPgaes***************************/
+#labelLeaveCom{
+    font-size: 35px;
+    float:left;
+}
 
+#Button1 {
+    float: right;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 23px;
+    color:#ffffff;
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    cursor:pointer;
+    margin:5px;
+}
+#Button1:hover{
+     background:#04B404;
+}
+
+#TextArea1 {
+    width: 330px;
+}
+
+#TxtBoxName{
+    float:left;
+    width:100px;
+    margin:0px;
+}
+
+.commentstyle {
+    float: left;
+    position: relative;
+    background-color: #F6E3CE;
+    width: 450px;
+    height: 53px;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    text-align: left;
+}
+
+#container {
+    width:450px;
+    height:400px;
+    margin-left:10px;
+    text-align:left;
+}
+
+#TextAreaComment{
+    width:330px;
+}
+
+
+
+/****************************************************************************/
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;

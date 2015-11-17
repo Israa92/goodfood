@@ -68,11 +68,10 @@
 
     <div id="labelLeaveCom">
         <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
+        <asp:TextBox ID="TextBox1" runat="server" placeholder="Namn:"></asp:TextBox>
     </div>
 
-    <div id="TxtBoxName">
-            <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
-    </div>
+    
 
     <div id="TextAreaComment">
         <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
