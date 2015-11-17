@@ -10,60 +10,60 @@
 namespace GoodFood {
     
     
-    public partial class login {
+    public partial class Login {
         
         /// <summary>
-        /// labeluname control.
+        /// LabelNamn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label labeluname;
+        protected global::System.Web.UI.WebControls.Label LabelNamn;
         
         /// <summary>
-        /// textboxuname control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textboxuname;
+        protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// label2 control.
+        /// TextBoxName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label label2;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxName;
         
         /// <summary>
-        /// textboxpass control.
+        /// TextBoxPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox textboxpass;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxPass;
         
         /// <summary>
-        /// button1 control.
+        /// ButtonLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button button1;
+        protected global::System.Web.UI.WebControls.Button ButtonLogin;
         
         /// <summary>
-        /// lblMsg control.
+        /// lblmsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMsg;
+        protected global::System.Web.UI.WebControls.Label lblmsg;
     }
 }

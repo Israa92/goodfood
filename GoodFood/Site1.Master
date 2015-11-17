@@ -5,9 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="JavaScript.js"></script>
-    <script src="CreateElementDiv.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="jquery-2.1.4.min.js"></script>
+        <script src="JavaScript1.js"></script>
+        <script src="CreateElementDiv.js"></script>
     <script src="Script/jquery-2.1.4.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 
@@ -16,7 +17,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
+    
     <form id="form1" runat="server">
 
         <div id="logo">

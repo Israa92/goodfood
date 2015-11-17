@@ -51,7 +51,7 @@
                 Garnera med körvel och salladslök.</li>
         </ol>
     </div>
-
+ 
     <script>
         $("button").click(function () {
             if ($("#text3").is(":hidden") == true) {
@@ -66,18 +66,18 @@
 
     <div id="container">
 
-        <div id="labelLeaveCom">
-            <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
-        </div>
-
-        <div id="TxtBoxName">
-            <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
-        </div>
-
-        <div id="TextAreaComment">
-            <textarea placeholder="Skriv vad du tycker..." id="TextArea1" onfocus=" clearContents(this); " cols="20" rows="2"></textarea>
-            <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
-        </div>
+    <div id="labelLeaveCom">
+        <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
     </div>
 
+    <div id="TxtBoxName">
+            <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
+    </div>
+
+    <div id="TextAreaComment">
+        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
+        <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
+    </div>
+        </div>
+    
 </asp:Content>
