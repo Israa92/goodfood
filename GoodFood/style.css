@@ -666,11 +666,11 @@ img.veckimg {
 }
 
 #days{
-    line-height:70px;
+    line-height:40px;
     font-family:'Bookman Old Style';
-    font-size:xx-large;
+    font-size:x-large;
     font-style:oblique;
-    font-weight:400;
+    font-weight:300;
     color:white ; 
     background-color:WindowFrame;
 
@@ -703,16 +703,48 @@ img.veckimg {
     margin-left:200px;
 }
 
+/* styleing for images with in table*/
 
-
-.foodimg {
+#MonimgChange{
     max-width: 100%;
     height: auto;
     width:160px;
 }
 
+#TueimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+#WenimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
 
-p.lunch{
+#ThimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+#FrimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+#SatimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+
+#SunimgChange {
+    max-width: 100%;
+    height: auto;
+    width: 160px;
+}
+
+p.lunch {
 
 
 font-family:  'Matura MT Script Capitals'; 
