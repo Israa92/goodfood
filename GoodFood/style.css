@@ -23,7 +23,7 @@ body {
         border: 10px solid white;
         border-radius: 20px;
         width: 140px;
-    }
+}
 
 /*gröna genomskinliga background*/
 #content {
@@ -353,8 +353,8 @@ table {
 }
 
     #Button1:hover {
-        background: #147C16;
-    }
+     background: #147C16;
+}
 
 #TextArea1 {
     width: 450px;
@@ -394,7 +394,7 @@ table {
     height: 400px;
     margin-left: 20px;
 }
-
+    
 .dropdown {
     display: none;
 }
@@ -524,12 +524,12 @@ table {
             width: 350px;
         }
 
-    /**responsive styling for calander table to Ipad view */
+                /**responsive styling for calander table to Ipad view */
     table.calander {
-        overflow-x: auto;
-        display: block;
-    }
-
+		overflow-x: auto;
+		display: block;
+        }
+   
     .text2 p{
         font-size:15px;
     }
@@ -538,14 +538,14 @@ table {
         margin-left: 40px;
         margin-top: 60px;
     }
-
+        
     #text3 {
         display: none;
         line-height: 2.5;
         margin-left: 0px;
         width: 700px;
         margin-top: 0px;
-    }
+}
 }
 /**************Mobil anpassad****************/
 @media screen and (max-width: 414px) {
@@ -596,34 +596,34 @@ table {
     }
 
     /*format av table och border i default.aspx sidan*/
-    table {
-        width: 346px;
-        height: 330px;
-        border-width: 0px;
-        margin-left: 3px;
-    }
+table {
+    width: 346px;
+    height: 330px;
+    border-width: 0px;
+    margin-left: 3px;
+}
 
-    /*class for username and password label*/
-    .userpasslabel {
-        font-size: 23px;
-    }
+/*class for username and password label*/
+.userpasslabel {
+    font-size: 23px;
+}
 
-    /*class for username and password textbox*/
-    .userpasstxtbox {
-        margin-left: 1px;
+/*class for username and password textbox*/
+.userpasstxtbox {
+    margin-left: 1px;
         Width: 151px;
         Height: 26px;
-    }
+}
 
-    /*Style till Sign in button*/
-    .signinbttn {
-        margin-left: 87px;
+/*Style till Sign in button*/
+.signinbttn {
+    margin-left: 87px;
         height: 35px;
-    }
+}
 
-    .lblMsg {
-        font-size: 17px;
-    }
+.lblMsg {
+    font-size: 17px;
+}
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;
@@ -704,7 +704,7 @@ table {
         width: 150px;
         margin-left: 100px;
         margin-top: 50px;
-    }
+}
     /*text under går så här i alla reseptsidor (mat)*/
     #text3 {
         display: none;
@@ -747,13 +747,15 @@ img.veckimg {
     margin-top: 0%;
 }
 
-tr.days {
-    line-height: 70px;
-    font-family: 'Bookman Old Style';
-    font-size: xx-large;
-    font-style: oblique;
-    font-weight: 400;
-    color: white;
+#days{
+    line-height:70px;
+    font-family:'Bookman Old Style';
+    font-size:xx-large;
+    font-style:oblique;
+    font-weight:400;
+    color:white ; 
+    background-color:WindowFrame;
+
 }
 
 
@@ -784,10 +786,6 @@ tr.days {
 }
 
 
-.days {
-    background-color: WindowFrame;
-}
-
 
 .foodimg {
     max-width: 100%;
@@ -798,8 +796,8 @@ tr.days {
 
 p.lunch {
     font-family: 'Matura MT Script Capitals';
-    font-size: 25px;
-}
+font-size: 25px; 
+} 
 
 p.rec {
     font-family: 'Comic Sans MS';
