@@ -9,7 +9,7 @@
     <script src="JavaScript.js"></script>
     <script src="CreateElementDiv.js"></script>
     <script src="Script/jquery-2.1.4.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -31,10 +31,15 @@
             <div class="dropdown">
                 <button type="button" id="dropdownMenu1" data-toggle="dropdown">
                     Show Menu 
-                    <i class="fa fa-angle-down" style=" width:10px; float:right"></i>
-                    <i class="fa fa-angle-up" style="display:none"></i>
+                    <i class="fa fa-angle-down" id="angleDown" style="width: 10px; float: right"></i>
+                    <i class="fa fa-angle-up" style="display: none"></i>
                 </button>
             </div>
+            <script>
+                $("#dropdownMenu1").click(function () {
+                    $("#meny").toggleClass('fa-caret-up ', 'fa-caret-down');
+                });
+            </script>
 
             <script>
                 $(document).ready(function () {
