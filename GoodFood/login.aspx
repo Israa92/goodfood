@@ -13,13 +13,13 @@
             </div>
         
         <div id="BoxNamePass">
-            <asp:TextBox class="nameBox" ID="TextBoxName" runat="server"></asp:TextBox>
-            <asp:TextBox class="passBox" ID="TextBoxPass" runat="server"></asp:TextBox>
+            <asp:TextBox class="nameBox" ID="TextBoxName" runat="server" ToolTip="Din anävdarnamn"></asp:TextBox>
+            <asp:TextBox class="passBox" ID="TextBoxPass" runat="server" ToolTip="Din Lösenord"></asp:TextBox>
         </div>
 
         </div>
 
-        <asp:Button Class="ButtonLogin" ID="ButtonLogin" runat="server" Text="Logga in" OnClick="ButtonLogin_Click" />
+        <asp:Button Class="ButtonLogin" ID="ButtonLogin" runat="server" ToolTip="Logga in" Text="Logga in" OnClick="ButtonLogin_Click" />
         <asp:Label Class="lblmsg" ID="lblmsg" runat="server" Text="Label">Note:</asp:Label>
                    
     </div>

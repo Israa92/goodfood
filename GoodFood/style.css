@@ -7,6 +7,7 @@ body {
     background-position: center center;
     background-attachment: fixed;
     text-align: center;
+
 }
 
 /*logotypen*/
@@ -26,7 +27,7 @@ body {
 
 /*gröna genomskinliga background*/
 #content {
-    background-color:rgba(118, 244, 79, 0.21);
+    background-color: rgba(118, 244, 79, 0.21);
     width: 1300px;
     min-height: 1400px;
     margin:0 auto;
@@ -41,10 +42,11 @@ body {
     float: left;
     width: 157px;
     padding: 3px 7px 3px 7px;
-    margin: 20px;
+    margin:15px;
     margin-top: 30px;
     margin-bottom: 20px;
-    margin-left: 60px;
+    margin-left: 0 auto;
+    margin-right:0 auto;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 23px;
@@ -63,9 +65,10 @@ body {
 }
 
 #meny a:hover{
-    background:#04B404;
-    text-decoration:underline;
+    background:rgba(54, 163, 46, 0.83);
 }
+
+
 
 /**********************defult page /Home Page ***********************************/
 
@@ -83,6 +86,9 @@ body {
     margin-right: auto;
 }
 
+    nav {
+        width:100%;
+    }
 /*text in the defult page*/
 #text p{
     float: left;
@@ -171,7 +177,6 @@ body {
 }
 #next:hover{
     background-color:#a340bc;
-    text-decoration:underline;
 }
 
 
@@ -190,7 +195,6 @@ body {
 }
 #prev:hover{
     background-color:#a340bc;
-    text-decoration:underline;
 }
 /*******************  Footer  ***********************************/
 /*bottom text*/
@@ -321,39 +325,29 @@ div.image {
 
 /****************** Om Oss Page***************************************/
 /*Style till om oss text*/
-.text5 {
-    align-self: flex-start;
-    padding: 30px;
-    font-size: 25px;
+#omossCont{
+    width:1000px;
+    text-align:left;
+    margin:20px;
+    margin-top:150px;
 }
 
-/*style till texarea*/
-#aboutDescription {
-    font-size: 20px;
-    font-weight: normal;
-    resize: none;
-    overflow-y: scroll;
-    margin-left: 0 auto;
-    margin-top: 30px;
-    margin-right: 0 auto;
-    margin-bottom: 20px;
-    align-items: flex-end;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+#omossRubrik{
+    font-size:50px;
+    color:#FF8000;
+    background-color:#F5D0A9;
+    border-radius: 10px;
+    border: 1px solid #FF8000;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
 }
 
-/****************login button i homepage***********************/
-/*Style till label och text i dafault*/
-div.Logga.in a {
-    margin-top: -140px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+#omossPargraf{
+    font-size:35px;
+    color:#3B240B;
 }
 
-/*Style till "Logga in button" i homepage*/
-.container a {
-    margin-right: 30px;
-    float: right;
-    font-size: large;
-    margin: 20px;
+#chefImg{
+
 }
 
 /****************Login page start here************************/
@@ -512,16 +506,17 @@ div.Logga.in a {
     display: none;
 }
 /***************Ipad anpassad*************************/
-@media screen and (max-width: 768px) {
+@media only screen and (min-with: 450px) and (max-width: 950px) {
 
     #content {
-        width: 702px;
+        width: 100%;
     }
 
-    #logo {
+    #logo img {
         width: 170px;
         height: 160px;
         margin-left: 400px;
+        display:none;
     }
 
     #meny div a {
@@ -532,6 +527,8 @@ div.Logga.in a {
         margin-left: 10px;
         font-size: 20px;
     }
+
+
     /*Style till label och text i dafault*/
     div.Logga.in a {
         margin-top: -303px;
@@ -737,7 +734,6 @@ div.Logga.in a {
     #logo {
         width: 150px;
         height: 140px;
-        margin-left: 250px;
     }
 
     #meny div a {

@@ -70,6 +70,8 @@
     <Content Include="CreateElementDiv.js" />
     <Content Include="images\7.jpg" />
     <Content Include="images\bur.jpg" />
+    <Content Include="images\cafe_menu.jpg" />
+    <Content Include="images\Chef-Anime.jpg" />
     <Content Include="images\ChickenArtikel2.jpg" />
     <Content Include="images\fru.jpg" />
     <Content Include="images\fruitYogurt.jpg" />

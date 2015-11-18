@@ -5,13 +5,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <section class="container">
-        <div class="Logga in">
-
-            <a href="login.aspx">Logga in</a>
-        </div>
-    </section>
-
     <div id="text">
         <!--huvud text i homepage-->
 
@@ -24,7 +17,7 @@
 
     <div>
         <!--img of the veckanslunch-->
-        <a id="veckanslunch" href="vecklunch.aspx">
+        <a id="veckanslunch" href="vecklunch.aspx" title="Veckanslunch">
             <img src="images/veckanslunch.jpg" alt="veckans lunch"/>
         </a>
     </div>

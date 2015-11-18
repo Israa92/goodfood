@@ -18,13 +18,11 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <%--lnfbleg--%>
     <form id="form1" runat="server">
 
         <div id="logo">
-            <a href="default.aspx" title="Return to the homepage" id="logo.jpg">
-                <img src="images/logo.jpg" alt="Good Food logo" />
-
+            <a href="default.aspx" title="Homepage" id="logo.jpg">
+            <img src="images/logo.jpg" alt="Good Food logo" />
             </a>
         </div>
 
@@ -37,11 +35,6 @@
                     <i class="fa fa-angle-up" style="display:none"></i>
                 </button>
             </div>
-<%--            <script>
-                $("#dropdownMenu1").click(function () {
-                    $("#meny").toggleClass('fa-caret-up ', 'fa-caret-down');
-                });
-            </script>--%>
 
             <script>
                 $(document).ready(function () {
@@ -53,11 +46,12 @@
 
             <!--navigation bar horisentel-->
             <nav id="meny">
-                <div><a href="default.aspx">Home</a></div>
-                <div><a href="mat.aspx">Mat</a></div>
-                <div><a href="Aptitretare.aspx">Aptitretare</a></div>
-                <div><a href="Efterrätt.aspx">Efterrätt</a></div>
-                <div><a href="omoss.aspx">Om oss</a></div>
+                <div><a href="default.aspx" title="Home" class="tooltip">Home</a></div>
+                <div><a href="mat.aspx" title="Mat">Mat</a></div>
+                <div><a href="Aptitretare.aspx" title="Aptitretare">Aptitretare</a></div>
+                <div><a href="Efterrätt.aspx" title="Efterrätt">Efterrätt</a></div>
+                <div><a href="omoss.aspx" title="Om oss">Om oss</a></div>
+                <div id="loggain" ><a href="login.aspx" title="Logga in">Logga in</a></div>
             </nav>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
