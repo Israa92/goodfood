@@ -5,20 +5,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <script src="jquery-2.1.4.min.js"></script>
-        <script src="JavaScript1.js"></script>
-        <script src="CreateElementDiv.js"></script>
-        <script src="foodmenu.js"></script>
-        <script src="Script/jquery-2.1.4.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    
+    <script src="Script/jquery-2.1.4.min.js"></script>
+    <script src="JavaScript1.js"></script>
+    <script src="CreateElementDiv.js"></script>
+    <script src="foodmenu.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+
 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <%--lnfbleg--%>
+
     <form id="form1" runat="server">
 
         <div id="logo">
@@ -34,22 +37,10 @@
                 <button type="button" id="dropdownMenu1" data-toggle="dropdown">
                     Show Menu 
                     <i class="fa fa-angle-down" id="angleDown"></i>
-                    <i class="fa fa-angle-up" style="display:none"></i>
+                    <i class="fa fa-angle-up angleUp hidden" id="angleUp"></i>
                 </button>
             </div>
-<%--            <script>
-                $("#dropdownMenu1").click(function () {
-                    $("#meny").toggleClass('fa-caret-up ', 'fa-caret-down');
-                });
-            </script>--%>
-
-            <script>
-                $(document).ready(function () {
-                    $("#dropdownMenu1").click(function () {
-                        $("#meny").slideToggle("slow");
-                    });
-                });
-            </script>
+            
 
             <!--navigation bar horisentel-->
             <nav id="meny">
@@ -64,7 +55,16 @@
             </asp:ContentPlaceHolder>
 
         </div>
+        <script>
 
+            $(document).ready(function () {
+                $("#dropdownMenu1").click(function () {
+                    $("#meny").slideToggle("slow");
+                    $("#angleDown").toggleClass("hidden");
+                    $("#angleUp").toggleClass("hidden");
+                });
+            });
+        </script>
 
 
     </form>

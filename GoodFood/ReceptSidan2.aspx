@@ -8,7 +8,7 @@
         <h3>Frasig senapsströmming med betor, kapris, brynt smör och pepparrot</h3>
 
         <div class="image">
-            <img src="images/2.jpg" alt="bild" style="border-radius: 20px" />
+            <img src="images/2.jpg" alt="bild" id="image1" style="border-radius: 20px" />
         </div>
     </div>
     <div class="text2">

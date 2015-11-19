@@ -8,13 +8,13 @@
         <h3>Rostad fläsklägg med bakad spetskål, lök, bondbönor och skummig örtbuljong</h3>
 
         <div class="image">
-            <img src="images/1.jpg" alt="bild" style="border-radius: 20px" />
+            <img src="images/1.jpg" alt="bild" id="image1" style="border-radius: 20px" />
         </div>
     </div>
     <div class="text2">
         <p>Ingredienser: portioner</p>
         <ul>
-            <li>40 kg fläsklägg, rimmad med ben -</li>
+            <li>40 kg fläsklägg, rimmad med ben </li>
             <li>Bakad spetskål, lök och bondbönor </li>
             <li>22 kg spetskål </li>
             <li>10 st citron, finrivet skal och saft av </li>
@@ -34,7 +34,11 @@
     </div>
 
 
-    <button type="button" id="btn-jquery" onclick="">Gör så här </button>
+    <button type="button" id="btn-jquery" >
+        <span id="btn-jquery-label">Recept</span>
+        <i class="fa fa-angle-down pull-right" id="PageRecipeAngleDown" style="margin-top:5px"></i>
+        <i class="fa fa-angle-up pull-right hidden" id="PageRecipeAngleUp" style="margin-top:5px"></i>
+    </button>
 
     <div id="text3">
         <ol>
@@ -51,33 +55,52 @@
                 Garnera med körvel och salladslök.</li>
         </ol>
     </div>
- 
+
     <script>
-        $("button").click(function () {
+
+
+        $("#btn-jquery").click(function () {
+            
             if ($("#text3").is(":hidden") == true) {
-                $("#text3").fadeIn(500);
+                $("#text3").slideDown(500);
+                document.getElementById("btn-jquery-label").innerHTML = 'Gör så här';
             }
             else {
-                $("#text3").fadeOut(500);
+                $("#text3").slideUp(500);
+                document.getElementById("btn-jquery-label").innerHTML = 'Recept';
             }
 
+            $("#PageRecipeAngleDown").toggleClass("hidden");
+            $("#PageRecipeAngleUp").toggleClass("hidden");
         });
     </script>
+    
+<%--       
+            //document.getElementById("btn-jquery").onmousover () 
+            //    myFunction();
+            
+            //    if (btn-jquery.style.backgroundColor == "rgba(122,199,67,1)") {
+            //        btn-jquery.style.backgroundColor == color;
+            //    } else {
+            //        btn - jquery.style.backgroundColor == "#760969";
+            //    }
+            --%>
+ 
 
     <div id="container">
 
-    <div id="labelLeaveCom">
-        <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
-    </div>
-
-    <div id="TxtBoxName">
-            <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
-    </div>
-
-    <div id="TextAreaComment">
-        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
-        <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
-    </div>
+        <div id="labelLeaveCom">
+            <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
         </div>
-    
+
+        <div id="TxtBoxName">
+            <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
+        </div>
+
+        <div id="TextAreaComment">
+            <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
+            <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
+        </div>
+    </div>
+
 </asp:Content>

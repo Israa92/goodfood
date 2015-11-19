@@ -7,7 +7,7 @@
         <h3>Kolja med potatissallad, löskokt ägg,gräddfilsdressing och sardeller</h3>
 
         <div class="image">
-            <img src="images/3.jpg" alt="bild" style="border-radius: 20px" />
+            <img src="images/3.jpg" alt="bild" id="image1" style="border-radius: 20px" />
         </div>
     </div>
     <div class="text2">
