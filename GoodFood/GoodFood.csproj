@@ -82,7 +82,6 @@
     <Content Include="images\V.lunchmob..jpg" />
     <Content Include="images\veckanslunch.jpg" />
     <Content Include="images\veckanslunch2.jpg" />
-    <Content Include="JavaScript1.js" />
     <Content Include="jquery-2.1.4.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="mat.aspx" />
