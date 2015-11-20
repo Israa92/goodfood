@@ -81,7 +81,7 @@ function changeImageveckans() {
             return false;
         });
 
-        $("#loggain").css("background-color", "#760969");
+        $("#loggain").css("background-color", "#760969").css("float", "right");
 
         $("#loggain").mouseover(function () {
             $("#loggain").css("background-color", "#ffffff").css("color", "#760969").css("border", "#760969")
@@ -90,4 +90,6 @@ function changeImageveckans() {
         $("#loggain").mouseout(function () {
             $("#loggain").css("background-color", "#760969").css("color", "#ffffff").css("border", "#ffffff")
         });
+
+
     });
