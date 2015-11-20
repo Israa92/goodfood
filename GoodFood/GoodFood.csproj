@@ -82,7 +82,6 @@
     <Content Include="images\V.lunchmob..jpg" />
     <Content Include="images\veckanslunch.jpg" />
     <Content Include="images\veckanslunch2.jpg" />
-    <Content Include="JavaScript1.js" />
     <Content Include="jquery-2.1.4.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="mat.aspx" />
@@ -97,6 +96,7 @@
     <Content Include="Site1.Master" />
     <Content Include="vecklunch.aspx" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
     <Content Include="welcome.aspx" />
     <Content Include="ClassDiagram1.cd" />
     <None Include="Web.Debug.config">
@@ -206,6 +206,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="welcome.aspx.cs">
       <DependentUpon>welcome.aspx</DependentUpon>

@@ -12,53 +12,88 @@
     <script src="app.js"></script>
     
 
-<div class ="weeklymenu" >
-<h1><img class ="veckimg" width="250" height="100" src="images/veckanslunch2.jpg"/></h1>
-<table class="calander" >
-<tr class="header">
-	<th colspan="7" border:"0px" align="center"><button class="button1"><<</button>Vecka 1<button class="button2" 
+    <div class ="tableContainer">
+        
+            <div id="weekNum"><h1>Vecka 1</h1>
+                </div>
+            
+        <div class ="column">  
+            <h1 id ="mon">mon</h1>
+                
+        <div id="monImage">
+            <img id="monImg" onmouseover="changeImageMo()" onmouseout="changeImageoutMo()"  src="images/ky.png" alt="kycling"/>
+        </div>
+        <div id ="MonLunchText">
+            <p class="lunch">Kyckling med ris</p><p class="rec">(ris, kyk, cury, moroter,onion)</p>
+        </div>
+            </div>
 
->>></button></th></tr>
-   
-
-    <tr id="days"  >
-
-	<td id="mon">Mon</></td>
-	<td id="tue">Tue</td>
-	<td id="wen">Wen</td>
-	<td id="thu">Thu</td>
-	<td id="Fri">Fri</td>
-	<td id="Sat">Sat</td>
-	<td id="Sun">Sun</td>	
-</tr>
-<tr class="image"  >
-	<td><img id="MonimgChange" onmouseover="changeImageMo()" onmouseout="changeImageoutMo()"  src="images/ky.png" alt="kycling"/></td>
-	<td><img id="TueimgChange" onmouseover="changeImageTu()" onmouseout="changeImageoutTu()" src="images/fru.jpg" alt="vegi"/></td>
-	<td><img id="WenimgChange" onmouseover="changeImageWe()" onmouseout="changeImageoutWe()" src="images/ind.jpg" alt="kycling"/></td>
-	<td><img id="ThimgChange" onmouseover="changeImageTh()" onmouseout="changeImageoutTh()" src="images/bur.jpg" alt="kycling"/></td>
-	<td><img id="FrimgChange" onmouseover="changeImageFr()" onmouseout="changeImageoutFr()" src="images/ky.png" alt="kycling"/></td>
-	<td><img id="SatimgChange" onmouseover="changeImageSa()" onmouseout="changeImageoutSa()" src="images/fru.jpg" alt="kycling"/></td>
-	<td><img id="SunimgChange" onmouseover="changeImageSu()" onmouseout="changeImageoutSu()" src="images/ky.png" alt="kycling"/></td>
-	
-</tr>
+        <div class ="column">
+            
+            <h1 id ="tue">Tue</h1>
+          
+        <div id="tueImage">
+            <img id="tueImg" onmouseover="changeImageTu()" onmouseout="changeImageoutTu()"  src="images/fru.jpg" alt="kycling"/>
+        </div>
+        <div id ="TueLunchText">
+            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+        </div>
+            </div>
 
 
-<tr class="foodname"  >
-	<td><p class="lunch">Kyckling med ris</p><p class="rec">(ris, kyk, cury, moroter,onion)</p></</td>
-	<td><p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p></td>
-	<td><p class="lunch">Indian Food</p><p class="rec">(ris, kyk, cury, moroter,onion)</p></td>
-	<td><p class="lunch">Sandwitch</p><p class="rec">(bröd, tuna, cury, moroter,onion)</p></td>
-	<td><p class="lunch">Indian Food</p><p class="rec">(ris, kk, cury, moroter,onion)</p></td>
-	<td><p class="lunch">Veg med Kyckling</p><p class="rec">(ris, kyk, cury, moroter,onion)</p></td>
-	<td><p class="lunch">Lamm Stake med Kyckling</p><p class="rec">(ris, kyk, cury, moroter,onion)</p></td>
+        <div class ="column">
+            <h1 id ="wen">Wen</h1>
+        
+        <div id="wenImage">
+            <img id="wenImg" onmouseover="changeImageWe()" onmouseout="changeImageoutWe()" src="images/ind.jpg" alt="kycling"/>
+        </div>
+        <div id ="WenLunchText">
+            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+        </div>
+            </div>
 
+        <div class ="column">
+            <h1 id ="thu">Thu</h1>
+        
+        <div id="thuImage">
+            <img id="thuImg" onmouseover="changeImageTh()" onmouseout="changeImageoutTh()" src="images/bur.jpg" alt="kycling"/>
+        </div>
+        <div id ="ThuLunchText">
+            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+        </div>
+            </div>
 
-</tr>
+        <div class ="column">
+            <h1 id ="fri">Fri</h1>
+        
+        <div id="friImage">
+            <img id="friImg"  onmouseover="changeImageFr()" onmouseout="changeImageoutFr()"src="images/1.jpg" alt="kycling"/>
+        </div>
+        <div id ="friLunchText">
+            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+        </div>
+            </div>
 
-<tr class="reservation">
+        <div class ="column">
+            <h1 id ="sat">Sat</h1>
+        
+        <div id="satImage">
+            <img id="satImg"  onmouseover="changeImageSa()" onmouseout="changeImageoutSa()"src="images/ky.png" alt="kycling"/>
+        </div>
+        <div id ="SatLunchText">
+            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+        </div>
+            </div>
 
-</tr>
-
-</table>
-</div>
+        <div class ="column">
+            <h1 id ="sun">Sun</h1>
+        
+        <div id="sunImage">
+            <img id="sunImg"  onmouseover="changeImageSu()" onmouseout="changeImageoutSu()"src="images/bur.jpg" alt="kycling"/>
+        </div>
+        <div id ="SunLunchText">
+            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+        </div>
+            </div>
+    </div>
 </asp:Content>
