@@ -59,6 +59,9 @@ body {
     text-transform: uppercase;
 }
 
+#loggain{
+    background-color:#760969;
+}
 #meny a:link, #meny a:visited {
     color: rgba(255,255,255,1);
     text-decoration: none;
@@ -215,7 +218,7 @@ footer {
 
 /*Style till "våra recept" text*/
 h2 {
-    margin-top: 10px;
+    margin-top: 70px;
     text-align: initial;
     color: #000;
     font-size: x-large;
