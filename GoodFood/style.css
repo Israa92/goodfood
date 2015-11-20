@@ -529,97 +529,7 @@ div.image {
     display: none;
 }
 
-/**********************Veckanslunch page styling begins here!************************************/
-table.calander {
-    float: left;
-    margin-left: 40px;
-    background-color: none;
-}
-img.veckimg {
-    float: left;
-    margin-left: 40%;
-    margin-top: 0%;
-}
-#days{
-    line-height:40px;
-    font-family:'Bookman Old Style';
-    font-size:x-large;
-    font-style:oblique;
-    font-weight:300;
-    color:white ; 
-    background-color:WindowFrame;
 
-}
-.header {
-    background-color: sandybrown;
-    line-height: 80px;
-    font-family: 'Agency FB';
-    font-size: 50px;
-    font-stretch: extra-expanded;
-    font-weight: bold;
-    color: white;
-}
-.button1 {
-    background-color: darkgray;
-    color: white;
-    font-size: 40px;
-    font-weight: bolder;
-    margin-right: 200px;
-}
-.button2 {
-    background-color: darkgray;
-    color: white;
-    font-size: 40px;
-    font-weight: bolder;
-    margin-left: 200px;
-}
-
-/* styleing for images with in table*/
-#MonimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#TueimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#WenimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#ThimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#FrimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#SatimgChange{
-    max-width: 100%;
-    height: auto;
-    width: 160px;
-}
-#SunimgChange {
-    max-width: 100%;
-    height: auto;
-    width: 160px;
-}
-
-p.lunch {
-    font-family: 'Matura MT Script Capitals';
-font-size: 25px; 
-} 
-p.rec {
-    font-family: 'Comic Sans MS';
-    font-size: medium;
-    font-style: italic;
-}
 
 
 #angleDown {
@@ -1282,8 +1192,6 @@ p.rec {
 
   }
 
-
-
 .column {
     float:left;
     width:180px;
@@ -1311,7 +1219,6 @@ p.rec {
     
 }
 
-
 #weekNum {
     margin-top: 100px;
     background-color: darkgrey;
@@ -1324,9 +1231,6 @@ p.rec {
 
     
 }
-
-
-
 
 p.lunch {
     font-family: 'Matura MT Script Capitals';
