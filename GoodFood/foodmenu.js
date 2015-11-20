@@ -5,80 +5,80 @@
 
 function changeImageMo() {
 
-    if (document.getElementById("MonimgChange").src = "images/ky.png") {
+    if (document.getElementById("monImg").src = "images/ky.png") {
 
-        document.getElementById("MonimgChange").src = "images/bur.jpg";
+        document.getElementById("monImg").src = "images/bur.jpg";
     }
 }
 function changeImageTu() {
 
-        if (document.getElementById("TueimgChange").src = "images/fru.jpg") {
+        if (document.getElementById("tueImg").src = "images/fru.jpg") {
 
-            document.getElementById("TueimgChange").src = "images/4.jpg";
+            document.getElementById("tueImg").src = "images/4.jpg";
 
         }
 
     }
 function changeImageWe() {
 
-    if (document.getElementById("WenimgChange").src = "images/ind.jpg") {
+    if (document.getElementById("wenImg").src = "images/ind.jpg") {
 
-        document.getElementById("WenimgChange").src = "images/1.jpg";
+        document.getElementById("wenImg").src = "images/1.jpg";
 
     }
 
 }function changeImageTh() {
 
-    if (document.getElementById("ThimgChange").src = "images/bur.jpg") {
+    if (document.getElementById("thuImg").src = "images/bur.jpg") {
 
-        document.getElementById("ThimgChange").src = "images/2.jpg";
+        document.getElementById("thuImg").src = "images/2.jpg";
 
     }
 
 }function changeImageFr() {
 
-    if (document.getElementById("FrimgChange").src = "images/ky.png") {
+    if (document.getElementById("friImg").src = "images/ky.png") {
 
-        document.getElementById("FrimgChange").src = "images/3.jpg";
+        document.getElementById("friImg").src = "images/3.jpg";
 
     }
 
 }function changeImageSa() {
 
-    if (document.getElementById("SatimgChange").src = "images/fru.jpg") {
+    if (document.getElementById("satImg").src = "images/fru.jpg") {
 
-        document.getElementById("SatimgChange").src = "images/4.jpg";
+        document.getElementById("satImg").src = "images/4.jpg";
 
     }
 
 }
 function changeImageSu() {
 
-    if (document.getElementById("SunimgChange").src = "images/ky.png") {
+    if (document.getElementById("sunImg").src = "images/ky.png") {
 
-        document.getElementById("SunimgChange").src = "images/7.jpg";
+        document.getElementById("sunImg").src = "images/7.jpg";
 
     }
 }
 
 function changeImageoutMo() {
-    document.getElementById("MonimgChange").src = "images/ky.png";
+    document.getElementById("monImg").src = "images/ky.png";
 }
 function changeImageoutTu() {
-    document.getElementById("TueimgChange").src = "images/ind.jpg";
+    document.getElementById("tueImg").src = "images/fru.jpg";
 }
 function changeImageoutWe() {
-    document.getElementById("WenimgChange").src = "images/ind.jpg";
+    document.getElementById("wenImg").src = "images/ind.jpg";
 }
 function changeImageoutTh() {
-    document.getElementById("ThimgChange").src = "images/bur.jpg";
+    document.getElementById("thuImg").src = "images/bur.jpg";
 }
 function changeImageoutFr() {
-    document.getElementById("FrimgChange").src = "images/ky.png";
+    document.getElementById("friImg").src = "images/ky.png";
 }
 function changeImageoutSa() {
-    document.getElementById("SatimgChange").src = "images/fru.jpg";
+    document.getElementById("satImg").src = "images/fru.jpg";
 }
 function changeImageoutSu() {
-    document.getElementById("SunimgChange").src = "images/ky.png";
+    document.getElementById("sunImg").src = "images/ky.png";
 }

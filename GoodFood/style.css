@@ -636,11 +636,6 @@ div.Logga.in a {
             width: 350px;
         }
 
-                /**responsive styling for calander table to Ipad view */
-    table.calander {
-		overflow-x: auto;
-		display: block;
-        }
    
     .text2 p{
         font-size:15px;
@@ -658,7 +653,76 @@ div.Logga.in a {
         width: 700px;
         margin-top: 0px;
 }
+
+     /**responsive styling for calander table to Ipad view */
+.tableContainer {
+    
+    width:600px;
+    margin-top:0px;
+    
+    float:left;  
+    
+
+  }
+
+
+.column {
+    float:left;
+    width:100px;
+    height:auto;
+    border: 1px solid black;
+     
+
+    
 }
+
+#monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
+   
+     float: left;
+     width:75%;
+     
+   
+     
+ }
+#mon, #tue, #wen, #thu, #fri, #sat, #sun {
+    background-color: darkgrey;
+    padding-bottom: 30px;
+    padding-top:30px;
+    height:100px;
+ 
+    
+}
+
+
+#weekNum {
+    background-color: darkgrey;
+    line-height: 80px;
+    font-family: 'Agency FB';
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    font-weight: bolder;
+    color: white;
+    
+    
+}
+
+
+
+
+p.lunch {
+    font-family: 'Matura MT Script Capitals';
+    font-size: 25px; 
+} 
+
+p.rec {
+    font-family: 'Comic Sans MS';
+    font-size: medium;
+    font-style: italic;
+}
+
+     
+ }
+
 /**************Mobil anpassad****************/
 @media screen and (max-width: 414px) {
     #content {
@@ -901,100 +965,66 @@ div.Logga.in a {
 
 }
 /**********************Veckanslunch page styling begins here!************************************/
-table.calander {
-    float: left;
-    margin-left: 40px;
-    background-color: none;
+
+
+#tableContainer {
+    
+    
+    margin-top:150px;
+    margin-left:10px;   
+    margin-right:10px;
+
+  }
+
+
+
+.column {
+    float:left;
+    width:180px;
+    height:auto;
+    border: 1px solid black;
+     
+
+    
 }
 
-img.veckimg {
-    float: left;
-    margin-left: 40%;
-    margin-top: 0%;
+#monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
+   
+     float: left;
+     width:75%;
+     
+   
+     
+ }
+#mon, #tue, #wen, #thu, #fri, #sat, #sun {
+    background-color: darkgrey;
+    padding-bottom: 30px;
+    padding-top:30px;
+    height:100px;
+ 
+    
 }
 
-#days{
-    line-height:40px;
-    font-family:'Bookman Old Style';
-    font-size:x-large;
-    font-style:oblique;
-    font-weight:300;
-    color:white ; 
-    background-color:WindowFrame;
 
-}
-
-
-.header {
-    background-color: sandybrown;
+#weekNum {
+    margin-top: 100px;
+    background-color: darkgrey;
     line-height: 80px;
     font-family: 'Agency FB';
     font-size: 50px;
     font-stretch: extra-expanded;
-    font-weight: bold;
-    color: white;
-}
-
-.button1 {
-    background-color: darkgray;
-    color: white;
-    font-size: 40px;
     font-weight: bolder;
-    margin-right: 200px;
-}
-
-.button2 {
-    background-color: darkgray;
     color: white;
-    font-size: 40px;
-    font-weight: bolder;
-    margin-left: 200px;
+    
+    
 }
 
-/* styleing for images with in table*/
 
-#MonimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
 
-#TueimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#WenimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-
-#ThimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#FrimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#SatimgChange{
-    max-width: 100%;
-    height: auto;
-    width: 160px;
-}
-
-#SunimgChange {
-    max-width: 100%;
-    height: auto;
-    width: 160px;
-}
 
 p.lunch {
     font-family: 'Matura MT Script Capitals';
-font-size: 25px; 
+    font-size: 25px; 
 } 
 
 p.rec {
@@ -1002,3 +1032,4 @@ p.rec {
     font-size: medium;
     font-style: italic;
 }
+
