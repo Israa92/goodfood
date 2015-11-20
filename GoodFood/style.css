@@ -1140,18 +1140,27 @@ div.image {
     width:60px;
 }
 
-#weekNum {
+#weekNum h1 {
+    margin-top: 100px;
+    background-color: darkgrey;
+    line-height: 80px;
+    font-family: 'Agency FB';
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    font-weight: bolder;
+    color: white;
+
     
 }
 
 p.lunch {
     font-family: 'Matura MT Script Capitals';
-    font-size: 25px; 
+    font-size: 10px; 
 } 
 
 p.rec {
     font-family: 'Comic Sans MS';
-    font-size: medium;
+    font-size: 10PX;
     font-style: italic;
 }
 
