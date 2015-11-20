@@ -82,3 +82,53 @@ function changeImageoutSa() {
 function changeImageoutSu() {
     document.getElementById("sunImg").src = "images/ky.png";
 }
+
+//* jquery starts here*/
+
+$(document).ready(function () {
+    $("#mon").mouseenter(function () {
+        $("#mon").text("Vegis day!!!!!");
+    });
+    $("#mon").mouseleave(function () {
+        $("#mon").text("Mon");
+    });
+    $("#tue").mouseenter(function () {
+        $("#tue").text("Spice day!!!!!");
+    });
+    $("#tue").mouseleave(function () {
+        $("#tue").text("Tue");
+    });
+    $("#wen").mouseenter(function () {
+        $("#wen").text("Stake day!!!!!!");
+    });
+    $("#wen").mouseleave(function () {
+        $("#wen").text("Wen");
+    });
+    $("#thu").mouseenter(function () {
+        $("#thu").text("Burger day!!!");
+    });
+    $("#thu").mouseleave(function () {
+        $("#thu").text("Thu");
+    });
+
+    $("#fri").mouseenter(function () {
+        $("#fri").text("Vegis day!!!");
+    });
+    $("#fri").mouseleave(function () {
+        $("#fri").text("Fri");
+    });
+    $("#sat").mouseenter(function () {
+        $("#sat").text("spices day!!!!!!");
+    });
+    $("#sat").mouseleave(function () {
+        $("#sat").text("Sat");
+    });
+    $("#sun").mouseenter(function () {
+        $("#sun").text("Vegis day!!!!!");
+
+    });
+    $("#sun").mouseleave(function () {
+        $("#sun").text("Sun");
+    });
+
+});

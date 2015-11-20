@@ -2,14 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-<link href="veclunch.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="weather.css" />
-
-   <link rel="stylesheet" media="(min-width: 0px)" href="weather-large.css" />
-    <script type="text/javascript" src="foodmenu.js"></script>
-    <script src="jquery.min.js"></script>
-    <script src="app.js"></script>
     
 
     <div class ="tableContainer">
@@ -18,7 +10,10 @@
                 </div>
             
         <div class ="column">  
-            <h1 id ="mon">mon</h1>
+            <div id ="mon">>
+                <h1> mon</h1>
+            </div>
+            
                 
         <div id="monImage">
             <img id="monImg" onmouseover="changeImageMo()" onmouseout="changeImageoutMo()"  src="images/ky.png" alt="kycling"/>
