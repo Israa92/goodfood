@@ -20,10 +20,10 @@ body {
 }
 
     #logo img {
-        border: 5px solid rgba(54, 163, 46, 0.83);
-        border-radius: 20px;
+    border: 5px solid rgba(54, 163, 46, 0.83); 
+    border-radius: 20px; 
         width: 140px;
-    }
+}
 
 /*gröna genomskinliga background*/
 #content {
@@ -124,7 +124,7 @@ body {
         font-size: 30px;
         text-align: left;
         text-decoration: underline;
-    }
+}
 
     .articelContainer img {
         float: left;
@@ -134,7 +134,7 @@ body {
         margin-top: 25px;
         border: solid 2px #760969;
         border-radius: 20px;
-    }
+}
 
     .articelContainer p {
         color: #760969;
@@ -142,7 +142,7 @@ body {
         font-size: 30px;
         text-align: justify;
         width: 1000px;
-    }
+}
 
 #article1 {
     float: left;
@@ -185,7 +185,7 @@ body {
 
     #next:hover {
         background-color: #a340bc;
-    }
+}
 
 
 #prev {
@@ -204,7 +204,7 @@ body {
 
     #prev:hover {
         background-color: #a340bc;
-    }
+}
 /*******************  Footer  ***********************************/
 /*bottom text*/
 footer {
@@ -398,7 +398,7 @@ div.image {
 }
 
 .labelNamn {
-    color: #ffffff;
+   color: #ffffff;
     font-size: 25px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -441,7 +441,7 @@ div.image {
     color: #ffffff;
     cursor: pointer;
 }
-
+    
 .lblmsg {
     float: left;
     color: #ffffff;
@@ -486,7 +486,7 @@ div.image {
 
     #Button1:hover {
         background: #04B404;
-    }
+}
 
 #TextArea1 {
     width: 450px;
@@ -551,45 +551,61 @@ div.image {
 
 
 .tableContainer {
-    margin-top: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    
+    
+    margin-top:250px;
+    margin-left:10px;   
+    margin-right:10px;
+
+  }
 
 .column {
-    float: left;
-    width: 181px;
-    height: auto;
-    border: 1px solid black;
+    float:left;
+    width:180px;
+    height:600px;
+    border: 0px solid black;
+     
+
+    
 }
 
-#monImg, #tueImg, #wenImg, #thuImg, #friImg, #satImg, #sunImg {
-    float: left;
-    width: 75%;
-    align-items: center;
-}
+.tableContainer img {
+      
+      margin-left:25px;
+     
+     float: left;
+     width:75%;     
+ }
 
-#mon, #tue, #wen, #thu, #fri, #sat, #sun {
+.tableContainer h1{
     background-color: darkgrey;
     height: 80px;
+    margin-left: 2px;
+    width: auto;
+    border:3px solid #73AD21;
+    padding: 10px;
 }
 
 #weekNum h1 {
     margin-top: 100px;
-    margin-bottom: -10px;
+    margin-bottom:-15px;
     background-color: peru;
+   
     line-height: 80px;
     font-family: 'Agency FB';
     font-size: 50px;
     font-stretch: extra-expanded;
     font-weight: bolder;
     color: white;
+    width:97%
+
+    
 }
 
 p.lunch {
     font-family: 'Matura MT Script Capitals';
-    font-size: 25px;
-}
+    font-size: 25px; 
+} 
 
 p.rec {
     font-family: 'Comic Sans MS';
@@ -669,12 +685,12 @@ p.rec {
         margin: 50px;
         margin-top: 780px;
         text-align: center;
-    }
-
+}
+    
         .articelContainer h1 {
             font-size: 20px;
             width: 550px;
-        }
+}
 
         .articelContainer img {
             width: 250px;
@@ -682,48 +698,48 @@ p.rec {
             margin: 0 auto;
             margin-top: 0px;
             float: none;
-        }
+}
 
         .articelContainer p {
             font-size: 20px;
             width: 500px;
-        }
+}
 
     #article1 {
         float: left;
         text-align: center;
         margin-left: 50px;
-    }
+}
 
     #article2 {
         float: left;
         text-align: center;
         margin-left: 50px;
-    }
+}
 
     #article3 {
         float: left;
         text-align: center;
         margin-left: 50px;
-    }
+}
 
     #article4 {
         float: left;
         text-align: center;
         margin-left: 50px;
-    }
+}
 
     #next {
-        width: 70px;
-        height: 40px;
-        font-size: 20px;
-    }
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+}
 
     #prev {
-        width: 130px;
-        height: 40px;
-        font-size: 20px;
-    }
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+}
 
 
     /*********************************************/
@@ -815,7 +831,7 @@ p.rec {
             width: 350px;
         }
 
-
+   
     .text2 p {
         font-size: 15px;
     }
@@ -825,14 +841,14 @@ p.rec {
         margin-left: 40px;
         margin-top: 60px;
     }
-
+        
     #text3 {
         display: none;
         line-height: 2.5;
         margin-left: 0px;
         width: 700px;
         margin-top: 0px;
-    }
+}
 }
 
 /**************Mobil anpassad****************/
@@ -869,9 +885,9 @@ p.rec {
 
     /*text in the defult page*/
     #text p {
-        width: 340px;
+    width: 340px;
         height: 126px;
-        font-size: 22px;
+    font-size: 22px;
         margin-left: 4px;
     }
 
@@ -888,12 +904,12 @@ p.rec {
         height: 650px;
         margin: 0 auto;
         margin-top: 450px;
-    }
+}
 
         .articelContainer h1 {
             font-size: 20px;
             width: 295px;
-        }
+}
 
         .articelContainer img {
             float: left;
@@ -902,70 +918,70 @@ p.rec {
             margin: 0 auto;
             margin-top: 10px;
             margin-left: 15px;
-        }
+}
 
         .articelContainer p {
             float: left;
             font-size: 18px;
             width: 285px;
             margin: 0 auto;
-        }
+}
 
     #article1 {
         margin-left: 10px;
-    }
+}
 
     #article2 {
         margin-left: 10px;
-    }
+}
 
     #article3 {
         margin-left: 10px;
-    }
+}
 
     #article4 {
         margin-left: 10px;
-    }
+}
 
     #next {
-        width: 84px;
-        height: 44px;
-        font-size: 25px;
-        color: rgba(66,48,1,1);
-        border-radius: 10px;
-        border: 1px solid #760969;
-        background: #760969;
-        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-        font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 84px;
+    height: 44px;
+    font-size: 25px;
+    color: rgba(66,48,1,1);
+    border-radius: 10px;
+    border: 1px solid #760969;
+    background: #760969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
         color: #ffffff;
         margin: 10px;
         cursor: pointer;
-    }
+}
 
         #next:hover {
             background-color: #a340bc;
             text-decoration: underline;
-        }
+}
 
 
     #prev {
-        width: 153px;
-        height: 44px;
-        font-size: 25px;
-        color: #760969;
-        border-radius: 10px;
-        border: 1px solid #760969;
-        background: #760969;
-        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-        font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 153px;
+    height: 44px;
+    font-size: 25px;
+    color: #760969;
+    border-radius: 10px;
+    border: 1px solid #760969;
+    background: #760969;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    font-family: "Comic Sans MS", cursive, sans-serif;
         color: #ffffff;
         cursor: pointer;
-    }
+}
 
         #prev:hover {
             background-color: #a340bc;
             text-decoration: underline;
-        }
+}
 
     /*******Loggin sidan*********************/
 
@@ -1025,65 +1041,65 @@ p.rec {
 
 
 
-    /****************Leave A Comment in ReceptPgaes***************************/
+/****************Leave A Comment in ReceptPgaes***************************/
     #labelLeaveCom {
-        font-size: 35px;
+    font-size: 35px;
         float: left;
-    }
+}
 
-    #Button1 {
-        float: right;
-        width: 100px;
-        height: 40px;
-        text-align: center;
-        font-family: "Comic Sans MS", cursive, sans-serif;
-        font-size: 23px;
+#Button1 {
+    float: right;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 23px;
         color: #ffffff;
-        border-radius: 10px;
-        border: 1px solid rgba(105,181,50,1);
-        background: rgba(122,199,67,1);
-        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    background: rgba(122,199,67,1);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
         cursor: pointer;
         margin: 5px;
-    }
+}
 
         #Button1:hover {
             background: #04B404;
-        }
+}
 
-    #TextArea1 {
-        width: 330px;
-    }
+#TextArea1 {
+    width: 330px;
+}
 
     #TxtBoxName {
         float: left;
         width: 100px;
         margin: 0px;
-    }
+}
 
-    .commentstyle {
-        float: left;
-        position: relative;
-        background-color: #F6E3CE;
-        width: 450px;
-        height: 53px;
-        font-family: cursive;
-        font-size: 20px;
-        border-radius: 10px;
-        border: 1px solid rgba(105,181,50,1);
-        text-align: left;
-    }
+.commentstyle {
+    float: left;
+    position: relative;
+    background-color: #F6E3CE;
+    width: 450px;
+    height: 53px;
+    font-family: cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(105,181,50,1);
+    text-align: left;
+}
 
-    #container {
+#container {
         width: 450px;
         height: 400px;
         margin-left: 10px;
         text-align: left;
-    }
+}
 
     #TextAreaComment {
         width: 330px;
-    }
+}
 
     /****************** Om Oss Page***************************************/
     /*Style till om oss text*/
@@ -1099,11 +1115,11 @@ p.rec {
         font-size: 30px;
         width: 330px;
         height: 35px;
-    }
+}
 
     #omossPargraf {
         font-size: 20px;
-    }
+}
 
     #chefImg {
         display: none;
@@ -1198,7 +1214,7 @@ p.rec {
         width: 180px;
         margin-left: 100px;
         margin-top: 140px;
-    }
+}
     /*text under går så här i alla reseptsidor (mat)*/
     #text3 {
         display: none;
@@ -1230,54 +1246,57 @@ p.rec {
     /**********************Veckanslunch page styling begins here!************************************/
 
 
-    .tableContainer {
-        margin-top: 90px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 339px;
-    }
+.tableContainer {
+    margin-top:0px;
+    margin-left:auto;   
+    margin-right:auto;
+    width:350px;
+    
+  }
 
-    .column {
-        float: left;
-        width: 329px;
-        height: 240px;
-        border: 1px solid black;
-        margin-left: 10px;
-    }
+.column {
+    width:300px;
+    height:500px;
+    border: 1px solid black;
+}
 
-    #monImg, #tueImg, #wenImg, #thuImg, #friImg, #satImg, #sunImg {
-        float: left;
-        width: 100px;
-        height: 100px;
-    }
+.tableContainer img {
+   
+     float: left;
+     width:100px;
+     height:100px;
+     align-items: center;
+         
+ }
+.tableContainer h1{
+    background-color: none;
+    height: 50px;
+    margin: auto;
+    width: 100%;
+    border:3px solid #73AD21;
+    padding: 10px;
+}
 
-    #mon, #tue, #wen, #thu, #fri, #sat, #sun {
-        background-color: darkgrey;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        height: 60px;
-        width: 60px;
-    }
+#weekNum h1 {
+    margin-top: 100px;
+    margin-bottom:-10px;
+    background-color: peru;
+    line-height: 80px;
+    font-family: 'Agency FB';
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    font-weight: bolder;
+    color: white;
+}
 
-    #weekNum h1 {
-        margin-top: 100px;
-        background-color: darkgrey;
-        line-height: 80px;
-        font-family: 'Agency FB';
-        font-size: 50px;
-        font-stretch: extra-expanded;
-        font-weight: bolder;
-        color: white;
-    }
+p.lunch {
+    font-family: 'Matura MT Script Capitals';
+    font-size: 25px; 
+} 
 
-    p.lunch {
-        font-family: 'Matura MT Script Capitals';
-        font-size: 10px;
-    }
-
-    p.rec {
-        font-family: 'Comic Sans MS';
-        font-size: 10PX;
-        font-style: italic;
-    }
+p.rec {
+    font-family: 'Comic Sans MS';
+    font-size: medium;
+    font-style: italic;
+}
 }
