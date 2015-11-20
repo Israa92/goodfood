@@ -5,13 +5,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <section class="container">
-        <div class="Logga in">
-
-            <a href="login.aspx">Logga in</a>
-        </div>
-    </section>
-
     <div id="text">
         <!--huvud text i homepage-->
 
@@ -24,14 +17,13 @@
 
     <div>
         <!--img of the veckanslunch-->
-        <a id="veckanslunch" href="vecklunch.aspx">
-            <img src="images/veckanslunch.jpg" alt="veckans lunch"/>
+        <a id="veckanslunch" href="vecklunch.aspx" title="Veckanslunch">
+            <img id="veckanslunchChange" onmouseover="changeImageveckans()" onmouseout="changeImageoutveckans()"  src="images/veckanslunch.jpg" alt="veckans lunch"/>
         </a>
     </div>
 
 <div class="articelContainer">
    
-    
     <div id="article1">
         <h1>1:The Latin scholar H. Rackham translated the above in 1914:</h1>
         <img class="article1Img" src="images/ChickenArtikel2.jpg" alt="bild"/>
@@ -50,8 +42,7 @@
           (How long, O Catiline, will you abuse our patience? 
           And for how long will that madness of yours mock us?)
         Cicero famously orated against his political opponent Lucius Sergius Catilina.
-           Occasionally the first Oration against Catiline is taken for type specimens:
-           Quo usque tandem abutere, Catilina, patientia nostra?
+           Occasionally the first Oration against Catiline is taken for type specimens
     </p>
    </div>
 
@@ -65,7 +56,6 @@
           Cicero famously orated against his political opponent Lucius Sergius Catilina.
            Occasionally the first Oration against Catiline is taken for 
           (How long, O Catiline, will you abuse our patience? 
-          And for how long will that madness of yours mock us?)
     </p>
     </div>
 
@@ -76,11 +66,10 @@
         (How long, O Catiline, will you abuse our patience? 
           And for how long will that madness of yours mock us?)
           Cicero famously orated against his political opponent Lucius Sergius Catilina.
-           Occasionally the first Oration against Catiline is taken for type specimens:
-           Quo usque tandem abutere, Catilina, patientia nostra?
+           Occasionally the first Oration against Catiline is taken for type specimens
     </p>
+  
     </div>
-
 
 </div>
 
