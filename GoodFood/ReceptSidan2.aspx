@@ -57,7 +57,7 @@
         });
     </script>
 
-    <div id="continer">
+    <div id="container">
 
     <div id="labelLeaveCom">
         <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>

@@ -14,17 +14,17 @@
 
 
             </div>
-
-            <div id="BoxNamePass">
+        
+        <div id="BoxNamePass">
                 <asp:TextBox CssClass="nameBox" ID="TextBoxName" runat="server"></asp:TextBox>
                 <asp:TextBox CssClass="passBox" ID="TextBoxPass" runat="server"></asp:TextBox>
-            </div>
+        </div>
 
         </div>
 
         <asp:Button CssClass="ButtonLogin" ID="ButtonLogin" runat="server" Text="Logga in" OnClick="ButtonLogin_Click"/>
         <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server" Text="Label">Note:</asp:Label>
-        
+                   
     </div>
 
 </asp:Content>

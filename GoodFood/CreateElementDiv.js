@@ -18,8 +18,6 @@ function addelement() {
 //iQuery for articles in homepage start here
 
 $(document).ready(function () {
-
-
     $("#article2").hide();
     $("#article1").click(function () {      
         $("#article1").hide();
@@ -70,5 +68,6 @@ $(document).ready(function () {
         return false;
     });
 
+    
 });
 
