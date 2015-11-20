@@ -529,9 +529,6 @@ div.image {
     display: none;
 }
 
-
-
-
 #angleDown {
     width: 10px;
     float: right;
@@ -843,74 +840,7 @@ p.rec {
         margin-top: 0px;
 }
 
-     /************************************responsive styling for calander table to Ipad view *****************************************/
-.tableContainer {
-    
-    width:600px;
-    margin-top:0px;
-    
-    float:left;  
-    
-
 }
-
-
-.column {
-    float:left;
-    width:100px;
-    height:auto;
-    border: 1px solid black;
-     
-
-    
-}
-
-#monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
-   
-     float: left;
-     width:75%;
-     
-   
-     
- }
-#mon, #tue, #wen, #thu, #fri, #sat, #sun {
-    background-color: darkgrey;
-    padding-bottom: 30px;
-    padding-top:30px;
-    height:100px;
- 
-    
-}
-
-
-#weekNum {
-    background-color: darkgrey;
-    line-height: 80px;
-    font-family: 'Agency FB';
-    font-size: 50px;
-    font-stretch: extra-expanded;
-    font-weight: bolder;
-    color: white;
-    
-    
-}
-
-
-
-
-p.lunch {
-    font-family: 'Matura MT Script Capitals';
-    font-size: 25px; 
-} 
-
-p.rec {
-    font-family: 'Comic Sans MS';
-    font-size: medium;
-    font-style: italic;
-}
-
-     
- }
 
 /**************Mobil anpassad****************/
 @media screen and (max-width: 414px) {
@@ -1244,11 +1174,11 @@ p.rec {
     /**********************Veckanslunch page styling begins here!************************************/
 
 
-#tableContainer {
-    margin-top:150px;
+.tableContainer {
+    margin-top:90px;
     margin-left:auto;   
     margin-right:auto;
-    width:300px;
+    width:339px;
   }
 
 .column {
@@ -1273,14 +1203,8 @@ p.rec {
 }
 
 #weekNum {
-    margin-top: 100px;
-    background-color: darkgrey;
-    line-height: 80px;
-    font-family: 'Agency FB';
-    font-size: 50px;
-    font-stretch: extra-expanded;
-    font-weight: bolder;
-    color: white;}
+    
+}
 
 p.lunch {
     font-family: 'Matura MT Script Capitals';
@@ -1292,7 +1216,7 @@ p.rec {
     font-size: medium;
     font-style: italic;
 }
-
+    
 }
 
 
