@@ -2,17 +2,19 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+
     
 
     <div class ="tableContainer">
         
-            <div id="weekNum"><h1>Vecka 1</h1>
+            <div id="weekNum">
+                <h1>Vecka 1</h1>
                 </div>
             
         <div class ="column">  
-            <div id ="mon">>
-                <h1> mon</h1>
-            </div>
+        <h1 id ="mon"> mon</>
+            </h1>
             
                 
         <div id="monImage">
