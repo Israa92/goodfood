@@ -6,7 +6,9 @@
     
     <div class ="tableContainer">
         
-            <div id="weekNum"><h1>Vecka 1</h1></div>
+            <div id="weekNum">
+                <h1>Vecka 1</h1>
+            </div>
             
         <div class ="column">  
             <h1 id ="mon">mon</h1>
