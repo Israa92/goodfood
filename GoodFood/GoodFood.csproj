@@ -70,11 +70,11 @@
     <Content Include="CreateElementDiv.js" />
     <Content Include="images\7.jpg" />
     <Content Include="images\bur.jpg" />
-    <Content Include="images\cafe_menu.jpg" />
-    <Content Include="images\Chef-Anime.jpg" />
+    <Content Include="images\chef-food.jpg" />
     <Content Include="images\ChickenArtikel2.jpg" />
     <Content Include="images\fru.jpg" />
     <Content Include="images\fruitYogurt.jpg" />
+    <Content Include="images\good-ideas-happen.jpg" />
     <Content Include="images\healthArtikel1.jpg" />
     <Content Include="images\ind.jpg" />
     <Content Include="images\ky.png" />

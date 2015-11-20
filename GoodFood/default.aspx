@@ -18,13 +18,12 @@
     <div>
         <!--img of the veckanslunch-->
         <a id="veckanslunch" href="vecklunch.aspx" title="Veckanslunch">
-            <img src="images/veckanslunch.jpg" alt="veckans lunch"/>
+            <img id="veckanslunchChange" onmouseover="changeImageveckans()" onmouseout="changeImageoutveckans()"  src="images/veckanslunch.jpg" alt="veckans lunch"/>
         </a>
     </div>
 
 <div class="articelContainer">
    
-    
     <div id="article1">
         <h1>1:The Latin scholar H. Rackham translated the above in 1914:</h1>
         <img class="article1Img" src="images/ChickenArtikel2.jpg" alt="bild"/>
@@ -69,8 +68,8 @@
           Cicero famously orated against his political opponent Lucius Sergius Catilina.
            Occasionally the first Oration against Catiline is taken for type specimens
     </p>
+  
     </div>
-
 
 </div>
 
