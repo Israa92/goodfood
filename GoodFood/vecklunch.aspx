@@ -13,8 +13,8 @@
                 </div>
             
         <div class ="column">  
-        <h1 id ="mon"> mon</>
-            </h1>
+        <h2 id ="mon"> mon</>
+            </h2>
             <img id="monImg" onmouseover="changeImageMo()" onmouseout="changeImageoutMo()"  src="images/ky.png" alt="kycling"/>
        
             <p class="lunch">Kyckling med ris</p><p class="rec">(ris, kyk, cury, moroter,onion)</p>
@@ -23,7 +23,7 @@
 
         <div class ="column">
             
-            <h1 id ="tue">Tue</h1>
+            <h2 id ="tue">Tue</h2>
         
             <img id="tueImg" onmouseover="changeImageTu()" onmouseout="changeImageoutTu()"  src="images/fru.jpg" alt="kycling"/>
         
@@ -33,7 +33,7 @@
 
 
         <div class ="column">
-            <h1 id ="wen">Wen</h1>
+            <h2 id ="wen">Wen</h2>
         
             <img id="wenImg" onmouseover="changeImageWe()" onmouseout="changeImageoutWe()" src="images/ind.jpg" alt="kycling"/>
        
@@ -42,7 +42,7 @@
             
 
         <div class ="column">
-            <h1 id ="thu">Thu</h1>
+            <h2 id ="thu">Thu</h2>
         
             <img id="thuImg" onmouseover="changeImageTh()" onmouseout="changeImageoutTh()" src="images/bur.jpg" alt="kycling"/>
         
@@ -51,7 +51,7 @@
            
 
         <div class ="column">
-            <h1 id ="fri">Fri</h1>
+            <h2 id ="fri">Fri</h2>
        
             <img id="friImg"  onmouseover="changeImageFr()" onmouseout="changeImageoutFr()"src="images/1.jpg" alt="kycling"/>
        
@@ -60,7 +60,7 @@
            
 
         <div class ="column">
-            <h1 id ="sat">Sat</h1>
+            <h2 id ="sat">Sat</h2>
        
             <img id="satImg"  onmouseover="changeImageSa()" onmouseout="changeImageoutSa()"src="images/ky.png" alt="kycling"/>
         
@@ -69,7 +69,7 @@
             
 
         <div class ="column">
-            <h1 id ="sun">Sun</h1>
+            <h2 id ="sun">Sun</h2>
        
             <img id="sunImg"  onmouseover="changeImageSu()" onmouseout="changeImageoutSu()"src="images/bur.jpg" alt="kycling"/>
         
