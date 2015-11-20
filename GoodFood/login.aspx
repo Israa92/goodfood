@@ -9,20 +9,21 @@
         <div id="logincont">
 
             <div id="labelNamePass">
-                <asp:Label class="labelNamn" ID="LabelNamn" runat="server" Text="Label">Användarnamn</asp:Label>
-                <asp:Label Class="labelPass" ID="Label2" runat="server" Text="Label">Lösenord</asp:Label>
+                <asp:Label CssClass="labelNamn" ID="LabelNamn" runat="server" Text="Label">Användarnamn</asp:Label>
+                <asp:Label  CssClass="labelPass" ID="Label2" runat="server" Text="Label">Lösenord</asp:Label>
+
 
             </div>
 
             <div id="BoxNamePass">
-                <asp:TextBox class="nameBox" ID="TextBoxName" runat="server"></asp:TextBox>
-                <asp:TextBox class="passBox" ID="TextBoxPass" runat="server"></asp:TextBox>
+                <asp:TextBox CssClass="nameBox" ID="TextBoxName" runat="server"></asp:TextBox>
+                <asp:TextBox CssClass="passBox" ID="TextBoxPass" runat="server"></asp:TextBox>
             </div>
 
         </div>
 
-        <asp:Button Class="ButtonLogin" ID="ButtonLogin" runat="server" Text="Logga in" OnClick="ButtonLogin_Click"/>
-        <asp:Label Class="lblmsg" ID="lblmsg" runat="server" Text="Label">Note:</asp:Label>
+        <asp:Button CssClass="ButtonLogin" ID="ButtonLogin" runat="server" Text="Logga in" OnClick="ButtonLogin_Click"/>
+        <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server" Text="Label">Note:</asp:Label>
         
     </div>
 
