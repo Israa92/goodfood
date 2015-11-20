@@ -8,6 +8,7 @@
         <h1 id="omossRubrik">
             Om oss
         </h1>
+        <img id="chefImg" src="images/chef-food.jpg" alt="veckans lunch"/>
         <p id="omossPargraf">
             Lorem ipsum dolor sit amet, eget ac lectus ut, 
             pulvinar in nibh tellus. In vitae vitae metus, 
@@ -38,11 +39,13 @@
              ultricies eros in donec tellus, libero nunc neque leo convallis,
              lectus in sed aliquam.
         </p>
-    </div>
 
-    <div>
-        <img id="chefImg" src="images/cafe_menu.jpg" alt="veckans lunch"/>
-    </div>
+        
+       
+            </div>
+    
+    
 
-
+    
+    
 </asp:Content>

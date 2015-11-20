@@ -65,10 +65,10 @@ body {
 }
 
 #meny a:hover{
-    background:rgba(54, 163, 46, 0.83);
+    background:#ffffff;
+    color:#7ac743;
+    border: 1px solid #ffffff;
 }
-
-
 
 /**********************defult page /Home Page ***********************************/
 
@@ -76,7 +76,7 @@ body {
 #veckanslunch img {
     border-radius: 20px;
     border: solid;
-    border-color: rgba(181, 135, 45, 0.85);
+    border-color: #647357;
     border-width: 7px;
     margin: 50px;
     display: block;
@@ -86,9 +86,6 @@ body {
     margin-right: auto;
 }
 
-    nav {
-        width:100%;
-    }
 /*text in the defult page*/
 #text p{
     float: left;
@@ -139,6 +136,7 @@ body {
     text-align:justify;
     width:1000px;
 }
+
 
 #article1{
     float:left;
@@ -232,8 +230,8 @@ h2 {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-    /*Style till bilder som är i listContainer*/
-    .listItem img {
+/*Style till bilder som är i listContainer*/
+.listItem img {
         width: 300px;
         margin-top: 30px;
         height: 200px;
@@ -288,13 +286,13 @@ div.image {
     float: left;
     margin-top: 0px;
 }
-    /*style till första linje av ingredienser till varje reseptsidor (mat) */
-    .text2 p {
+/*style till första linje av ingredienser till varje reseptsidor (mat) */
+.text2 p {
         text-decoration: underline;
         margin-left: 40px;
     }
-    /*style till list av ingredienser i varje reseptsidor (mat)*/
-    .text2 ul {
+/*style till list av ingredienser i varje reseptsidor (mat)*/
+.text2 ul {
         list-style-position: inside;
     }
 /*style till text under gör så här i varje reseptsidor (mat) */
@@ -326,9 +324,10 @@ div.image {
 /****************** Om Oss Page***************************************/
 /*Style till om oss text*/
 #omossCont{
-    width:1000px;
+    width:1200px;
     text-align:left;
-    margin:20px;
+    margin-left:auto;
+    margin-right:auto;
     margin-top:150px;
 }
 
@@ -344,11 +343,22 @@ div.image {
 #omossPargraf{
     font-size:35px;
     color:#3B240B;
+    color:#ff8000;
+    background-color:rgba(245, 208, 169, 0.35);
+    border-radius: 10px;
 }
 
 #chefImg{
-
+    width:200px;
+    height:300px;
+    margin-right:40px;
+    float:right;
+    border-radius: 10px;
+    border: 4px solid #FF8000;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
 }
+
+
 
 /****************Login page start here************************/
 #loginContainer{
@@ -505,18 +515,112 @@ div.image {
 .dropdown {
     display: none;
 }
+
+/**********************Veckanslunch page styling begins here!************************************/
+table.calander {
+    float: left;
+    margin-left: 40px;
+    background-color: none;
+}
+img.veckimg {
+    float: left;
+    margin-left: 40%;
+    margin-top: 0%;
+}
+#days{
+    line-height:40px;
+    font-family:'Bookman Old Style';
+    font-size:x-large;
+    font-style:oblique;
+    font-weight:300;
+    color:white ; 
+    background-color:WindowFrame;
+
+}
+.header {
+    background-color: sandybrown;
+    line-height: 80px;
+    font-family: 'Agency FB';
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    font-weight: bold;
+    color: white;
+}
+.button1 {
+    background-color: darkgray;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: 200px;
+}
+.button2 {
+    background-color: darkgray;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+
+/* styleing for images with in table*/
+#MonimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+#TueimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+#WenimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+#ThimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+#FrimgChange{
+    max-width: 100%;
+    height: auto;
+    width:160px;
+}
+#SatimgChange{
+    max-width: 100%;
+    height: auto;
+    width: 160px;
+}
+#SunimgChange {
+    max-width: 100%;
+    height: auto;
+    width: 160px;
+}
+
+p.lunch {
+    font-family: 'Matura MT Script Capitals';
+font-size: 25px; 
+} 
+p.rec {
+    font-family: 'Comic Sans MS';
+    font-size: medium;
+    font-style: italic;
+}
+
 /***************Ipad anpassad*************************/
-@media only screen and (min-with: 450px) and (max-width: 950px) {
+@media screen and (max-width: 768px) {
 
     #content {
-        width: 100%;
+        width: 700px;
     }
 
     #logo img {
         width: 170px;
         height: 160px;
-        margin-left: 400px;
-        display:none;
+        margin-left: auto;
+        margin-right:auto;
+        
     }
 
     #meny div a {
@@ -546,71 +650,91 @@ div.image {
         margin-left: 93px;
     }
 
+    /****************** Om Oss Page***************************************/
+    /*Style till om oss text*/
+    #omossCont{
+    width:673px;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:350px;
+    }
+
+    #omossRubrik {
+        font-size: 40px;
+        width:673px;
+        height:45px;
+    }
+
+    #omossPargraf{
+    font-size:30px;
+    }
+
+    #chefImg{
+    display:none;
+    }
+
     /**********All Articles in homepage************/
 
-.articelContainer{
+    .articelContainer{
     width:600px;
     height:550px;
     margin:50px;
-    margin-left:0 auto;
-    margin-right:0 auto;
-    margin-top:720px;
+    margin-top:780px;
     text-align:center;
 }
-.articelContainer h1{
+    .articelContainer h1{
     font-size:20px;
     width:550px;
     
 }
-.articelContainer img{
+    .articelContainer img{
     width:250px;
     height:250px;
     margin:0 auto;
     margin-top:0px;
-    
     float:none;
 }
-.articelContainer p{
+    .articelContainer p{
     font-size:20px;
     width:500px;
 }
 
-#article1{
+    #article1{
     float:left;
     text-align:center;
     margin-left:50px;
 }
-#article2{
+    #article2{
     float:left;
     text-align:center;
     margin-left:50px;
 }
-#article3{
+    #article3{
     float:left;
     text-align:center;
     margin-left:50px;
 }
-#article4{
+    #article4{
     float:left;
     text-align:center;
     margin-left:50px;
 }
 
-#next{
+    #next{
     width: 70px;
     height: 40px;
     font-size: 20px;
-    
-    margin:5px;
-    cursor:pointer;
 }
 
-#prev{
+    #prev{
     width: 130px;
     height: 40px;
     font-size: 20px;
 }
 
+
+    /*********************************************/
     table {
         margin-left: 37px;
     }
@@ -637,7 +761,7 @@ div.image {
         float: right;
     }
         /*Värje bilder till mat*/
-        .listItem img {
+    .listItem img {
             width: 150px;
             height: 110px;
             margin-left: 10px;
@@ -695,11 +819,11 @@ div.image {
         margin-top: 30px;
     }
 
-        div.bild7 img {
+    div.bild7 img {
             width: 350px;
         }
 
-                /**responsive styling for calander table to Ipad view */
+    /**responsive styling for calander table to Ipad view */
     table.calander {
 		overflow-x: auto;
 		display: block;
@@ -722,6 +846,7 @@ div.image {
         margin-top: 0px;
 }
 }
+
 /**************Mobil anpassad****************/
 @media screen and (max-width: 414px) {
     #content {
@@ -729,6 +854,7 @@ div.image {
         border: 6px solid;
         border-color: rgba(54, 163, 46, 0.83);
         box-shadow: 0 1px 2px rgba(54, 163, 46, 0.83);
+        margin-top:40px;
     }
 
     #logo {
@@ -769,17 +895,17 @@ div.image {
     }
 
     /*******Article in homepage**************/
-.articelContainer{
+    .articelContainer{
     width:300px;
     height:650px;
     margin:0 auto;
     margin-top:450px;
 }
-.articelContainer h1{
+    .articelContainer h1{
     font-size:20px;
     width:295px;
 }
-.articelContainer img{
+    .articelContainer img{
     float:left;
     width:245px;
     height:245px;
@@ -787,27 +913,27 @@ div.image {
     margin-top:10px;
     margin-left:15px;
 }
-.articelContainer p{
+    .articelContainer p{
     float:left;
     font-size:18px;
     width:285px;
     margin:0 auto;
 }
 
-#article1{
+    #article1{
     margin-left:10px;
 }
-#article2{
+    #article2{
     margin-left:10px;
 }
-#article3{
+    #article3{
     margin-left:10px;
 }
-#article4{
+    #article4{
     margin-left:10px;
 }
 
-#next{
+    #next{
     width: 84px;
     height: 44px;
     font-size: 25px;
@@ -821,13 +947,13 @@ div.image {
     margin:10px;
     cursor:pointer;
 }
-#next:hover{
+    #next:hover{
     background-color:#a340bc;
     text-decoration:underline;
 }
 
 
-#prev{
+    #prev{
     width: 153px;
     height: 44px;
     font-size: 25px;
@@ -840,18 +966,18 @@ div.image {
     color:#ffffff;
     cursor:pointer;
 }
-#prev:hover{
+    #prev:hover{
     background-color:#a340bc;
     text-decoration:underline;
 }
 
-/****************Leave A Comment in ReceptPgaes***************************/
-#labelLeaveCom{
+    /****************Leave A Comment in ReceptPgaes***************************/
+    #labelLeaveCom{
     font-size: 35px;
     float:left;
 }
 
-#Button1 {
+    #Button1 {
     float: right;
     width: 100px;
     height: 40px;
@@ -866,21 +992,21 @@ div.image {
     cursor:pointer;
     margin:5px;
 }
-#Button1:hover{
+    #Button1:hover{
      background:#04B404;
 }
 
-#TextArea1 {
+    #TextArea1 {
     width: 330px;
 }
 
-#TxtBoxName{
+    #TxtBoxName{
     float:left;
     width:100px;
     margin:0px;
 }
 
-.commentstyle {
+    .commentstyle {
     float: left;
     position: relative;
     background-color: #F6E3CE;
@@ -893,20 +1019,44 @@ div.image {
     text-align: left;
 }
 
-#container {
+    #container {
     width:450px;
     height:400px;
     margin-left:10px;
     text-align:left;
 }
 
-#TextAreaComment{
+    #TextAreaComment{
     width:330px;
 }
 
+    /****************** Om Oss Page***************************************/
+    /*Style till om oss text*/
+    #omossCont{
+    width:330px;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    }
 
+    #omossRubrik {
+        font-size: 30px;
+        width:330px;
+        height:35px;
+    }
 
-/****************************************************************************/
+    #omossPargraf{
+    font-size:20px;
+    
+    }
+
+    #chefImg{
+    display:none;
+    
+    }
+
+    /****************************************************************************/
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;
@@ -920,7 +1070,7 @@ div.image {
         margin-top: 0px;
     }
         /*Värje bilder till mat*/
-        .listItem img {
+    .listItem img {
             width: 100px;
             height: 90px;
             margin-top: 10px;
@@ -1019,106 +1169,4 @@ div.image {
         width: 10px; 
         float: right
     }
-}
-/**********************Veckanslunch page styling begins here!************************************/
-table.calander {
-    float: left;
-    margin-left: 40px;
-    background-color: none;
-}
-
-img.veckimg {
-    float: left;
-    margin-left: 40%;
-    margin-top: 0%;
-}
-
-#days{
-    line-height:40px;
-    font-family:'Bookman Old Style';
-    font-size:x-large;
-    font-style:oblique;
-    font-weight:300;
-    color:white ; 
-    background-color:WindowFrame;
-
-}
-
-
-.header {
-    background-color: sandybrown;
-    line-height: 80px;
-    font-family: 'Agency FB';
-    font-size: 50px;
-    font-stretch: extra-expanded;
-    font-weight: bold;
-    color: white;
-}
-
-.button1 {
-    background-color: darkgray;
-    color: white;
-    font-size: 40px;
-    font-weight: bolder;
-    margin-right: 200px;
-}
-
-.button2 {
-    background-color: darkgray;
-    color: white;
-    font-size: 40px;
-    font-weight: bolder;
-    margin-left: 200px;
-}
-
-/* styleing for images with in table*/
-
-#MonimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-
-#TueimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#WenimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-
-#ThimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#FrimgChange{
-    max-width: 100%;
-    height: auto;
-    width:160px;
-}
-#SatimgChange{
-    max-width: 100%;
-    height: auto;
-    width: 160px;
-}
-
-#SunimgChange {
-    max-width: 100%;
-    height: auto;
-    width: 160px;
-}
-
-p.lunch {
-    font-family: 'Matura MT Script Capitals';
-font-size: 25px; 
-} 
-
-p.rec {
-    font-family: 'Comic Sans MS';
-    font-size: medium;
-    font-style: italic;
 }
