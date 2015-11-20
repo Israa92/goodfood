@@ -1179,49 +1179,55 @@ p.rec {
     margin-top:0px;
     margin-left:auto;   
     margin-right:auto;
-    width:339px;
-    height:10px;
+    width:350px;
+    
   }
 
 .column {
-    float: left;
-    width: 329px;
-    height: 240px;
+    width:300px;
+    height:500px;
     border: 1px solid black;
-    margin-left: 10px;
 }
 
-#monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
-     float:left;
+.tableContainer img {
+   
+     float: left;
      width:100px;
      height:100px;
+     align-items: center;
+         
  }
-    #mon, #tue, #wen, #thu, #fri, #sat, #sun {
-        background-color: darkgrey;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        height: 60px;
-        width: 60px;
-    }
+.tableContainer h1{
+    background-color: none;
+    height: 50px;
+    margin: auto;
+    width: 100%;
+    border:3px solid #73AD21;
+    padding: 10px;
+}
+
 #weekNum h1 {
     margin-top: 100px;
-    background-color: darkgrey;
+    margin-bottom:-10px;
+    background-color: peru;
     line-height: 80px;
     font-family: 'Agency FB';
     font-size: 50px;
     font-stretch: extra-expanded;
     font-weight: bolder;
-    color: white; 
+    color: white;
+
+    
 }
 
 p.lunch {
     font-family: 'Matura MT Script Capitals';
-    font-size: 10px; 
+    font-size: 25px; 
 } 
 
 p.rec {
     font-family: 'Comic Sans MS';
-    font-size: 10PX;
+    font-size: medium;
     font-style: italic;
 }
     
