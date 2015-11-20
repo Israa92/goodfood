@@ -25,6 +25,7 @@
                     }, function () {
                         $(this).removeClass("hover");
                     }
+
                    );
 
                 });
