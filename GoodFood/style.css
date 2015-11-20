@@ -1264,9 +1264,8 @@ p.rec {
  }
 #mon, #tue, #wen, #thu, #fri, #sat, #sun {
     background-color: darkgrey;
-    padding-bottom: 30px;
-    padding-top:30px;
-    height:100px;
+    height:80px;
+    
 
     
 }

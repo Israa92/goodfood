@@ -3,12 +3,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<link href="veclunch.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="weather.css" />
-   <link rel="stylesheet" media="(min-width: 0px)" href="weather-large.css" />
-    <script type="text/javascript" src="foodmenu.js"></script>
-    <script src="jquery.min.js"></script>
-    <script src="app.js"></script>
     
     <div class ="tableContainer">
         
