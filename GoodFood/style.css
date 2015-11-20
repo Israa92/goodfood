@@ -560,26 +560,27 @@ div.image {
 .column {
     float:left;
     width:181px;
-    height:auto;
+    height:500px;
     border: 1px solid black;
      
 
     
 }
 
-#monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
+.tableContainer img {
    
      float: left;
      width:75%;
      align-items: center;
-     
-   
-     
+         
  }
-#mon, #tue, #wen, #thu, #fri, #sat, #sun {
+.tableContainer h1{
     background-color: darkgrey;
     height: 80px;
-    
+    margin: auto;
+    width: 100%;
+    border:3px solid #73AD21;
+    padding: 10px;
 }
 
 #weekNum h1 {
