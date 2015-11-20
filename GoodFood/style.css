@@ -544,6 +544,68 @@ div.image {
 .hidden {
     display: none;
 }
+
+/**********************Veckanslunch page styling begins here!************************************/
+
+
+.tableContainer {
+    
+    
+    margin-top:150px;
+    margin-left:10px;   
+    margin-right:10px;
+
+  }
+
+.column {
+    float:left;
+    width:181px;
+    height:auto;
+    border: 1px solid black;
+     
+
+    
+}
+
+#monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
+   
+     float: left;
+     width:75%;
+     align-items: center;
+     
+   
+     
+ }
+#mon, #tue, #wen, #thu, #fri, #sat, #sun {
+    background-color: darkgrey;
+    height: 80px;
+    
+}
+
+#weekNum h1 {
+    margin-top: 100px;
+    margin-bottom:-10px;
+    background-color: peru;
+    line-height: 80px;
+    font-family: 'Agency FB';
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    font-weight: bolder;
+    color: white;
+
+    
+}
+
+p.lunch {
+    font-family: 'Matura MT Script Capitals';
+    font-size: 25px; 
+} 
+
+p.rec {
+    font-family: 'Comic Sans MS';
+    font-size: medium;
+    font-style: italic;
+}
 /***************Ipad anpassad*************************/
 @media screen and (max-width: 768px) {
 
@@ -777,8 +839,8 @@ div.image {
         width: 700px;
         margin-top: 0px;
 }
-  
- }
+
+}
 
 /**************Mobil anpassad****************/
 @media screen and (max-width: 414px) {
@@ -1163,72 +1225,9 @@ p.rec {
     font-size: 10PX;
     font-style: italic;
 }
-
-}
-
-
-
-
-
-
-
-/**********************Veckanslunch page styling begins here!************************************/
-
-
-.tableContainer {
-    
-    
-    margin-top:150px;
-    margin-left:10px;   
-    margin-right:10px;
-
-  }
-
-.column {
-    float:left;
-    width:180px;
-    height:auto;
-    border: 1px solid black;
-     
-
     
 }
 
-#monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
-   
-     float: left;
-     width:75%;
-     
-   
-     
- }
-#mon, #tue, #wen, #thu, #fri, #sat, #sun {
-    background-color: darkgrey;
-    height: 80px;
-    
-}
 
-#weekNum h1 {
-    margin-top: 100px;
-    background-color: darkgrey;
-    line-height: 80px;
-    font-family: 'Agency FB';
-    font-size: 50px;
-    font-stretch: extra-expanded;
-    font-weight: bolder;
-    color: white;
 
-    
-}
-
-p.lunch {
-    font-family: 'Matura MT Script Capitals';
-    font-size: 25px; 
-} 
-
-p.rec {
-    font-family: 'Comic Sans MS';
-    font-size: medium;
-    font-style: italic;
-}
 
