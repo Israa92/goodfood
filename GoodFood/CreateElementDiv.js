@@ -81,5 +81,13 @@ function changeImageveckans() {
             return false;
         });
 
+        $("#loggain").css("background-color", "#760969");
 
+        $("#loggain").mouseover(function () {
+            $("#loggain").css("background-color", "#ffffff").css("color", "#760969").css("border", "#760969")
+        });
+
+        $("#loggain").mouseout(function () {
+            $("#loggain").css("background-color", "#760969").css("color", "#ffffff").css("border", "#ffffff")
+        });
     });
