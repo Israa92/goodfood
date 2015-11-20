@@ -75,17 +75,6 @@
         });
     </script>
 
-<%--       
-            //document.getElementById("btn-jquery").onmousover () 
-            //    myFunction();
-            
-            //    if (btn-jquery.style.backgroundColor == "rgba(122,199,67,1)") {
-            //        btn-jquery.style.backgroundColor == color;
-            //    } else {
-            //        btn - jquery.style.backgroundColor == "#760969";
-            //    }
-            --%>
- 
 
     <div id="container">
 

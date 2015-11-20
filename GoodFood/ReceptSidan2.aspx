@@ -32,7 +32,12 @@
 
         </ul>
     </div>
-    <button type="button" id="btn-jquery">Gör så här </button>
+    <button type="button" id="btn-jquery">
+                <span id="btn-jquery-label">Recept</span>
+        <i class="fa fa-angle-down pull-right" id="PageRecipeAngleDown" style="margin-top:5px"></i>
+        <i class="fa fa-angle-up pull-right hidden" id="PageRecipeAngleUp" style="margin-top:5px"></i>
+    </button>
+
     <div id="text3">
         <ol>
             <li>Blanda samtliga ingredienser till marinaden och smaka av med salt.</li>
@@ -46,14 +51,21 @@
         </ol>
     </div>
     <script>
-        $("button").click(function () {
+
+
+        $("#btn-jquery").click(function () {
+
             if ($("#text3").is(":hidden") == true) {
-                $("#text3").fadeIn(500);
+                $("#text3").slideDown(500);
+                document.getElementById("btn-jquery-label").innerHTML = 'Gör så här';
             }
             else {
-                $("#text3").fadeOut(500);
+                $("#text3").slideUp(500);
+                document.getElementById("btn-jquery-label").innerHTML = 'Recept';
             }
 
+            $("#PageRecipeAngleDown").toggleClass("hidden");
+            $("#PageRecipeAngleUp").toggleClass("hidden");
         });
     </script>
 
