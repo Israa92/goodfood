@@ -19,10 +19,11 @@ body {
     margin-right: auto;
     margin-bottom: 20px;
 }
-#logo img{
+
+    #logo img {
     border: 5px solid rgba(54, 163, 46, 0.83); 
     border-radius: 20px; 
-    width:140px;
+        width: 140px;
 }
 
 /*gröna genomskinliga background*/
@@ -30,7 +31,7 @@ body {
     background-color: rgba(118, 244, 79, 0.21);
     width: 1300px;
     min-height: 1400px;
-    margin:0 auto;
+    margin: 0 auto;
     border: 9px solid;
     border-radius: 20px;
     border-color: rgba(54, 163, 46, 0.83);
@@ -58,10 +59,9 @@ body {
     text-transform: uppercase;
 }
 
-#meny a:link, #meny a:visited{
+#meny a:link, #meny a:visited {
     color: rgba(255,255,255,1);
     text-decoration: none;
-     
 }
 
 #meny a:hover{
@@ -87,7 +87,7 @@ body {
 }
 
 /*text in the defult page*/
-#text p{
+#text p {
     float: left;
     text-align: center;
     border: 4px solid rgba(54, 163, 46, 0.83);
@@ -98,68 +98,73 @@ body {
     color: #ffffff;
     font-size: 30px;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    margin:20px;
-    margin-top:20px;
-   margin-left:250px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
 }
 
 /**********All Articles************/
 
-.articelContainer{
-    width:1100px;
-    height:450px;
-    margin:50px;
-    border:solid 4px #760969;
-    border-radius:20px;
-    margin-left:95px;
-}
-.articelContainer h1{
-    color:#760969;
-    font-family:cursive;
-    font-size:30px;
-    text-align:left;
-    text-decoration:underline;
-}
-.articelContainer img{
-    float:left;
-    width:300px;
-    height:300px;
-    margin-right:15px;
-    margin-top:25px;
-    border:solid 2px #760969;
-    border-radius:20px;
-}
-.articelContainer p{
-    color:#760969;
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    font-size:30px;
-    text-align:justify;
-    width:1000px;
+.articelContainer {
+    width: 1100px;
+    height: 450px;
+    margin: 50px;
+    border: solid 4px #760969;
+    border-radius: 20px;
+    margin-left: 95px;
 }
 
-
-#article1{
-    float:left;
-    text-align:center;
-    margin-left:50px;
-}
-#article2{
-    float:left;
-    text-align:center;
-    margin-left:50px;
-}
-#article3{
-    float:left;
-    text-align:center;
-    margin-left:50px;
-}
-#article4{
-    float:left;
-    text-align:center;
-    margin-left:50px;
+    .articelContainer h1 {
+        color: #760969;
+        font-family: cursive;
+        font-size: 30px;
+        text-align: left;
+        text-decoration: underline;
 }
 
-#next{
+    .articelContainer img {
+        float: left;
+        width: 300px;
+        height: 300px;
+        margin-right: 15px;
+        margin-top: 25px;
+        border: solid 2px #760969;
+        border-radius: 20px;
+}
+
+    .articelContainer p {
+        color: #760969;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        width: 1000px;
+}
+
+#article1 {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#article2 {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#article3 {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#article4 {
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#next {
     width: 84px;
     height: 44px;
     font-size: 25px;
@@ -169,16 +174,16 @@ body {
     background: #760969;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color:#ffffff;
-    margin:10px;
-    cursor:pointer;
+    color: #ffffff;
+    margin: 10px;
+    cursor: pointer;
 }
 #next:hover{
     background-color:#a340bc;
 }
 
 
-#prev{
+#prev {
     width: 153px;
     height: 44px;
     font-size: 25px;
@@ -188,8 +193,8 @@ body {
     background: #760969;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color:#ffffff;
-    cursor:pointer;
+    color: #ffffff;
+    cursor: pointer;
 }
 #prev:hover{
     background-color:#a340bc;
@@ -230,8 +235,8 @@ h2 {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/*Style till bilder som är i listContainer*/
-.listItem img {
+    /*Style till bilder som är i listContainer*/
+    .listItem img {
         width: 300px;
         margin-top: 30px;
         height: 200px;
@@ -286,13 +291,13 @@ div.image {
     float: left;
     margin-top: 0px;
 }
-/*style till första linje av ingredienser till varje reseptsidor (mat) */
-.text2 p {
+    /*style till första linje av ingredienser till varje reseptsidor (mat) */
+    .text2 p {
         text-decoration: underline;
         margin-left: 40px;
     }
-/*style till list av ingredienser i varje reseptsidor (mat)*/
-.text2 ul {
+    /*style till list av ingredienser i varje reseptsidor (mat)*/
+    .text2 ul {
         list-style-position: inside;
     }
 /*style till text under gör så här i varje reseptsidor (mat) */
@@ -315,10 +320,10 @@ div.image {
     margin-left: 80px;
     margin-top: 0px;
     float: left;
-    background-color:rgba(105,181,50,1);
-    border-radius:10px;
-    border:solid;
-    border-color:rgba(105,181,50,1);
+    background-color: rgba(105,181,50,1);
+    border-radius: 10px;
+    border: solid;
+    border-color: rgba(105,181,50,1);
 }
 
 /****************** Om Oss Page***************************************/
@@ -361,60 +366,63 @@ div.image {
 
 
 /****************Login page start here************************/
-#loginContainer{
-    width:478px;
-    height:200px;
+#loginContainer {
+    width: 478px;
+    height: 200px;
     border: 3px solid;
     border-radius: 20px;
     border-color: rgba(54, 163, 46, 0.83);
     box-shadow: inset 0 0 0 3px rgba(54, 163, 46, 0.83), 0 2px 5px rgba(54, 163, 46, 0.83);
-    margin:0 auto;
-    margin-top:250px;
+    margin: 0 auto;
+    margin-top: 250px;
 }
 /*******Användernamn****************/
-#logincont{
-    width:450px;
-    height:100px;
-    margin:0 auto;
+#logincont {
+    width: 450px;
+    height: 100px;
+    margin: 0 auto;
 }
 
-#labelNamePass{
+#labelNamePass {
     width: 177px;
     height: 84px;
     float: left;
     text-align: right;
     margin: 20px;
 }
-.labelNamn{
+
+.labelNamn {
    color: #ffffff;
     font-size: 25px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
-.labelPass{
+
+.labelPass {
     color: #ffffff;
     font-size: 25px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 /******Lösenord***********/
-#BoxNamePass{
-    width:193px;
-    margin:20px;
-    float:right;
-}
-.nameBox{
-    margin-bottom:10px;
-    width:200px;
-    height:25px;
+#BoxNamePass {
+    width: 193px;
+    margin: 20px;
+    float: right;
 }
 
-.passBox{
-    width:200px;
-    height:25px;
+.nameBox {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
 }
 
-.ButtonLogin{
-    margin-right:25px;
-    float:right;
+.passBox {
+    width: 200px;
+    height: 25px;
+}
+
+.ButtonLogin {
+    margin-right: 25px;
+    float: right;
     width: 120px;
     height: 44px;
     font-size: 25px;
@@ -424,15 +432,15 @@ div.image {
     background: rgba(122,199,67,1);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color:#ffffff;
-    
-    cursor:pointer;
+    color: #ffffff;
+    cursor: pointer;
 }
-.lblmsg{
-    float:left;
-    color:#ffffff;
-    font-size:20px;
-    font-family:cursive;
+    
+.lblmsg {
+    float: left;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: cursive;
 }
 
 .welcomMsg {
@@ -445,10 +453,10 @@ div.image {
     color: aliceblue;
 }
 
-/****************Leave A Comment in ReceptPgaes***************************/
-#labelLeaveCom{
-    float:left;
-    color:rgba(66,48,1,1);
+/********Leave A Comment in ReceptPgaes*************/
+#labelLeaveCom {
+    float: left;
+    color: rgba(66,48,1,1);
     font-size: 57px;
     font-family: cursive;
     margin-top:40px;
@@ -461,16 +469,17 @@ div.image {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 23px;
-    color:#ffffff;
+    color: #ffffff;
     border-radius: 10px;
     border: 1px solid rgba(105,181,50,1);
     background: rgba(122,199,67,1);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-    cursor:pointer;
-    margin:5px;
+    cursor: pointer;
+    margin: 5px;
 }
-#Button1:hover{
-     background:#04B404;
+
+    #Button1:hover {
+        background: #04B404;
 }
 
 #TextArea1 {
@@ -484,13 +493,13 @@ div.image {
     border: 1px solid rgba(105,181,50,1);
 }
 
-#TxtBoxName{
-    float:left;
-    width:100px;
-    color:#000;
-    font-family:cursive;
-    font-size:12px;
-    margin:5px;
+#TxtBoxName {
+    float: left;
+    width: 100px;
+    color: #000;
+    font-family: cursive;
+    font-size: 12px;
+    margin: 5px;
 }
 
 .commentstyle {
@@ -507,9 +516,9 @@ div.image {
 }
 
 #container {
-    width:450px;
-    height:400px;
-    margin-left:20px;
+    width: 450px;
+    height: 400px;
+    margin-left: 20px;
 }
 
 .dropdown {
@@ -608,6 +617,22 @@ p.rec {
     font-style: italic;
 }
 
+
+#angleDown {
+    width: 10px;
+    float: right;
+    margin-top: 5px;
+}
+
+#angleUp {
+    width: 10px;
+    float: right;
+    margin-top: 5px;
+}
+
+.hidden {
+    display: none;
+}
 /***************Ipad anpassad*************************/
 @media screen and (max-width: 768px) {
 
@@ -676,58 +701,58 @@ p.rec {
 
     /**********All Articles in homepage************/
 
-    .articelContainer{
+.articelContainer{
     width:600px;
     height:550px;
     margin:50px;
     margin-top:780px;
     text-align:center;
 }
-    .articelContainer h1{
+.articelContainer h1{
     font-size:20px;
     width:550px;
     
 }
-    .articelContainer img{
+.articelContainer img{
     width:250px;
     height:250px;
     margin:0 auto;
     margin-top:0px;
     float:none;
 }
-    .articelContainer p{
+.articelContainer p{
     font-size:20px;
     width:500px;
 }
 
-    #article1{
+#article1{
     float:left;
     text-align:center;
     margin-left:50px;
 }
-    #article2{
+#article2{
     float:left;
     text-align:center;
     margin-left:50px;
 }
-    #article3{
+#article3{
     float:left;
     text-align:center;
     margin-left:50px;
 }
-    #article4{
+#article4{
     float:left;
     text-align:center;
     margin-left:50px;
 }
 
-    #next{
+#next{
     width: 70px;
     height: 40px;
     font-size: 20px;
 }
 
-    #prev{
+#prev{
     width: 130px;
     height: 40px;
     font-size: 20px;
@@ -761,7 +786,7 @@ p.rec {
         float: right;
     }
         /*Värje bilder till mat*/
-    .listItem img {
+        .listItem img {
             width: 150px;
             height: 110px;
             margin-left: 10px;
@@ -819,19 +844,20 @@ p.rec {
         margin-top: 30px;
     }
 
-    div.bild7 img {
+        div.bild7 img {
             width: 350px;
         }
 
-    /**responsive styling for calander table to Ipad view */
+                /**responsive styling for calander table to Ipad view */
     table.calander {
 		overflow-x: auto;
 		display: block;
         }
    
-    .text2 p{
-        font-size:15px;
+    .text2 p {
+        font-size: 15px;
     }
+
     #btn-jquery {
         width: 150px;
         margin-left: 40px;
@@ -895,17 +921,17 @@ p.rec {
     }
 
     /*******Article in homepage**************/
-    .articelContainer{
+.articelContainer{
     width:300px;
     height:650px;
     margin:0 auto;
     margin-top:450px;
 }
-    .articelContainer h1{
+.articelContainer h1{
     font-size:20px;
     width:295px;
 }
-    .articelContainer img{
+.articelContainer img{
     float:left;
     width:245px;
     height:245px;
@@ -913,27 +939,27 @@ p.rec {
     margin-top:10px;
     margin-left:15px;
 }
-    .articelContainer p{
+.articelContainer p{
     float:left;
     font-size:18px;
     width:285px;
     margin:0 auto;
 }
 
-    #article1{
+#article1{
     margin-left:10px;
 }
-    #article2{
+#article2{
     margin-left:10px;
 }
-    #article3{
+#article3{
     margin-left:10px;
 }
-    #article4{
+#article4{
     margin-left:10px;
 }
 
-    #next{
+    #next {
     width: 84px;
     height: 44px;
     font-size: 25px;
@@ -943,17 +969,18 @@ p.rec {
     background: #760969;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color:#ffffff;
-    margin:10px;
-    cursor:pointer;
+        color: #ffffff;
+        margin: 10px;
+        cursor: pointer;
 }
-    #next:hover{
-    background-color:#a340bc;
-    text-decoration:underline;
+
+        #next:hover {
+            background-color: #a340bc;
+            text-decoration: underline;
 }
 
 
-    #prev{
+    #prev {
     width: 153px;
     height: 44px;
     font-size: 25px;
@@ -963,21 +990,22 @@ p.rec {
     background: #760969;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color:#ffffff;
-    cursor:pointer;
-}
-    #prev:hover{
-    background-color:#a340bc;
-    text-decoration:underline;
+        color: #ffffff;
+        cursor: pointer;
 }
 
-    /****************Leave A Comment in ReceptPgaes***************************/
-    #labelLeaveCom{
+        #prev:hover {
+            background-color: #a340bc;
+            text-decoration: underline;
+}
+
+/****************Leave A Comment in ReceptPgaes***************************/
+#labelLeaveCom{
     font-size: 35px;
     float:left;
 }
 
-    #Button1 {
+#Button1 {
     float: right;
     width: 100px;
     height: 40px;
@@ -992,21 +1020,21 @@ p.rec {
     cursor:pointer;
     margin:5px;
 }
-    #Button1:hover{
+#Button1:hover{
      background:#04B404;
 }
 
-    #TextArea1 {
+#TextArea1 {
     width: 330px;
 }
 
-    #TxtBoxName{
+#TxtBoxName{
     float:left;
     width:100px;
     margin:0px;
 }
 
-    .commentstyle {
+.commentstyle {
     float: left;
     position: relative;
     background-color: #F6E3CE;
@@ -1019,14 +1047,14 @@ p.rec {
     text-align: left;
 }
 
-    #container {
+#container {
     width:450px;
     height:400px;
     margin-left:10px;
     text-align:left;
 }
 
-    #TextAreaComment{
+#TextAreaComment{
     width:330px;
 }
 
@@ -1044,7 +1072,7 @@ p.rec {
         font-size: 30px;
         width:330px;
         height:35px;
-    }
+}
 
     #omossPargraf{
     font-size:20px;
@@ -1053,10 +1081,10 @@ p.rec {
 
     #chefImg{
     display:none;
-    
+
     }
 
-    /****************************************************************************/
+/****************************************************************************/
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;
@@ -1070,12 +1098,17 @@ p.rec {
         margin-top: 0px;
     }
         /*Värje bilder till mat*/
-    .listItem img {
+        .listItem img {
             width: 100px;
             height: 90px;
             margin-top: 10px;
             float: right;
         }
+
+    #image1 {
+        width: 250px;
+        position: absolute;
+    }
     /*pagecolumn style som jag har för två column i mat sida*/
     .pagecolumn {
         height: 250px;
@@ -1093,7 +1126,7 @@ p.rec {
 
     div.image {
         float: left;
-        margin-left: 40px;
+        margin-left: 20px;
         width: 130px;
         height: 97px;
     }
@@ -1102,8 +1135,10 @@ p.rec {
     div.text2 {
         float: right;
         margin-top: initial;
-        font-size: 12px;
+        font-size: 15px;
         font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-top: 190px;
+        margin-right: 65px;
     }
     /*style till Går så här i Reseptsidor - på gång*/
     div.text3 {
@@ -1117,6 +1152,7 @@ p.rec {
         font-size: medium;
         width: 300px;
         margin-left: -50px;
+        height: 70px;
     }
     /*text i om oss sidan*/
     div.text1 {
@@ -1134,9 +1170,9 @@ p.rec {
     }
     /*button "gör så här" i alla reseptsidor (mat)*/
     #btn-jquery {
-        width: 150px;
+        width: 180px;
         margin-left: 100px;
-        margin-top: 50px;
+        margin-top: 140px;
 }
     /*text under går så här i alla reseptsidor (mat)*/
     #text3 {
@@ -1165,8 +1201,10 @@ p.rec {
     #meny {
         display: none;
     }
-    #angleDown{
-        width: 10px; 
-        float: right
+
+
+    .hidden {
+        display: none;
     }
+
 }

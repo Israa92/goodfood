@@ -8,7 +8,7 @@
         <h3>Frasig senapsströmming med betor, kapris, brynt smör och pepparrot</h3>
 
         <div class="image">
-            <img src="images/2.jpg" alt="bild" style="border-radius: 20px" />
+            <img src="images/2.jpg" alt="bild" id="image1" style="border-radius: 20px" />
         </div>
     </div>
     <div class="text2">
@@ -63,9 +63,9 @@
         <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
     </div>
 
-    <div id="TxtBoxName">
+        <div id="TxtBoxName">
             <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
-    </div>
+        </div>
 
     <div id="TextAreaComment">
         <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
