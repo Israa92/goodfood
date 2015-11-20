@@ -781,7 +781,7 @@ div.image {
         margin-top: 0px;
 }
 
-     /**responsive styling for calander table to Ipad view */
+     /************************************responsive styling for calander table to Ipad view *****************************************/
 .tableContainer {
     
     width:600px;
@@ -1178,6 +1178,58 @@ p.rec {
     #meny {
         display: none;
     }
+
+    /**********************Veckanslunch page styling begins here!************************************/
+
+
+#tableContainer {
+    margin-top:150px;
+    margin-left:auto;   
+    margin-right:auto;
+    width:300px;
+  }
+
+.column {
+    float: left;
+    width: 329px;
+    height: 240px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+#monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
+     float: left;
+     width:100px;
+     height:100px;
+ }
+#mon, #tue, #wen, #thu, #fri, #sat, #sun {
+    background-color: darkgrey;
+    padding-bottom: 0px;
+    padding-top:0px;
+    height:60px;
+    width:60px;
+}
+
+#weekNum {
+    margin-top: 100px;
+    background-color: darkgrey;
+    line-height: 80px;
+    font-family: 'Agency FB';
+    font-size: 50px;
+    font-stretch: extra-expanded;
+    font-weight: bolder;
+    color: white;}
+
+p.lunch {
+    font-family: 'Matura MT Script Capitals';
+    font-size: 25px; 
+} 
+
+p.rec {
+    font-family: 'Comic Sans MS';
+    font-size: medium;
+    font-style: italic;
+}
 
 }
 /**********************Veckanslunch page styling begins here!************************************/

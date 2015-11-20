@@ -5,21 +5,17 @@
 
 <link href="veclunch.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="weather.css" />
-
    <link rel="stylesheet" media="(min-width: 0px)" href="weather-large.css" />
     <script type="text/javascript" src="foodmenu.js"></script>
     <script src="jquery.min.js"></script>
     <script src="app.js"></script>
     
-
     <div class ="tableContainer">
         
-            <div id="weekNum"><h1>Vecka 1</h1>
-                </div>
+            <div id="weekNum"><h1>Vecka 1</h1></div>
             
         <div class ="column">  
             <h1 id ="mon">mon</h1>
-                
         <div id="monImage">
             <img id="monImg" onmouseover="changeImageMo()" onmouseout="changeImageoutMo()"  src="images/ky.png" alt="kycling"/>
         </div>
@@ -31,7 +27,6 @@
         <div class ="column">
             
             <h1 id ="tue">Tue</h1>
-          
         <div id="tueImage">
             <img id="tueImg" onmouseover="changeImageTu()" onmouseout="changeImageoutTu()"  src="images/fru.jpg" alt="kycling"/>
         </div>
@@ -43,7 +38,6 @@
 
         <div class ="column">
             <h1 id ="wen">Wen</h1>
-        
         <div id="wenImage">
             <img id="wenImg" onmouseover="changeImageWe()" onmouseout="changeImageoutWe()" src="images/ind.jpg" alt="kycling"/>
         </div>
@@ -54,7 +48,6 @@
 
         <div class ="column">
             <h1 id ="thu">Thu</h1>
-        
         <div id="thuImage">
             <img id="thuImg" onmouseover="changeImageTh()" onmouseout="changeImageoutTh()" src="images/bur.jpg" alt="kycling"/>
         </div>
@@ -65,7 +58,6 @@
 
         <div class ="column">
             <h1 id ="fri">Fri</h1>
-        
         <div id="friImage">
             <img id="friImg"  onmouseover="changeImageFr()" onmouseout="changeImageoutFr()"src="images/1.jpg" alt="kycling"/>
         </div>
@@ -76,7 +68,6 @@
 
         <div class ="column">
             <h1 id ="sat">Sat</h1>
-        
         <div id="satImage">
             <img id="satImg"  onmouseover="changeImageSa()" onmouseout="changeImageoutSa()"src="images/ky.png" alt="kycling"/>
         </div>
@@ -87,7 +78,6 @@
 
         <div class ="column">
             <h1 id ="sun">Sun</h1>
-        
         <div id="sunImage">
             <img id="sunImg"  onmouseover="changeImageSu()" onmouseout="changeImageoutSu()"src="images/bur.jpg" alt="kycling"/>
         </div>
