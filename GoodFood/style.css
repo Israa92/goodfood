@@ -1175,10 +1175,11 @@ p.rec {
 
 
 .tableContainer {
-    margin-top:90px;
+    margin-top:0px;
     margin-left:auto;   
     margin-right:auto;
     width:339px;
+    height:10px;
   }
 
 .column {
@@ -1190,18 +1191,17 @@ p.rec {
 }
 
 #monImg,#tueImg,#wenImg,#thuImg,#friImg,#satImg,#sunImg {
-     float: left;
+     float:left;
      width:100px;
      height:100px;
  }
-#mon, #tue, #wen, #thu, #fri, #sat, #sun {
-    background-color: darkgrey;
-    padding-bottom: 0px;
-    padding-top:0px;
-    height:60px;
-    width:60px;
-}
-
+    #mon, #tue, #wen, #thu, #fri, #sat, #sun {
+        background-color: darkgrey;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        height: 60px;
+        width: 60px;
+    }
 #weekNum h1 {
     margin-top: 100px;
     background-color: darkgrey;
@@ -1210,9 +1210,7 @@ p.rec {
     font-size: 50px;
     font-stretch: extra-expanded;
     font-weight: bolder;
-    color: white;
-
-    
+    color: white; 
 }
 
 p.lunch {
