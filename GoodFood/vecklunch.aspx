@@ -4,14 +4,19 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     
+    
+
     <div class ="tableContainer">
         
             <div id="weekNum">
                 <h1>Vecka 1</h1>
-            </div>
+                </div>
             
         <div class ="column">  
-            <h1 id ="mon">mon</h1>
+        <h1 id ="mon"> mon</>
+            </h1>
+            
+                
         <div id="monImage">
             <img id="monImg" onmouseover="changeImageMo()" onmouseout="changeImageoutMo()"  src="images/ky.png" alt="kycling"/>
         </div>

@@ -1166,7 +1166,7 @@ p.rec {
 /**********************Veckanslunch page styling begins here!************************************/
 
 
-#tableContainer {
+.tableContainer {
     
     
     margin-top:150px;
@@ -1195,13 +1195,11 @@ p.rec {
  }
 #mon, #tue, #wen, #thu, #fri, #sat, #sun {
     background-color: darkgrey;
-    height:80px;
-    
-
+    height: 80px;
     
 }
 
-#weekNum {
+#weekNum h1 {
     margin-top: 100px;
     background-color: darkgrey;
     line-height: 80px;
