@@ -7,7 +7,6 @@ body {
     background-position: center center;
     background-attachment: fixed;
     text-align: center;
-
 }
 
 /*logotypen*/
@@ -43,11 +42,11 @@ body {
     float: left;
     width: 157px;
     padding: 3px 7px 3px 7px;
-    margin:15px;
+    margin: 15px;
     margin-top: 30px;
     margin-bottom: 20px;
     margin-left: 0 auto;
-    margin-right:0 auto;
+    margin-right: 0 auto;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 23px;
@@ -59,17 +58,18 @@ body {
     text-transform: uppercase;
 }
 
-#loggain{
-    background-color:#760969;
+#loggain {
+    background-color: #760969;
 }
+
 #meny a:link, #meny a:visited {
     color: rgba(255,255,255,1);
     text-decoration: none;
 }
 
-#meny a:hover{
-    background:#ffffff;
-    color:#7ac743;
+#meny a:hover {
+    background: #ffffff;
+    color: #7ac743;
     border: 1px solid #ffffff;
 }
 
@@ -182,8 +182,9 @@ body {
     margin: 10px;
     cursor: pointer;
 }
-#next:hover{
-    background-color:#a340bc;
+
+    #next:hover {
+        background-color: #a340bc;
 }
 
 
@@ -200,8 +201,9 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
-#prev:hover{
-    background-color:#a340bc;
+
+    #prev:hover {
+        background-color: #a340bc;
 }
 /*******************  Footer  ***********************************/
 /*bottom text*/
@@ -232,8 +234,7 @@ h2 {
 .listItem {
     width: 550px;
     float: left;
-    min-height: 100px;
-    overflow: hidden;
+    margin-bottom: 30px;
     margin-top: 0px;
     font-size: 23px;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -242,9 +243,9 @@ h2 {
     /*Style till bilder som är i listContainer*/
     .listItem img {
         width: 300px;
-        margin-top: 30px;
         height: 200px;
     }
+
 
 .hover {
     outline-style: double;
@@ -332,36 +333,36 @@ div.image {
 
 /****************** Om Oss Page***************************************/
 /*Style till om oss text*/
-#omossCont{
-    width:1200px;
-    text-align:left;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:150px;
+#omossCont {
+    width: 1200px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
 }
 
-#omossRubrik{
-    font-size:50px;
-    color:#FF8000;
-    background-color:#F5D0A9;
+#omossRubrik {
+    font-size: 50px;
+    color: #FF8000;
+    background-color: #F5D0A9;
     border-radius: 10px;
     border: 1px solid #FF8000;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
 }
 
-#omossPargraf{
-    font-size:35px;
-    color:#3B240B;
-    color:#ff8000;
-    background-color:rgba(245, 208, 169, 0.35);
+#omossPargraf {
+    font-size: 35px;
+    color: #3B240B;
+    color: #ff8000;
+    background-color: rgba(245, 208, 169, 0.35);
     border-radius: 10px;
 }
 
-#chefImg{
-    width:200px;
-    height:300px;
-    margin-right:40px;
-    float:right;
+#chefImg {
+    width: 200px;
+    height: 300px;
+    margin-right: 40px;
+    float: right;
     border-radius: 10px;
     border: 4px solid #FF8000;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
@@ -445,6 +446,7 @@ div.image {
     color: #ffffff;
     font-size: 20px;
     font-family: cursive;
+    display: none;
 }
 
 .welcomMsg {
@@ -463,7 +465,7 @@ div.image {
     color: rgba(66,48,1,1);
     font-size: 57px;
     font-family: cursive;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 #Button1 {
@@ -480,6 +482,11 @@ div.image {
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
     cursor: pointer;
     margin: 5px;
+}
+
+#ContentPlaceHolder1_TextBox1 {
+    float: left;
+    margin-bottom: 10px;
 }
 
     #Button1:hover {
@@ -522,7 +529,7 @@ div.image {
 #container {
     width: 450px;
     height: 400px;
-    margin-left: 20px;
+    margin-left: 70px;
 }
 
 .dropdown {
@@ -549,30 +556,22 @@ div.image {
 
 
 .tableContainer {
-    
-    
-    margin-top:250px;
-    margin-left:10px;   
-    margin-right:10px;
-
+    margin-top: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
 .column {
-    float:left;
-    width:180px;
-    height:600px;
+    float: left;
+    width: 180px;
+    height: 600px;
     border: 0px solid black;
-     
-
-    
 }
 
 .tableContainer img {
-      
-      margin-left:25px;
-     
+    margin-left: 25px;
      float: left;
-     width:75%;     
+    width: 75%;
  }
 
 .tableContainer h2{
@@ -580,24 +579,21 @@ div.image {
     height: 80px;
     margin-left: 2px;
     width: auto;
-    border:3px solid #73AD21;
+    border: 3px solid #73AD21;
     padding: 10px;
 }
 
 #weekNum h1 {
     margin-top: 100px;
-    margin-bottom:-15px;
+    margin-bottom: -15px;
     background-color: peru;
-   
     line-height: 80px;
     font-family: 'Agency FB';
     font-size: 50px;
     font-stretch: extra-expanded;
     font-weight: bolder;
     color: white;
-    width:97%
-
-    
+    width: 97%;
 }
 
 p.lunch {
@@ -615,14 +611,14 @@ p.rec {
 
     #content {
         width: 700px;
+        height: 1600px;
     }
 
     #logo img {
         width: 170px;
         height: 160px;
         margin-left: auto;
-        margin-right:auto;
-        
+        margin-right: auto;
     }
 
     #meny div a {
@@ -654,82 +650,87 @@ p.rec {
 
     /****************** Om Oss Page***************************************/
     /*Style till om oss text*/
-    #omossCont{
-    width:673px;
-    text-align:left;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:350px;
+    #omossCont {
+        width: 673px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 350px;
     }
 
     #omossRubrik {
         font-size: 40px;
-        width:673px;
-        height:45px;
+        width: 673px;
+        height: 45px;
     }
 
-    #omossPargraf{
-    font-size:30px;
+    #omossPargraf {
+        font-size: 30px;
     }
 
-    #chefImg{
-    display:none;
+    #chefImg {
+        display: none;
     }
 
     /**********All Articles in homepage************/
 
-.articelContainer{
-    width:600px;
-    height:550px;
-    margin:50px;
-    margin-top:780px;
-    text-align:center;
+    .articelContainer {
+        width: 600px;
+        height: 550px;
+        margin: 50px;
+        margin-top: 780px;
+        text-align: center;
 }
-.articelContainer h1{
-    font-size:20px;
-    width:550px;
     
-}
-.articelContainer img{
-    width:250px;
-    height:250px;
-    margin:0 auto;
-    margin-top:0px;
-    float:none;
-}
-.articelContainer p{
-    font-size:20px;
-    width:500px;
+        .articelContainer h1 {
+            font-size: 20px;
+            width: 550px;
 }
 
-#article1{
-    float:left;
-    text-align:center;
-    margin-left:50px;
-}
-#article2{
-    float:left;
-    text-align:center;
-    margin-left:50px;
-}
-#article3{
-    float:left;
-    text-align:center;
-    margin-left:50px;
-}
-#article4{
-    float:left;
-    text-align:center;
-    margin-left:50px;
+        .articelContainer img {
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+            margin-top: 0px;
+            float: none;
 }
 
-#next{
+        .articelContainer p {
+            font-size: 20px;
+            width: 500px;
+}
+
+    #article1 {
+        float: left;
+        text-align: center;
+        margin-left: 50px;
+}
+
+    #article2 {
+        float: left;
+        text-align: center;
+        margin-left: 50px;
+}
+
+    #article3 {
+        float: left;
+        text-align: center;
+        margin-left: 50px;
+}
+
+    #article4 {
+        float: left;
+        text-align: center;
+        margin-left: 50px;
+}
+
+    #next {
     width: 70px;
     height: 40px;
     font-size: 20px;
 }
 
-#prev{
+    #prev {
     width: 130px;
     height: 40px;
     font-size: 20px;
@@ -759,15 +760,15 @@ p.rec {
     .listItem {
         width: 300px;
         font-size: 18px;
-        margin-top: 0 auto;
         float: right;
+        padding-bottom: 20px;
     }
         /*Värje bilder till mat*/
         .listItem img {
             width: 150px;
             height: 110px;
             margin-left: 10px;
-            margin-top: 10px;
+            margin-top: 0px;
         }
     /*pagecolumn style som jag har för två column i mat sida*/
     .pagecolumn {
@@ -844,16 +845,28 @@ p.rec {
         margin-top: 0px;
 }
 
+    #loginContainer {
+        margin-top: 400px;
 }
 
-/**************Mobil anpassad****************/
+    #labelLeaveCom {
+        margin-top: 10px;
+    }
+
+    #container {
+        margin-left: 40px;
+    }
+}
+
+    /****************************Mobil anpassad**********************************/
 @media screen and (max-width: 414px) {
     #content {
         width: 355px;
         border: 6px solid;
         border-color: rgba(54, 163, 46, 0.83);
         box-shadow: 0 1px 2px rgba(54, 163, 46, 0.83);
-        margin-top:40px;
+            margin-top: 40px;
+            height: 1600px;
     }
 
     #logo {
@@ -879,11 +892,11 @@ p.rec {
     }
 
     /*text in the defult page*/
-   #text p{
+        #text p {
     width: 340px;
-    height:126px;
+            height: 126px;
     font-size: 22px;
-    margin-left:4px;
+            margin-left: 4px;
     }
 
     /*pic of the veckanslunch in defult*/
@@ -894,42 +907,48 @@ p.rec {
     }
 
     /*******Article in homepage**************/
-.articelContainer{
-    width:300px;
-    height:650px;
-    margin:0 auto;
-    margin-top:450px;
-}
-.articelContainer h1{
-    font-size:20px;
-    width:295px;
-}
-.articelContainer img{
-    float:left;
-    width:245px;
-    height:245px;
-    margin:0 auto;
-    margin-top:10px;
-    margin-left:15px;
-}
-.articelContainer p{
-    float:left;
-    font-size:18px;
-    width:285px;
-    margin:0 auto;
+        .articelContainer {
+            width: 300px;
+            height: 650px;
+            margin: 0 auto;
+            margin-top: 450px;
 }
 
-#article1{
-    margin-left:10px;
+            .articelContainer h1 {
+                font-size: 20px;
+                width: 295px;
 }
-#article2{
-    margin-left:10px;
+
+            .articelContainer img {
+                float: left;
+                width: 245px;
+                height: 245px;
+                margin: 0 auto;
+                margin-top: 10px;
+                margin-left: 15px;
 }
-#article3{
-    margin-left:10px;
+
+            .articelContainer p {
+                float: left;
+                font-size: 18px;
+                width: 285px;
+                margin: 0 auto;
 }
-#article4{
-    margin-left:10px;
+
+        #article1 {
+            margin-left: 10px;
+}
+
+        #article2 {
+            margin-left: 10px;
+}
+
+        #article3 {
+            margin-left: 10px;
+}
+
+        #article4 {
+            margin-left: 10px;
 }
 
     #next {
@@ -972,10 +991,72 @@ p.rec {
             text-decoration: underline;
 }
 
-/****************Leave A Comment in ReceptPgaes***************************/
-#labelLeaveCom{
+        /*******Loggin sidan*********************/
+
+        #BoxNamePass {
+            float: left;
+            margin-left: 0px;
+            width: 170px;
+        }
+
+        .nameBox {
+            width: 130px;
+            float: left;
+            height: 20px;
+        }
+
+        .passBox {
+            width: 150px;
+            float: left;
+            height: 20px;
+        }
+
+        .labelNamn {
+            font-size: 17px;
+            float: left;
+            margin-bottom: 10px;
+        }
+
+        .labelPass {
+            font-size: 17px;
+            float: left;
+            margin-top: 4px;
+        }
+
+        #labelNamePass {
+            width: 120px;
+        }
+
+        #loginContainer {
+            width: 320px;
+            margin-top: 250px;
+        }
+
+        #logincont {
+            width: 350px;
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+
+        .ButtonLogin {
+            width: 100px;
+            font-size: 20px;
+            height: 35px;
+        }
+
+        .lblmsg {
+            display: none;
+        }
+
+        /*****Leave A Comment in ReceptPgaes********/
+        #labelLeaveCom {
     font-size: 35px;
-    float:left;
+            margin-top: 10px;
+            margin-left: 35px;
+        }
+
+        #ContentPlaceHolder1_TextBox1 {
+            margin-top: 10px;
 }
 
 #Button1 {
@@ -985,26 +1066,29 @@ p.rec {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 23px;
-    color:#ffffff;
+            color: #ffffff;
     border-radius: 10px;
     border: 1px solid rgba(105,181,50,1);
     background: rgba(122,199,67,1);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-    cursor:pointer;
-    margin:5px;
+            cursor: pointer;
+            margin: 5px;
+            margin-right: 20px;
 }
-#Button1:hover{
-     background:#04B404;
+
+            #Button1:hover {
+                background: #04B404;
 }
 
 #TextArea1 {
-    width: 330px;
+            width: 280px;
+            margin-left: 30px;
 }
 
-#TxtBoxName{
-    float:left;
-    width:100px;
-    margin:0px;
+        #TxtBoxName {
+            float: left;
+            width: 100px;
+            margin: 0px;
 }
 
 .commentstyle {
@@ -1021,43 +1105,41 @@ p.rec {
 }
 
 #container {
-    width:450px;
-    height:400px;
-    margin-left:10px;
-    text-align:left;
+            width: 450px;
+            height: 400px;
+            margin-left: 10px;
+            text-align: left;
 }
 
-#TextAreaComment{
-    width:330px;
+        #TextAreaComment {
+            width: 330px;
 }
 
     /****************** Om Oss Page***************************************/
     /*Style till om oss text*/
-    #omossCont{
-    width:330px;
-    text-align:left;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:20px;
+        #omossCont {
+            width: 330px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
     }
 
     #omossRubrik {
         font-size: 30px;
-        width:330px;
-        height:35px;
+            width: 330px;
+            height: 35px;
 }
 
-    #omossPargraf{
-    font-size:20px;
-    
+        #omossPargraf {
+            font-size: 20px;
 }
 
-    #chefImg{
-    display:none;
-
+        #chefImg {
+            display: none;
     }
 
-/****************************************************************************/
+        /***************mat sidor***************/
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;
@@ -1074,7 +1156,6 @@ p.rec {
         .listItem img {
             width: 100px;
             height: 90px;
-            margin-top: 10px;
             float: right;
         }
 
@@ -1175,7 +1256,7 @@ p.rec {
         display: none;
     }
 
-    /**********************Veckanslunch page styling begins here!************************************/
+        /*******Veckanslunch page styling begins here************/
 
 
 .tableContainer {
@@ -1203,6 +1284,7 @@ p.rec {
      width:250px;
      height:300px;
      align-items: center;
+        }
          
  }
 .tableContainer h2{
@@ -1251,9 +1333,6 @@ p.rec {
     font-size: 20px;
     font-style: normal;
 }
-    
 }
-
-
 
 
