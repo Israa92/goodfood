@@ -66,9 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Aptitretare.aspx" />
     <Content Include="foodmenu.js" />
     <Content Include="CreateElementDiv.js" />
     <Content Include="images\7.jpg" />
+    <Content Include="images\apti1.jpg" />
+    <Content Include="images\apti2.jpg" />
+    <Content Include="images\apti3.jpg" />
+    <Content Include="images\apti4.jpg" />
     <Content Include="images\bur.jpg" />
     <Content Include="images\chef-food.jpg" />
     <Content Include="images\ChickenArtikel2.jpg" />
@@ -87,6 +92,10 @@
     <Content Include="mat.aspx" />
     <Content Include="Omoss.aspx" />
     <Content Include="packages.config" />
+    <Content Include="recept1.aspx" />
+    <Content Include="recept2.aspx" />
+    <Content Include="recept3.aspx" />
+    <Content Include="recept4.aspx" />
     <Content Include="ReceptSidan1.aspx" />
     <Content Include="ReceptSidan2.aspx" />
     <Content Include="ReceptSidan3.aspx" />
@@ -119,6 +128,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aptitretare.aspx.cs">
+      <DependentUpon>Aptitretare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aptitretare.aspx.designer.cs">
+      <DependentUpon>Aptitretare.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -151,6 +167,34 @@
       <DependentUpon>Omoss.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recept1.aspx.cs">
+      <DependentUpon>recept1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recept1.aspx.designer.cs">
+      <DependentUpon>recept1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recept2.aspx.cs">
+      <DependentUpon>recept2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recept2.aspx.designer.cs">
+      <DependentUpon>recept2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recept3.aspx.cs">
+      <DependentUpon>recept3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recept3.aspx.designer.cs">
+      <DependentUpon>recept3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recept4.aspx.cs">
+      <DependentUpon>recept4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recept4.aspx.designer.cs">
+      <DependentUpon>recept4.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ReceptSidan1.aspx.cs">
       <DependentUpon>ReceptSidan1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -19,7 +19,7 @@
 
         <div id="logo">
             <a href="default.aspx" title="Homepage" id="logo.jpg">
-                <img src="images/logo.jpg" alt="Good Food logo" />
+            <img src="images/logo.jpg" alt="Good Food logo" />
             </a>
         </div>
 

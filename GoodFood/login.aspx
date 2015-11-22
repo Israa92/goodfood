@@ -23,12 +23,12 @@
         </div>
 
         <asp:Button CssClass="ButtonLogin" ID="ButtonLogin" runat="server" Text="Logga in" OnClientClick="ButtonLogin_Click();" />
-        <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server" Text="Label">Note:</asp:Label>
+        <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server"></asp:Label>
 
     </div>
     <script>
         function ButtonLogin_Click() {
-            var x = document.getElementsByClassName("nameBox", "passBox")[2].value
+            var x = document.getElementsByClassName("nameBox", "passBox")[0].value
             if (x == null || x == "") {
 
                 alert("You should enter your Username and Password");
@@ -45,6 +45,7 @@
 
                 alert("You should enter your Password");
             }
+            
         }
 
     </script>
