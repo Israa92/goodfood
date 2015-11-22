@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div id="omossCont">
+    <%--<div id="omossCont">--%>
         <h1 id="omossRubrik">
             Om oss
         </h1>
@@ -40,9 +40,7 @@
              lectus in sed aliquam.
         </p>
 
-        
-       
-            </div>
+    <%--</div>--%>
     
     
 
