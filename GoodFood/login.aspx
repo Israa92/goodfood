@@ -28,7 +28,7 @@
     </div>
     <script>
         function ButtonLogin_Click() {
-            var x = document.getElementsByClassName("nameBox", "passBox")[2].value
+            var x = document.getElementsByClassName("nameBox", "passBox")[0].value
             if (x == null || x == "") {
 
                 alert("You should enter your Username and Password");
