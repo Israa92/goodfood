@@ -13,7 +13,7 @@
                 </div>
             
         <div class ="column">  
-        <h2 id ="mon"> mon</>
+        <h2 id ="mon">Mån</>
             </h2>
             <img id="monImg" onmouseover="changeImageMo()" onmouseout="changeImageoutMo()"  src="images/ky.png" alt="kycling"/>
        
@@ -23,7 +23,7 @@
 
         <div class ="column">
             
-            <h2 id ="tue">Tue</h2>
+            <h2 id ="tue">Tis</h2>
         
             <img id="tueImg" onmouseover="changeImageTu()" onmouseout="changeImageoutTu()"  src="images/fru.jpg" alt="kycling"/>
         
@@ -33,34 +33,34 @@
 
 
         <div class ="column">
-            <h2 id ="wen">Wen</h2>
+            <h2 id ="wen">Ons</h2>
         
             <img id="wenImg" onmouseover="changeImageWe()" onmouseout="changeImageoutWe()" src="images/ind.jpg" alt="kycling"/>
        
-            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+            <p class="lunch">Indiska Mat</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
         </div>
             
 
         <div class ="column">
-            <h2 id ="thu">Thu</h2>
+            <h2 id ="thu">Tor</h2>
         
             <img id="thuImg" onmouseover="changeImageTh()" onmouseout="changeImageoutTh()" src="images/bur.jpg" alt="kycling"/>
         
-            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+            <p class="lunch">Burger</p><p class="rec">(köt cury, moroter,gurka, spenat)</p>
         </div>
            
 
         <div class ="column">
-            <h2 id ="fri">Fri</h2>
+            <h2 id ="fri">Fra</h2>
        
             <img id="friImg"  onmouseover="changeImageFr()" onmouseout="changeImageoutFr()"src="images/1.jpg" alt="kycling"/>
        
-            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+            <p class="lunch">Ris med Kycling</p><p class="rec">( kyk, ris, cury, moroter,gurka, spenat)</p>
         </div>
            
 
         <div class ="column">
-            <h2 id ="sat">Sat</h2>
+            <h2 id ="sat">Lor</h2>
        
             <img id="satImg"  onmouseover="changeImageSa()" onmouseout="changeImageoutSa()"src="images/ky.png" alt="kycling"/>
         
@@ -69,11 +69,11 @@
             
 
         <div class ="column">
-            <h2 id ="sun">Sun</h2>
+            <h2 id ="sun">Son</h2>
        
             <img id="sunImg"  onmouseover="changeImageSu()" onmouseout="changeImageoutSu()"src="images/bur.jpg" alt="kycling"/>
         
-            <p class="lunch">Veg med kyckling</p><p class="rec">(ris, kyk, cury, moroter,gurka, spenat)</p>
+            <p class="lunch">Indiska Mat</p><p class="rec">(onion, kyk, cury, moroter,gurka, spenat)</p>
         </div>
            
     </div>

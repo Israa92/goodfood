@@ -90,25 +90,25 @@ $(document).ready(function () {
         $("#mon").text("Vegis day!!!!!");
     });
     $("#mon").mouseleave(function () {
-        $("#mon").text("Mon");
+        $("#mon").text("Mån");
     });
     $("#tue").mouseenter(function () {
         $("#tue").text("Spice day!!!!!");
     });
     $("#tue").mouseleave(function () {
-        $("#tue").text("Tue");
+        $("#tue").text("Tis");
     });
     $("#wen").mouseenter(function () {
         $("#wen").text("Stake day!!!!!!");
     });
     $("#wen").mouseleave(function () {
-        $("#wen").text("Wen");
+        $("#wen").text("Ons");
     });
     $("#thu").mouseenter(function () {
         $("#thu").text("Burger day!!!");
     });
     $("#thu").mouseleave(function () {
-        $("#thu").text("Thu");
+        $("#thu").text("Tor");
     });
 
     $("#fri").mouseenter(function () {
@@ -121,14 +121,14 @@ $(document).ready(function () {
         $("#sat").text("spices day!!!!!!");
     });
     $("#sat").mouseleave(function () {
-        $("#sat").text("Sat");
+        $("#sat").text("Lor");
     });
     $("#sun").mouseenter(function () {
         $("#sun").text("Vegis day!!!!!");
 
     });
     $("#sun").mouseleave(function () {
-        $("#sun").text("Sun");
+        $("#sun").text("Son");
     });
 
 });
