@@ -879,6 +879,61 @@ p.rec {
         margin-left: -23px;
     }
 
+    /*****aptitretare*/
+    
+    /*change in margin-top*/
+    .message {
+        font-size: large;
+        text-align: justify;
+        margin-left: 100px;
+        overflow: hidden;
+        margin-right: 100px;
+        margin-top: -20px;
+    }
+    /*changes in height*/
+    .ax img {
+        margin-left: 230px;
+        width: 250px;
+        height: 230px;
+        margin-top: 30px;
+    }
+    /*apti1 img in aptitretare sidan*/
+    #recepet1 {
+        margin-top: 10px;
+    }
+    /*apti2 img in aptitretare sidan*/
+    #recept2 {
+        margin-top: 10px;
+    }
+    /*apti3 img in aptitretare sidan*/
+    #recept3 {
+        float: left;
+    }
+    /*apti4 img in aptitretare sidan*/
+    #recept4 {
+        float: left;
+    }
+    /*list of the name of the foods in receptsidor*/
+    h4 {
+        margin-left: 0px;
+    }
+    /*apti2 receptsidan 2*/
+    #artikel {
+        width: 250px;
+        height: 170px;
+        border-radius: 20px;
+        margin-left: 240px;
+        margin-top: 0px;
+    }
+    /*apti4 receptsidan 4*/
+    #artikel2 {
+        width: 250px;
+        height: 170px;
+        border-radius: 20px;
+        margin-left: 240px;
+        margin-top: 0px;
+    }
+
     /*style till texarea*/
     #aboutDescription {
         width: 600px;
@@ -1281,6 +1336,49 @@ p.rec {
     /*text i om oss sidan*/
     div.text1 {
         width: 246px;
+    }
+
+    
+    /***********style till Aptiretare och receptsidor 1,2,3,4******************/
+    /*text i receptsidor*/
+    .message {
+        text-align: justify;
+        width: 300px;
+        margin-left: 20px;
+        font-size: smaller;
+    }
+    /***img style in receptsidor***/
+    .ax img {
+        width: 150px;
+        height: 120px;
+        margin-left: 90px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    /***img apti3 style i aptitretare sidan***/
+    #recept3 {
+        margin-left: 50px;
+    }
+    /**img apti4 style i aptitretare sidan****/
+    #recept4 {
+        margin-left: 50px;
+    }
+    /**style till img apti2 in receptsidan2******/
+    #artikel {
+        width: 150px;
+        height: 120px;
+        border-radius: 20px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    /**style till img apti4 in receptisidan4******/
+    #artikel2 {
+        width: 150px;
+        height: 120px;
+        border-radius: 20px;
+        margin-left: 90px;
+        margin-top: 0px;
+        margin-top: 20px;
     }
     /*texarea i om oss sidan*/
     #aboutDescription {
