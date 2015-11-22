@@ -28,7 +28,7 @@ function changeImageveckans() {
         document.getElementById("veckanslunchChange").src = "images/veckanslunch.jpg";
     }
 
-    //iQuery for articles in homepage start here
+    //jQuery for articles in homepage start here
 
     $(document).ready(function () {
         $("#article2").hide();
@@ -55,32 +55,34 @@ function changeImageveckans() {
             $("#article1").fadeIn(1500);
         });
 
-
+        //next and prev buttons in homepage
         $(".articelContainer div").each(function (e) {
             if (e != 0)
                 $(this).hide();
         });
 
+        
         $("#next").click(function () {
             if ($(".articelContainer div:visible").next().length != 0)
-                $(".articelContainer div:visible").next().fadeIn(1500).show().prev().hide();
+                $(".articelContainer div:visible").next().slideDown(2000).show().prev().hide();
             else {
                 $(".articelContainer div:visible").hide();
-                $(".articelContainer div:first").fadeIn(1500).show();
+                $(".articelContainer div:first").slideDown(2000).show();
             }
             return false;
         });
 
         $("#prev").click(function () {
             if ($(".articelContainer div:visible").prev().length != 0)
-                $(".articelContainer div:visible").prev().fadeIn(1500).show().next().hide();
+                $(".articelContainer div:visible").prev().slideDown(2000).show().next().hide();
             else {
                 $(".articelContainer div:visible").hide();
-                $(".articelContainer div:last").fadeIn(1500).show();
+                $(".articelContainer div:last").slideDown(2000).show();
             }
             return false;
         });
-
+        
+        //login button in homepage style
         $("#loggain").css("background-color", "#760969").css("float", "right");
 
         $("#loggain").mouseover(function () {
@@ -91,5 +93,5 @@ function changeImageveckans() {
             $("#loggain").css("background-color", "#760969").css("color", "#ffffff").css("border", "#ffffff")
         });
 
-
+        
     });
