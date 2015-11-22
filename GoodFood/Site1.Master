@@ -5,13 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <script src="jquery-2.1.4.min.js"></script>
-        <script src="JavaScript1.js"></script>
-        <script src="CreateElementDiv.js"></script>
-        <script src="foodmenu.js"></script>
-        <script src="Script/jquery-2.1.4.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="CreateElementDiv.js"></script>
+    <script src="foodmenu.js"></script>
+    <script src="Script/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -22,7 +21,7 @@
 
         <div id="logo">
             <a href="default.aspx" title="Homepage" id="logo.jpg">
-            <img src="images/logo.jpg" alt="Good Food logo" />
+                <img src="images/logo.jpg" alt="Good Food logo" />
             </a>
         </div>
 
@@ -32,7 +31,7 @@
                 <button type="button" id="dropdownMenu1" data-toggle="dropdown">
                     Show Menu 
                     <i class="fa fa-angle-down" id="angleDown"></i>
-                    <i class="fa fa-angle-up" style="display:none"></i>
+                    <i class="fa fa-angle-up" style="display: none"></i>
                 </button>
             </div>
 
@@ -51,7 +50,7 @@
                 <div><a href="Aptitretare.aspx" title="Aptitretare">Aptitretare</a></div>
                 <div><a href="Efterrätt.aspx" title="Efterrätt">Efterrätt</a></div>
                 <div><a href="omoss.aspx" title="Om oss">Om oss</a></div>
-                <div id="loggain" ><a href="login.aspx" title="Logga in">Logga in</a></div>
+                <div id="loggain"><a href="login.aspx" title="Logga in">Logga in</a></div>
             </nav>
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

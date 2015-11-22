@@ -322,6 +322,76 @@ div.image {
     border:solid;
     border-color:rgba(105,181,50,1);
 }
+/***********Aptitretare style och receptsidor****************************/
+
+.ax img {
+    width: 300px;
+    height: 280px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -280px;
+}
+/**style till text i receptsidor1,2,3,4******/
+.message {
+    font-size: x-large;
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/***style till img apti2 in receptsidan2********/
+#artikel {
+    width: 300px;
+    height: 280px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -380px;
+}
+    /**style till img apti4 in receptisidan4******/
+#artikel2 {
+    width: 300px;
+    height: 280px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -200px;
+}
+/***img apti1 style i aptitretare sidan***/
+#recept1 {
+    margin-top: 0px;
+}
+/***img apti2 style i aptitretare sidan***/
+#recept2 {
+    margin-top: 10px;
+}
+/***img apti3 style i aptitretare sidan***/
+#recept3 {
+    margin-top: 0px;
+}
+/***img apti4 style i aptitretare sidan***/
+#recept4 {
+    margin-top: 10px;
+}
+.text3 {
+    text-align: left;
+    font-size: large;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 80px;
+    float: left;
+}
+
+
+/**title till varje mat i receptsidor 1,2,3,4*****/
+h4 {
+    font-size: x-large;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: 270px;
+}
 
 /****************** Om Oss Page***************************************/
 /*Style till om oss text*/
