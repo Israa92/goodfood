@@ -1439,6 +1439,9 @@ p.rec {
         margin-top: 0px;
         margin-top: 20px;
     }
+#h2title{
+    margin-left:70px;
+}
     /*texarea i om oss sidan*/
     #aboutDescription {
         width: 300px;
