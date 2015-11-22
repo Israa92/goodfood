@@ -528,14 +528,37 @@ h4 {
     /*display: none;*/
 }
 
-.welcomMsg {
-    float: right;
-    text-align: center;
-    color: coral;
+/*************welcome page************************/
+#welcome{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:150px;
+    border: 5px solid #c58445;
+    border-radius:10px;
+    text-align:center;
+    width:400px;
+    height:200px;
 }
 
-.successMsg {
-    color: aliceblue;
+#welcomMsg {
+    color:#ffffff;
+    font-size:45px;
+    background-color:peru;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    text-transform:uppercase;
+    border-radius:10px;
+}
+
+#successMsg {
+    color:#ffffff;
+    font-size:30px;
+    background-color:rgba(205, 133, 63, 0.56);
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
 }
 
 /********Leave A Comment in ReceptPgaes*************/
@@ -935,6 +958,10 @@ p.rec {
     #container {
         margin-left: 40px;
     }
+
+    #welcome{
+    margin-top:400px;
+}
 }
 
     /****************************Mobil anpassad**********************************/
@@ -1085,7 +1112,7 @@ p.rec {
         }
 
         .passBox {
-            width: 150px;
+            width: 130px;
             float: left;
             height: 20px;
         }
@@ -1412,6 +1439,21 @@ p.rec {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 20px;
     font-style: normal;
+}
+
+#welcome{
+    margin-top:150px;
+    width:330px;
+    height:240px;
+}
+
+#welcomMsg {
+    width:300px;
+}
+
+#successMsg {
+    width:250px;
+    border-radius:10px;
 }
 }
 
