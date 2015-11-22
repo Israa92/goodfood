@@ -446,7 +446,7 @@ div.image {
     color: #ffffff;
     font-size: 20px;
     font-family: cursive;
-    display: none;
+    /*display: none;*/
 }
 
 .welcomMsg {
@@ -1286,7 +1286,7 @@ p.rec {
      align-items: center;
         }
          
- }
+ 
 .tableContainer h2{
     background-color:rgb(205, 133, 63);
     height: 45px;

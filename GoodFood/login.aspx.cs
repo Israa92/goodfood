@@ -11,7 +11,7 @@ namespace GoodFood
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ButtonLogin.Click += ButtonLogin_Click;
         }
 
         protected void ButtonLogin_Click(object sender, EventArgs e)
@@ -24,7 +24,7 @@ namespace GoodFood
 
             else
             {
-                lblmsg.Text = ("du har fyllt i fel löseornd eller användarnamn");
+                lblmsg.Text = ("du har fyllt i fel lösenornd eller användarnamn");
             }
         }
 

@@ -23,7 +23,7 @@
         </div>
 
         <asp:Button CssClass="ButtonLogin" ID="ButtonLogin" runat="server" Text="Logga in" OnClientClick="ButtonLogin_Click();" />
-        <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server" Text="Label">Note:</asp:Label>
+        <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server"></asp:Label>
 
     </div>
     <script>
@@ -45,6 +45,7 @@
 
                 alert("You should enter your Password");
             }
+            
         }
 
     </script>
