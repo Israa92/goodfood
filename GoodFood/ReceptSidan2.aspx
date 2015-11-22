@@ -8,7 +8,7 @@
         <h3>Frasig senapsströmming med betor, kapris, brynt smör och pepparrot</h3>
 
         <div class="image">
-            <img src="images/2.jpg" alt="bild" style="border-radius: 20px" />
+            <img src="images/2.jpg" alt="bild" id="image1" style="border-radius: 20px" />
         </div>
     </div>
     <div class="text2">
@@ -32,7 +32,12 @@
 
         </ul>
     </div>
-    <button type="button" id="btn-jquery">Gör så här </button>
+    <button type="button" id="btn-jquery">
+                <span id="btn-jquery-label">Recept</span>
+        <i class="fa fa-angle-down pull-right" id="PageRecipeAngleDown" style="margin-top:5px"></i>
+        <i class="fa fa-angle-up pull-right hidden" id="PageRecipeAngleUp" style="margin-top:5px"></i>
+    </button>
+
     <div id="text3">
         <ol>
             <li>Blanda samtliga ingredienser till marinaden och smaka av med salt.</li>
@@ -46,14 +51,21 @@
         </ol>
     </div>
     <script>
-        $("button").click(function () {
+
+
+        $("#btn-jquery").click(function () {
+
             if ($("#text3").is(":hidden") == true) {
-                $("#text3").fadeIn(500);
+                $("#text3").slideDown(500);
+                document.getElementById("btn-jquery-label").innerHTML = 'Gör så här';
             }
             else {
-                $("#text3").fadeOut(500);
+                $("#text3").slideUp(500);
+                document.getElementById("btn-jquery-label").innerHTML = 'Recept';
             }
 
+            $("#PageRecipeAngleDown").toggleClass("hidden");
+            $("#PageRecipeAngleUp").toggleClass("hidden");
         });
     </script>
 
@@ -63,9 +75,9 @@
         <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
     </div>
 
-    <div id="TxtBoxName">
+        <div id="TxtBoxName">
             <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
-    </div>
+        </div>
 
     <div id="TextAreaComment">
         <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>

@@ -18,24 +18,26 @@
             </a>
 
         </div>
-            <script>
-                $(document).ready(function () {
-                    $("#img1-jquery , #img2-jquery, #img3-jquery, #img4-jquery").hover(function () {
-                        $(this).addClass("hover");
-                    }, function () {
-                        $(this).removeClass("hover");
-                    }
-                   );
+        <script>
+            $(document).ready(function () {
+                $("#img1-jquery , #img2-jquery, #img3-jquery, #img4-jquery").hover(function () {
+                    $(this).addClass("hover");
+                }, function () {
+                    $(this).removeClass("hover");
+                }
 
-                });
-    </script>
+               );
+
+            });
+
+        </script>
         <div class="listItem">
             Frasig senapsströmming med betor, kapris, brynt smör och pepparrot
 
         </div>
         <div class="listItem">
             <a href="ReceptSidan2.aspx" class="Go to new page" id="ReceptSidan3">
-                <img src="images/2.jpg" alt="bild" id="img2-jquery"style="border-radius: 20px" />
+                <img src="images/2.jpg" alt="bild" id="img2-jquery" style="border-radius: 20px" />
             </a>
 
         </div>
@@ -48,7 +50,7 @@
         <div class="listItem">
 
             <a href="ReceptSidan3.aspx" class="Go to new page">
-                <img src="images/3.jpg" alt="bild" id="img3-jquery"style="border-radius: 20px" />
+                <img src="images/3.jpg" alt="bild" id="img3-jquery" style="border-radius: 20px" />
             </a>
         </div>
         <div class="listItem">
@@ -56,26 +58,10 @@
         </div>
         <div class="listItem">
             <a href="ReceptSidan4.aspx" class="Go to new page">
-                <img src="images/4.jpg" alt="bild" id="img4-jquery"style="border-radius: 20px" />
+                <img src="images/4.jpg" alt="bild" id="img4-jquery" style="border-radius: 20px" />
             </a>
 
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </asp:Content>

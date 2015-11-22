@@ -75,11 +75,11 @@
     <Content Include="images\apti3.jpg" />
     <Content Include="images\apti4.jpg" />
     <Content Include="images\bur.jpg" />
-    <Content Include="images\cafe_menu.jpg" />
-    <Content Include="images\Chef-Anime.jpg" />
+    <Content Include="images\chef-food.jpg" />
     <Content Include="images\ChickenArtikel2.jpg" />
     <Content Include="images\fru.jpg" />
     <Content Include="images\fruitYogurt.jpg" />
+    <Content Include="images\good-ideas-happen.jpg" />
     <Content Include="images\healthArtikel1.jpg" />
     <Content Include="images\ind.jpg" />
     <Content Include="images\ky.png" />
@@ -87,7 +87,6 @@
     <Content Include="images\V.lunchmob..jpg" />
     <Content Include="images\veckanslunch.jpg" />
     <Content Include="images\veckanslunch2.jpg" />
-    <Content Include="JavaScript1.js" />
     <Content Include="jquery-2.1.4.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="mat.aspx" />
@@ -106,6 +105,7 @@
     <Content Include="Site1.Master" />
     <Content Include="vecklunch.aspx" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
     <Content Include="welcome.aspx" />
     <Content Include="ClassDiagram1.cd" />
     <None Include="Web.Debug.config">
@@ -250,6 +250,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="welcome.aspx.cs">
       <DependentUpon>welcome.aspx</DependentUpon>
