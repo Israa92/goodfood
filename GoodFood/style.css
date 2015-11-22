@@ -20,10 +20,10 @@ body {
 }
 
     #logo img {
-    border: 5px solid rgba(54, 163, 46, 0.83); 
-    border-radius: 20px; 
+        border: 5px solid rgba(54, 163, 46, 0.83);
+        border-radius: 20px;
         width: 140px;
-}
+    }
 
 /*gröna genomskinliga background*/
 #content {
@@ -124,7 +124,7 @@ body {
         font-size: 30px;
         text-align: left;
         text-decoration: underline;
-}
+    }
 
     .articelContainer img {
         float: left;
@@ -134,7 +134,7 @@ body {
         margin-top: 25px;
         border: solid 2px #760969;
         border-radius: 20px;
-}
+    }
 
     .articelContainer p {
         color: #760969;
@@ -142,7 +142,7 @@ body {
         font-size: 30px;
         text-align: justify;
         width: 1000px;
-}
+    }
 
 #article1 {
     float: left;
@@ -185,7 +185,7 @@ body {
 
     #next:hover {
         background-color: #a340bc;
-}
+    }
 
 
 #prev {
@@ -204,7 +204,7 @@ body {
 
     #prev:hover {
         background-color: #a340bc;
-}
+    }
 /*******************  Footer  ***********************************/
 /*bottom text*/
 footer {
@@ -349,6 +349,27 @@ div.image {
     margin-top: 40px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+.link1 {
+    text-decoration: none;
+    color: black;
+}
+
+.link2 {
+    text-decoration: none;
+    color: black;
+}
+
+.link3 {
+    text-decoration: none;
+    color: black;
+}
+
+.link4 {
+    text-decoration: none;
+    color: black;
+}
+
 /***style till img apti2 in receptsidan2********/
 #artikel {
     width: 300px;
@@ -358,7 +379,7 @@ div.image {
     margin-left: 20px;
     margin-top: -380px;
 }
-    /**style till img apti4 in receptisidan4******/
+/**style till img apti4 in receptisidan4******/
 #artikel2 {
     width: 300px;
     height: 280px;
@@ -383,6 +404,7 @@ div.image {
 #recept4 {
     margin-top: 10px;
 }
+
 .text3 {
     text-align: left;
     font-size: large;
@@ -411,15 +433,15 @@ h4 {
 }*/
 
 #omossRubrik {
-    height:60px;
-    width:1200px;
+    height: 60px;
+    width: 1200px;
     font-size: 50px;
     color: #FF8000;
     background-color: #F5D0A9;
     border-radius: 10px;
     border: 1px solid #FF8000;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-    margin-top:120px;
+    margin-top: 120px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -434,7 +456,7 @@ h4 {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    width:1200px;
+    width: 1200px;
 }
 
 #chefImg {
@@ -476,7 +498,7 @@ h4 {
 }
 
 .labelNamn {
-   color: #ffffff;
+    color: #ffffff;
     font-size: 25px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -519,46 +541,46 @@ h4 {
     color: #ffffff;
     cursor: pointer;
 }
-    
+
 .lblmsg {
     float: left;
     color: #ffffff;
     font-size: 20px;
     font-family: cursive;
-    /*display: none;*/
+    margin-left: 25px;
 }
 
 /*************welcome page************************/
-#welcome{
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:150px;
+#welcome {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
     border: 5px solid #c58445;
-    border-radius:10px;
-    text-align:center;
-    width:400px;
-    height:200px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
 }
 
 #welcomMsg {
-    color:#ffffff;
-    font-size:45px;
-    background-color:peru;
-    width:300px;
-    margin-left:auto;
-    margin-right:auto;
-    text-transform:uppercase;
-    border-radius:10px;
+    color: #ffffff;
+    font-size: 45px;
+    background-color: peru;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    border-radius: 10px;
 }
 
 #successMsg {
-    color:#ffffff;
-    font-size:30px;
-    background-color:rgba(205, 133, 63, 0.56);
-    width:350px;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:10px;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: rgba(205, 133, 63, 0.56);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
 
 /********Leave A Comment in ReceptPgaes*************/
@@ -591,8 +613,8 @@ h4 {
     margin-bottom: 10px;
 }
 
-    #Button1:hover {
-        background: #04B404;
+#Button1:hover {
+    background: #04B404;
 }
 
 #TextArea1 {
@@ -661,7 +683,7 @@ h4 {
     margin-top: 250px;
     margin-left: 10px;
     margin-right: 10px;
-  }
+}
 
 .column {
     float: left;
@@ -672,11 +694,11 @@ h4 {
 
 .tableContainer img {
     margin-left: 25px;
-     float: left;
+    float: left;
     width: 75%;
- }
+}
 
-.tableContainer h2{
+.tableContainer h2 {
     background-color: darkgrey;
     height: 80px;
     margin-left: 2px;
@@ -700,8 +722,8 @@ h4 {
 
 p.lunch {
     font-family: 'Matura MT Script Capitals';
-    font-size: 25px; 
-} 
+    font-size: 25px;
+}
 
 p.rec {
     font-family: 'Comic Sans MS';
@@ -782,12 +804,12 @@ p.rec {
         margin: 50px;
         margin-top: 780px;
         text-align: center;
-}
-    
+    }
+
         .articelContainer h1 {
             font-size: 20px;
             width: 550px;
-}
+        }
 
         .articelContainer img {
             width: 250px;
@@ -795,48 +817,48 @@ p.rec {
             margin: 0 auto;
             margin-top: 0px;
             float: none;
-}
+        }
 
         .articelContainer p {
             font-size: 20px;
             width: 500px;
-}
+        }
 
     #article1 {
         float: left;
         text-align: center;
         margin-left: 50px;
-}
+    }
 
     #article2 {
         float: left;
         text-align: center;
         margin-left: 50px;
-}
+    }
 
     #article3 {
         float: left;
         text-align: center;
         margin-left: 50px;
-}
+    }
 
     #article4 {
         float: left;
         text-align: center;
         margin-left: 50px;
-}
+    }
 
     #next {
-    width: 70px;
-    height: 40px;
-    font-size: 20px;
-}
+        width: 70px;
+        height: 40px;
+        font-size: 20px;
+    }
 
     #prev {
-    width: 130px;
-    height: 40px;
-    font-size: 20px;
-}
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+    }
 
 
     /*********************************************/
@@ -912,7 +934,7 @@ p.rec {
     }
 
     /*****aptitretare*/
-    
+
     /*change in margin-top*/
     .message {
         font-size: large;
@@ -983,7 +1005,7 @@ p.rec {
             width: 350px;
         }
 
-   
+
     .text2 p {
         font-size: 15px;
     }
@@ -993,18 +1015,18 @@ p.rec {
         margin-left: 40px;
         margin-top: 60px;
     }
-        
+
     #text3 {
         display: none;
         line-height: 2.5;
         margin-left: 0px;
         width: 700px;
         margin-top: 0px;
-}
+    }
 
     #loginContainer {
         margin-top: 400px;
-}
+    }
 
     #labelLeaveCom {
         margin-top: 10px;
@@ -1014,20 +1036,20 @@ p.rec {
         margin-left: 40px;
     }
 
-    #welcome{
-    margin-top:400px;
-}
+    #welcome {
+        margin-top: 400px;
+    }
 }
 
-    /****************************Mobil anpassad**********************************/
+/****************************Mobil anpassad**********************************/
 @media screen and (max-width: 414px) {
     #content {
         width: 355px;
         border: 6px solid;
         border-color: rgba(54, 163, 46, 0.83);
         box-shadow: 0 1px 2px rgba(54, 163, 46, 0.83);
-            margin-top: 40px;
-            height: 1600px;
+        margin-top: 40px;
+        height: 1600px;
     }
 
     #logo {
@@ -1053,11 +1075,11 @@ p.rec {
     }
 
     /*text in the defult page*/
-        #text p {
-    width: 340px;
-            height: 126px;
-    font-size: 22px;
-            margin-left: 4px;
+    #text p {
+        width: 340px;
+        height: 126px;
+        font-size: 22px;
+        margin-left: 4px;
     }
 
     /*pic of the veckanslunch in defult*/
@@ -1068,217 +1090,221 @@ p.rec {
     }
 
     /*******Article in homepage**************/
-        .articelContainer {
-            width: 300px;
-            height: 650px;
+    .articelContainer {
+        width: 300px;
+        height: 650px;
+        margin: 0 auto;
+        margin-top: 450px;
+    }
+
+        .articelContainer h1 {
+            font-size: 20px;
+            width: 295px;
+        }
+
+        .articelContainer img {
+            float: left;
+            width: 245px;
+            height: 245px;
             margin: 0 auto;
-            margin-top: 450px;
-}
+            margin-top: 10px;
+            margin-left: 15px;
+        }
 
-            .articelContainer h1 {
-                font-size: 20px;
-                width: 295px;
-}
+        .articelContainer p {
+            float: left;
+            font-size: 18px;
+            width: 285px;
+            margin: 0 auto;
+        }
 
-            .articelContainer img {
-                float: left;
-                width: 245px;
-                height: 245px;
-                margin: 0 auto;
-                margin-top: 10px;
-                margin-left: 15px;
-}
+    #article1 {
+        margin-left: 10px;
+    }
 
-            .articelContainer p {
-                float: left;
-                font-size: 18px;
-                width: 285px;
-                margin: 0 auto;
-}
+    #article2 {
+        margin-left: 10px;
+    }
 
-        #article1 {
-            margin-left: 10px;
-}
+    #article3 {
+        margin-left: 10px;
+    }
 
-        #article2 {
-            margin-left: 10px;
-}
-
-        #article3 {
-            margin-left: 10px;
-}
-
-        #article4 {
-            margin-left: 10px;
-}
+    #article4 {
+        margin-left: 10px;
+    }
 
     #next {
-    width: 84px;
-    height: 44px;
-    font-size: 25px;
-    color: rgba(66,48,1,1);
-    border-radius: 10px;
-    border: 1px solid #760969;
-    background: #760969;
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-    font-family: "Comic Sans MS", cursive, sans-serif;
+        width: 84px;
+        height: 44px;
+        font-size: 25px;
+        color: rgba(66,48,1,1);
+        border-radius: 10px;
+        border: 1px solid #760969;
+        background: #760969;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+        font-family: "Comic Sans MS", cursive, sans-serif;
         color: #ffffff;
         margin: 10px;
         cursor: pointer;
-}
+    }
 
         #next:hover {
             background-color: #a340bc;
             text-decoration: underline;
-}
+        }
 
 
     #prev {
-    width: 153px;
-    height: 44px;
-    font-size: 25px;
-    color: #760969;
-    border-radius: 10px;
-    border: 1px solid #760969;
-    background: #760969;
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-    font-family: "Comic Sans MS", cursive, sans-serif;
+        width: 153px;
+        height: 44px;
+        font-size: 25px;
+        color: #760969;
+        border-radius: 10px;
+        border: 1px solid #760969;
+        background: #760969;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+        font-family: "Comic Sans MS", cursive, sans-serif;
         color: #ffffff;
         cursor: pointer;
-}
+    }
 
         #prev:hover {
             background-color: #a340bc;
             text-decoration: underline;
-}
-
-        /*******Loggin sidan*********************/
-
-        #BoxNamePass {
-            float: left;
-            margin-left: 0px;
-            width: 170px;
         }
 
-        .nameBox {
-            width: 130px;
-            float: left;
-            height: 20px;
+    /*******Loggin sidan*********************/
+
+    #BoxNamePass {
+        float: left;
+        margin-left: 0px;
+        width: 170px;
+    }
+
+    .nameBox {
+        width: 130px;
+        float: left;
+        height: 20px;
+    }
+
+    .passBox {
+        width: 130px;
+        float: left;
+        height: 20px;
+    }
+
+    .labelNamn {
+        font-size: 17px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .labelPass {
+        font-size: 17px;
+        float: left;
+        margin-top: 4px;
+    }
+
+    #labelNamePass {
+        width: 120px;
+    }
+
+    #loginContainer {
+        width: 320px;
+        margin-top: 250px;
+    }
+
+    #logincont {
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .ButtonLogin {
+        width: 100px;
+        font-size: 20px;
+        height: 35px;
+    }
+
+    .lblmsg {
+        margin-left: 25px;
+        float: left;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: cursive;
+    }
+
+    /*****Leave A Comment in ReceptPgaes********/
+    #labelLeaveCom {
+        font-size: 35px;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+
+    #ContentPlaceHolder1_TextBox1 {
+        margin-top: 10px;
+    }
+
+    #Button1 {
+        float: right;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 23px;
+        color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid rgba(105,181,50,1);
+        background: rgba(122,199,67,1);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+        cursor: pointer;
+        margin: 5px;
+        margin-right: 20px;
+    }
+
+        #Button1:hover {
+            background: #04B404;
         }
 
-        .passBox {
-            width: 130px;
-            float: left;
-            height: 20px;
-        }
+    #TextArea1 {
+        width: 280px;
+        margin-left: 30px;
+    }
 
-        .labelNamn {
-            font-size: 17px;
-            float: left;
-            margin-bottom: 10px;
-        }
+    #TxtBoxName {
+        float: left;
+        width: 100px;
+        margin: 0px;
+    }
 
-        .labelPass {
-            font-size: 17px;
-            float: left;
-            margin-top: 4px;
-        }
+    .commentstyle {
+        float: left;
+        position: relative;
+        background-color: #F6E3CE;
+        width: 450px;
+        height: 53px;
+        font-family: cursive;
+        font-size: 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(105,181,50,1);
+        text-align: left;
+    }
 
-        #labelNamePass {
-            width: 120px;
-        }
+    #container {
+        width: 450px;
+        height: 400px;
+        margin-left: 10px;
+        text-align: left;
+    }
 
-        #loginContainer {
-            width: 320px;
-            margin-top: 250px;
-        }
-
-        #logincont {
-            width: 350px;
-            margin-left: 0px;
-            margin-top: 10px;
-        }
-
-        .ButtonLogin {
-            width: 100px;
-            font-size: 20px;
-            height: 35px;
-        }
-
-        .lblmsg {
-            display: none;
-        }
-
-        /*****Leave A Comment in ReceptPgaes********/
-        #labelLeaveCom {
-            font-size: 35px;
-            margin-top: 10px;
-            margin-left: 35px;
-        }
-
-        #ContentPlaceHolder1_TextBox1 {
-            margin-top: 10px;
-}
-
-#Button1 {
-    float: right;
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 23px;
-            color: #ffffff;
-    border-radius: 10px;
-    border: 1px solid rgba(105,181,50,1);
-    background: rgba(122,199,67,1);
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
-            cursor: pointer;
-            margin: 5px;
-            margin-right: 20px;
-}
-
-            #Button1:hover {
-                background: #04B404;
-}
-
-#TextArea1 {
-            width: 280px;
-            margin-left: 30px;
-}
-
-        #TxtBoxName {
-            float: left;
-            width: 100px;
-            margin: 0px;
-}
-
-.commentstyle {
-    float: left;
-    position: relative;
-    background-color: #F6E3CE;
-    width: 450px;
-    height: 53px;
-    font-family: cursive;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 1px solid rgba(105,181,50,1);
-    text-align: left;
-}
-
-#container {
-            width: 450px;
-            height: 400px;
-            margin-left: 10px;
-            text-align: left;
-}
-
-        #TextAreaComment {
-            width: 330px;
-}
+    #TextAreaComment {
+        width: 330px;
+    }
 
     /****************** Om Oss Page***************************************/
     /*Style till om oss text*/
-        /*#omossCont {
+    /*#omossCont {
             width: 330px;
             text-align: left;
             margin-left: auto;
@@ -1286,22 +1312,22 @@ p.rec {
     }*/
 
     #omossRubrik {
-         height:40px;
-         width:330px;
-         font-size: 30px;
-         margin-top:50px;
+        height: 40px;
+        width: 330px;
+        font-size: 30px;
+        margin-top: 50px;
     }
 
     #omossPargraf {
         font-size: 30px;
-         width:330px;
+        width: 330px;
     }
 
-        #chefImg {
-            display: none;
+    #chefImg {
+        display: none;
     }
 
-        /***************mat sidor***************/
+    /***************mat sidor***************/
     /*Våra Recept text style*/
     h2 {
         margin-left: 100px;
@@ -1375,7 +1401,7 @@ p.rec {
         width: 246px;
     }
 
-    
+
     /***********style till Aptiretare och receptsidor 1,2,3,4******************/
     /*text i receptsidor*/
     .message {
@@ -1417,6 +1443,10 @@ p.rec {
         margin-top: 0px;
         margin-top: 20px;
     }
+
+    #h2title {
+        margin-left: 70px;
+    }
     /*texarea i om oss sidan*/
     #aboutDescription {
         width: 300px;
@@ -1432,7 +1462,7 @@ p.rec {
         width: 180px;
         margin-left: 100px;
         margin-top: 140px;
-}
+    }
     /*text under går så här i alla reseptsidor (mat)*/
     #text3 {
         display: none;
@@ -1461,98 +1491,93 @@ p.rec {
         display: none;
     }
 
-        /*******Veckanslunch page styling begins here************/
+    /*******Veckanslunch page styling begins here************/
 
 
-.tableContainer {
-    margin-top:10px;
-    margin-left:auto;   
-    margin-right:auto;
-    width:300px;
-    
-  }
+    .tableContainer {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
 
-.column {
-    width:300px;
-    height:500px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: #cd853f;
-    box-shadow: inset 0 0 0 3px #cd853f, 0 2px 5px #cd853f;
-    margin-top:10px;
-    background-color:rgba(205, 133, 63, 0.39);
+    .column {
+        width: 300px;
+        height: 500px;
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #cd853f;
+        box-shadow: inset 0 0 0 3px #cd853f, 0 2px 5px #cd853f;
+        margin-top: 10px;
+        background-color: rgba(205, 133, 63, 0.39);
+    }
+
+    .tableContainer img {
+        margin-top: 10px;
+        float: left;
+        width: 250px;
+        height: 300px;
+        align-items: center;
+    }
+
+
+    .tableContainer h2 {
+        background-color: rgb(205, 133, 63);
+        height: 45px;
+        margin: auto;
+        width: 290px;
+        border: 1px solid;
+        border-radius: 20px;
+        border-color: #cd853f;
+        box-shadow: inset 0 0 0 3px #cd853f, 0 2px 5px #cd853f;
+        padding: 0px;
+        margin-top: 10px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        text-align: center;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: #ffffff;
+    }
+
+    #weekNum h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-stretch: normal;
+        font-weight: normal;
+        line-height: 50px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        width: 300px;
+        height: 50px;
+        background-color: peru;
+    }
+
+
+    p.lunch {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 30px;
+    }
+
+    p.rec {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+    }
+
+    #welcome {
+        margin-top: 150px;
+        width: 330px;
+        height: 240px;
+    }
+
+    #welcomMsg {
+        width: 300px;
+    }
+
+    #successMsg {
+        width: 250px;
+        border-radius: 10px;
+    }
 }
-
-.tableContainer img {
-   margin-top:10px;
-     float: left;
-     width:250px;
-     height:300px;
-     align-items: center;
-        }
-         
- 
-.tableContainer h2{
-    background-color:rgb(205, 133, 63);
-    height: 45px;
-    margin: auto;
-    width: 290px;
-    border: 1px solid;
-    border-radius: 20px;
-    border-color: #cd853f;
-    box-shadow: inset 0 0 0 3px #cd853f, 0 2px 5px #cd853f;
-
-    padding: 0px;
-    margin-top:10px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align:center;
-    font-size:30px;
-    text-transform:capitalize;
-    color:#ffffff;
-}
-
-#weekNum h1 {
-    margin-top: 0px;
-    margin-bottom:0px;
-    font-stretch: normal;
-    font-weight: normal;
-    line-height: 50px;
-
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 40px;
-    text-align:center;
-    color: white;
-    width:300px;
-    height:50px;
-    background-color: peru;
-}
-
-
-p.lunch {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 30px; 
-} 
-
-p.rec {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-}
-
-#welcome{
-    margin-top:150px;
-    width:330px;
-    height:240px;
-}
-
-#welcomMsg {
-    width:300px;
-}
-
-#successMsg {
-    width:250px;
-    border-radius:10px;
-}
-}
-
-

@@ -6,7 +6,7 @@
 
 
     
-                <h2>
+                <h2 id="h2title">
                     "Aptitretare Recept "
                 </h2>
      
