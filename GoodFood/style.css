@@ -117,14 +117,14 @@ body {
     border-radius: 20px;
     margin-left: 95px;
 }
-.articelContainer h1 {
+    .articelContainer h1 {
         color: #760969;
         font-family: cursive;
         font-size: 30px;
         text-align: left;
         text-decoration: underline;
     }
-.articelContainer img {
+    .articelContainer img {
         float: left;
         width: 300px;
         height: 300px;
@@ -133,7 +133,7 @@ body {
         border: solid 2px #760969;
         border-radius: 20px;
     }
-.articelContainer p {
+    .articelContainer p {
         color: #760969;
         font-family: "Comic Sans MS", cursive, sans-serif;
         font-size: 30px;
@@ -174,7 +174,7 @@ body {
     margin: 10px;
     cursor: pointer;
 }
-#next:hover {
+    #next:hover {
         background-color: #a340bc;
     }
 #prev {
@@ -190,7 +190,7 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
-#prev:hover {
+    #prev:hover {
         background-color: #a340bc;
     }
 /*******************  Footer  ***********************************/
@@ -284,6 +284,7 @@ div.image {
     float: left;
     margin-top: 0px;
     text-align:left;
+    font-size:17px;
 }
     /*style till första linje av ingredienser till varje reseptsidor (mat) */
     .text2 p {
@@ -782,54 +783,54 @@ p.rec {
     }
 
     /**********All Articles in homepage************/
-.articelContainer {
+    .articelContainer {
         width: 600px;
         height: 550px;
         margin: 50px;
         margin-top: 780px;
         text-align: center;
     }
-.articelContainer h1 {
+        .articelContainer h1 {
             font-size: 20px;
             width: 550px;
         }
-.articelContainer img {
+        .articelContainer img {
             width: 250px;
             height: 250px;
             margin: 0 auto;
             margin-top: 0px;
             float: none;
         }
-.articelContainer p {
+        .articelContainer p {
             font-size: 20px;
             width: 500px;
         }
-#article1 {
+    #article1 {
         float: left;
         text-align: center;
         margin-left: 50px;
     }
-#article2 {
+    #article2 {
         float: left;
         text-align: center;
         margin-left: 50px;
     }
-#article3 {
+    #article3 {
         float: left;
         text-align: center;
         margin-left: 50px;
     }
-#article4 {
+    #article4 {
         float: left;
         text-align: center;
         margin-left: 50px;
     }
-#next {
+    #next {
         width: 70px;
         height: 40px;
         font-size: 20px;
     }
-#prev {
+    #prev {
         width: 130px;
         height: 40px;
         font-size: 20px;
@@ -882,7 +883,7 @@ p.rec {
         float: left;
     }
 
-    /*style till Ingredenser text i ReseptSidor- på gång*/
+    /*style till Ingredenser text i ReseptSidor*/
     div.text2 {
         width: 220px;
         height: 300px;
@@ -890,8 +891,9 @@ p.rec {
         font-family: "Comic Sans MS", cursive, sans-serif;
         margin-top: -30px;
         margin-left: 350px;
+
     }
-    /*style till Går så här i Reseptsidor - på gång*/
+    /*style till Går så här i Reseptsidor*/
     div.text3 {
         font-size: 16px;
         width: 620px;
@@ -1002,16 +1004,16 @@ p.rec {
     }
 
    /********Leave A Comment in ReceptPgaes*************/
-#labelLeaveCom {
+    #labelLeaveCom {
     font-size: 40px;
-}
-#container {
+    }
+    #container {
     width: 656px;
     height: 400px;
     margin-left: 35px;
-}
+    }
 
-#welcome {
+    #welcome {
         margin-top: 400px;
     }
 
@@ -1418,6 +1420,7 @@ p.rec {
         font-family: "Comic Sans MS", cursive, sans-serif;
         margin-top: 190px;
         margin-right: 65px;
+
     }
     /*style till Går så här i Reseptsidor - på gång*/
     div.text3 {

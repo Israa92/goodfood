@@ -10,7 +10,7 @@
             <img src="images/3.jpg" alt="bild" id="image1" style="border-radius: 20px" />
         </div>
     </div>
-    <div class="text2">
+    <div class="text2" <%--id="animateMessage"--%>>
         <p>Ingredienser: portioner</p>
         <ul>
             <li>15 kg koljafilé</li>
@@ -69,6 +69,16 @@
             $("#PageRecipeAngleDown").toggleClass("hidden");
             $("#PageRecipeAngleUp").toggleClass("hidden");
         });
+        //$("#animateMessage").hover(function () {
+        //    var div = $("#animateMessage");
+        //    div.animate({ center: '50px' }, "slow");
+        //    div.animate({ fontSize: '22px' }, "slow");
+        //});
+        //$("#animateMessage").mouseleave(function () {
+        //    var div = $("#animateMessage");
+
+        //    div.animate({ fontSize: '17px' });
+        //});
     </script>
 
 
