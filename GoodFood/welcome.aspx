@@ -5,11 +5,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <p class="welcomMsg">
-          Welcome!
-    </p>
-<h1 class="successMsg">
-    Your login is success
-</h1>
+    <div id="welcome">
+        <p id="welcomMsg">
+              Welcome!
+        </p>
+
+        <h1 id="successMsg">
+              Your login is success
+        </h1>
+    </div>
+    
 </asp:Content>
 

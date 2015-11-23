@@ -23,7 +23,7 @@
         </div>
 
         <asp:Button CssClass="ButtonLogin" ID="ButtonLogin" runat="server" Text="Logga in" OnClientClick="ButtonLogin_Click();" />
-        <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server" Text="Label">Note:</asp:Label>
+        <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server"></asp:Label>
 
     </div>
     <script>
@@ -34,18 +34,19 @@
                 alert("You should enter your Username and Password");
             }
         }
-        function ButtonLogin_Click(){
-            var y = document.getElementsByClassName("passBox")[0].value
-            if (y == null || y == "") {
-
-                alert("You should enter your Password");
-            }
+        function ButtonLogin_Click() {
             var z = document.getElementsByClassName("nameBox")[0].value
             if (z == null || z == "") {
 
                 alert("You should enter your username");
             }
+            var y = document.getElementsByClassName("passBox")[0].value
+            if (y == null || y == "") {
+
+                alert("You should enter your Password");
+            }
+            
         }
-        
+
     </script>
 </asp:Content>
