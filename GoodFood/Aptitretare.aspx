@@ -42,7 +42,7 @@
         </div>
 
 
-        <div class="listItem" onmouseover="function()">
+        <div class="listItem">
             <a href="recept4.aspx"  class="link4" > Enkla snacks med wasabi and sesame </a>
         </div>
         <div class="listItem">
