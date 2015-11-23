@@ -33,48 +33,19 @@
                 </button>
             </div>
 
-
             <!--navigation bar horisentel-->
             <nav id="meny">
                 <div><a href="default.aspx" title="Home" class="tooltip">Home</a></div>
                 <div><a href="mat.aspx" title="Mat">Mat</a></div>
-                <div>
-                    <a href="Aptitretare.aspx" title="Aptitretare" <%--id="pagetoggle1"--%>>Aptitretare</a>
-                   <%-- <ul class="dropdown-menu" id="dropdown">
-                        <li><a href="recept1.aspx">jdsksd</a></li>
-                        <li><a href="resept2.aspx">jdsksd</a></li>
-                        <li><a href="recept3.aspx">jdsksd</a></li>
-                        <li><a href="recept4.aspx">jdsksd</a></li>
-                    </ul>--%>
-                </div>
-                <%--                <div><a href="Efterrätt.aspx" title="Efterrätt">Efterrätt</a></div>--%>
+                <div><a href="Aptitretare.aspx" title="Aptitretare">Aptitretare</a></div>
                 <div><a href="omoss.aspx" title="Om oss">Om oss</a></div>
                 <div><a href="login.aspx" id="loggain" title="Logga in">Logga in</a></div>
             </nav>
-
-
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-
         </div>
- <%--       <script>
-            var page1toggle = false;
-            document.querySelector("#dropdown").addEventListener("mouseover", function () {
-                if (!page1toggle) {
-
-                    document.querySelector(".dropdown-menu").style.display = "initial";
-                    page1toggle = true;
-                }
-                else {
-                    document.querySelector(".dropdown-menu").style.display = "none";
-                    page1toggle = false;
-
-                }
-            });
-        </script>--%>
 
         <script>
-
             $(document).ready(function () {
                 $("#dropdownMenu1").click(function () {
                     $("#meny").slideToggle("slow");
@@ -83,8 +54,6 @@
                 });
             });
         </script>
-
-
     </form>
     <footer>
         <p>Posted by: Good Food</p>

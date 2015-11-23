@@ -77,19 +77,20 @@
 
 
     <div id="container">
-
-    <div id="labelLeaveCom">
-        <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server" placeholder="Namn:"></asp:TextBox>
-    </div>
-
     
-
-    <div id="TextAreaComment">
-        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
-        <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
-    </div>
+        <div id="labelLeaveCom">
+           <asp:Label ID="leaveAComment" runat="server" Text="Label">Skriv till oss vad du tycker...</asp:Label>
         </div>
+
+        <div id="cooontainer">
+            <asp:TextBox ID="TextBox1" runat="server" placeholder="Namn:"></asp:TextBox>
+            <div id="TextAreaComment">
+            <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
+            <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
+            </div>
+        </div>
+
+    </div>
     
     
 </asp:Content>
