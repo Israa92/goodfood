@@ -72,7 +72,10 @@
     </div>
 
 </div>
-
     <button id="prev">Föregående</button>
     <button id="next">Nästa</button>
+
+    
+
+    
 </asp:Content>

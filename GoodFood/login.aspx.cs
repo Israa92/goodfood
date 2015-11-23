@@ -22,7 +22,7 @@ namespace GoodFood
             }
 
 
-            else
+            else if(!string.IsNullOrEmpty(TextBoxName.Text)&&(!string.IsNullOrEmpty(TextBoxPass.Text)))
             {
                 lblmsg.Text = ("du har fyllt i fel lösenornd eller användarnamn");
             }

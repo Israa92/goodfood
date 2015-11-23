@@ -10,7 +10,7 @@
             <img src="images/4.jpg" alt="bild" id="image1" style="border-radius: 20px" />
         </div>
     </div>
-    <div class="text2">
+    <div class="text2" <%--id="animateMessage"--%>>
         <p>Ingredienser: portioner</p>
         <ul>
             <li>15 kg koljafilé</li>
@@ -32,8 +32,8 @@
     </div>
     <button type="button" id="btn-jquery">
                 <span id="btn-jquery-label">Recept</span>
-        <i class="fa fa-angle-down pull-right" id="PageRecipeAngleDown" style="margin-top:5px"></i>
-        <i class="fa fa-angle-up pull-right hidden" id="PageRecipeAngleUp" style="margin-top:5px"></i>
+        <i class="fa fa-angle-down pull-right" id="PageRecipeAngleDown" style="margin-top: 5px"></i>
+        <i class="fa fa-angle-up pull-right hidden" id="PageRecipeAngleUp" style="margin-top: 5px"></i>
     </button>
 
     <div id="text3">
@@ -69,22 +69,31 @@
             $("#PageRecipeAngleDown").toggleClass("hidden");
             $("#PageRecipeAngleUp").toggleClass("hidden");
         });
+        //$("#animateMessage").hover(function () {
+        //    var div = $("#animateMessage");
+        //    div.animate({ center: '50px' }, "slow");
+        //    div.animate({ fontSize: '22px' }, "slow");
+        //});
+        //$("#animateMessage").mouseleave(function () {
+        //    var div = $("#animateMessage");
+        //    div.animate({ fontSize: '17px' });
+        //});
     </script>
 
    <div id="container">
 
     <div id="labelLeaveCom">
-        <asp:Label ID="leaveAComment" runat="server" Text="Label">Leave a comment</asp:Label>
+           <asp:Label ID="leaveAComment" runat="server" Text="Label">Skriv till oss vad du tycker...</asp:Label>
     </div>
 
-        <div id="TxtBoxName">
-            <asp:TextBox ID="TextBoxName" runat="server" placeholder="Namn:"></asp:TextBox>
-        </div>
-
+        <div id="cooontainer">
+            <asp:TextBox ID="TextBox1" runat="server" placeholder="Namn:"></asp:TextBox>
     <div id="TextAreaComment">
         <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
         <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
     </div>
+        </div>
+
         </div>
 
 </asp:Content>
