@@ -40,16 +40,15 @@
                 <div><a href="default.aspx" title="Home" class="tooltip">Home</a></div>
                 <div><a href="mat.aspx" title="Mat">Mat</a></div>
                 <div id="menu-container">
-                    <div>
-                        <a href="Aptitretare.aspx" title="Aptitretare" class="aptitretareMenu">Aptitretare</a>
-
-                    </div>
-                    <div>
-                        <ul class="mainMenu">
-                            <li>Dadlar i julskinka</li>
-                            <li>Fulkorv i ugn med salami höstsvamp</li>
-                            <li>Julköttbullar med mandel ,grönkål och apelsin</li>
-                            <li>Enkla snacks med wasabi and sesame</li>
+                    <div onmouseover="DisplayInitial();" onmouseout="mouseExit();">
+                        <a href="Aptitretare.aspx" title="Aptitretare" class="aptitretareMenu" id="pagetoggle">Aptitretare</a>
+                        <ul id="mainMenu">
+                            <li><a href="recept1.aspx">Dadlar i julskinka</a></li>
+                            <li><a href="recept2.aspx">Fulkorv i ugn med salami höstsvamp</a></li>
+                            <li><a href="recept3.aspx">Julköt
+                                
+                                tbullar med mandel ,grönkål och apelsin</a></li>
+                            <li><a href="recept4.aspx">Enkla snacks med wasabi and sesame</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,22 +61,36 @@
             </asp:ContentPlaceHolder>
         </div>
         <script>
-            var page1toggle = false;
-            document.queryselector(".aptitretareMenu").addeventlistener("mouseover", function () {
-                if (!page1toggle) {
+            
+            //function  DisplayNone() {
+            //    document.querySelector("#mainMenu").style.display = "none";
+            //    aptitretareMenu = false;
+            //}
 
-                    document.queryselector(".mainMenu").style.display = "initial";
-                    page1toggle = true;
-                }
-                else {
-                    document.queryselector(".aptitretareMenu").addeventlistener("mouseout", function () {
-                        document.queryselector(".mainMenu").style.display = "none";
-                        page1toggle = false;
+            
 
-                    }
-                    )
-                };
-            });
+            function DisplayInitial() {
+
+                //if (!aptitretareMenu) {
+                document.querySelector("#mainMenu").style.display = "block";
+                return false;
+                    //aptitretareMenu = true;
+
+                //}
+                //else 
+                //{
+                    //document.querySelector(".aptitretareMenu").addEventListener("mouseout", DisplayNone);
+                  
+            };
+
+            function mouseExit() {
+                document.querySelector('#mainMenu').style.display = 'none';
+            }
+            //};   
+
+           // var aptitretareMenu = false;
+            //document.querySelector(".aptitretareMenu").addEventListener("click", DisplayInitial);          
+
         </script>
     </form>
     <footer>
