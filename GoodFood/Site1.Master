@@ -62,30 +62,22 @@
             </asp:ContentPlaceHolder>
         </div>
         <script>
-            //$(document).ready(function () {
-            //    $("#dropdownMenu1").click(function () {
-            //        $("#meny").slideToggle("slow");
-            //        $("#angleDown").toggleClass("hidden");
-            //        $("#angleUp").toggleClass("hidden");
-            //    });
+            var page1toggle = false;
+            document.queryselector(".aptitretareMenu").addeventlistener("mouseover", function () {
+                if (!page1toggle) {
 
-                var page1toggle = false;
-                document.queryselector(".aptitretareMenu").addeventlistener("mouseover", function () {
-                    if (!page1toggle) {
+                    document.queryselector(".mainMenu").style.display = "initial";
+                    page1toggle = true;
+                }
+                else {
+                    document.queryselector(".aptitretareMenu").addeventlistener("mouseout", function () {
+                        document.queryselector(".mainMenu").style.display = "none";
+                        page1toggle = false;
 
-                        document.queryselector(".mainMenu").style.display = "initial";
-                        page1toggle = true;
                     }
-                    else {
-                        document.queryselector(".aptitretareMenu").addeventlistener("mouseout", function () {
-                            document.queryselector(".mainMenu").style.display = "none";
-                            page1toggle = false;
-
-                        }
-                        )
-                    };
-                });
-            //});
+                    )
+                };
+            });
         </script>
     </form>
     <footer>
