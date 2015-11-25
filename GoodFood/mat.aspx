@@ -18,19 +18,7 @@
             </a>
 
         </div>
-        <script>
-            $(document).ready(function () {
-                $("#img1-jquery , #img2-jquery, #img3-jquery, #img4-jquery").hover(function () {
-                    $(this).addClass("hover");
-                }, function () {
-                    $(this).removeClass("hover");
-                }
 
-               );
-
-            });
-
-        </script>
         <div class="listItem">
             Frasig senapsströmming med betor, kapris, brynt smör och pepparrot
 

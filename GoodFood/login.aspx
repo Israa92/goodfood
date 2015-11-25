@@ -26,27 +26,5 @@
         <asp:Label CssClass="lblmsg" ID="lblmsg" runat="server"></asp:Label>
 
     </div>
-    <script>
-        function ButtonLogin_Click() {
-            var x = document.getElementsByClassName("nameBox", "passBox")[0].value
-            if (x == null || x == "") {
 
-                alert("You should enter your Username and Password");
-            }
-        }
-        function ButtonLogin_Click() {
-            var z = document.getElementsByClassName("nameBox")[0].value
-            if (z == null || z == "") {
-
-                alert("You should enter your username");
-            }
-            var y = document.getElementsByClassName("passBox")[0].value
-            if (y == null || y == "") {
-
-                alert("You should enter your Password");
-            }
-            
-        }
-
-    </script>
 </asp:Content>

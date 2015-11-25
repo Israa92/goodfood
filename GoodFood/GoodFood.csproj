@@ -90,6 +90,7 @@
     <Content Include="jquery-2.1.4.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="mat.aspx" />
+    <Content Include="myJavaScript.js" />
     <Content Include="Omoss.aspx" />
     <Content Include="packages.config" />
     <Content Include="recept1.aspx" />

@@ -300,8 +300,8 @@ div.image {
     /*style till första linje av ingredienser till varje reseptsidor (mat) */
     .text2 p {
         text-decoration: underline;
-        margin-left: 40px;
-        font-size: 25px;
+        margin-left: 50px;
+        font-size: 20px;
         font-weight: bold;
     }
     /*style till list av ingredienser i varje reseptsidor (mat)*/
@@ -1583,7 +1583,7 @@ p.rec {
         margin-top: 10px;
         float: left;
         width: 150px;
-    height: 150px;
+        height: 150px;
         align-items: center;
     }
 
@@ -1629,7 +1629,7 @@ p.rec {
 
     p.rec {
         font-family: "Comic Sans MS", cursive, sans-serif;
-font-size: 15px;
+        font-size: 15px;
         font-style: normal;
     }
 
