@@ -786,12 +786,17 @@ p.rec {
         margin-left: 10px;
         font-size: 20px;
     }
-
+        #menu-container {
+        width: 100%;
+    }
+        #mainMenu li{
+            display:none;
+        }
 
     /*Style till label och text i dafault*/
-    div.Logga.in a {
+    /*div.Logga.in a {
         margin-top: -303px;
-    }
+    }*/
     /*text in the default page*/
     #text p {
         float: left;
@@ -1183,6 +1188,13 @@ p.rec {
         margin-left: 150px;
     }
 
+    #menu-container {
+        width: 100%;
+    }
+
+    #mainMenu li{
+        display: none;
+    }
     /*text in the defult page*/
     #text p {
         width: 340px;

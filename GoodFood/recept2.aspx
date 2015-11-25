@@ -31,7 +31,7 @@
         </div>
 
         <div id="cooontainer">
-            <asp:TextBox ID="TextBox1" runat="server" placeholder="Namn:"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
             <div id="TextAreaComment">
             <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
             <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
