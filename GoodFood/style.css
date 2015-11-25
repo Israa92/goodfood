@@ -786,12 +786,14 @@ p.rec {
         margin-left: 10px;
         font-size: 20px;
     }
-        #menu-container {
+
+    #menu-container {
         width: 100%;
     }
-        #mainMenu li{
-            display:none;
-        }
+
+    #mainMenu li {
+        display: none;
+    }
 
     /*Style till label och text i dafault*/
     /*div.Logga.in a {
@@ -1192,7 +1194,7 @@ p.rec {
         width: 100%;
     }
 
-    #mainMenu li{
+    #mainMenu li {
         display: none;
     }
     /*text in the defult page*/
@@ -1359,7 +1361,6 @@ p.rec {
     /*****Leave A Comment in ReceptPgaes********/
     #labelLeaveCom {
         font-size: 25px;
-        margin-top: 10px;
         margin-left: 1px;
     }
 
@@ -1407,7 +1408,7 @@ p.rec {
     }
 
     #container {
-        width: 450px;
+        width: 360px;
         height: 400px;
         margin-left: 6px;
         text-align: left;
