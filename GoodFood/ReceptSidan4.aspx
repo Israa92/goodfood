@@ -31,7 +31,7 @@
         </ul>
     </div>
     <button type="button" id="btn-jquery">
-                <span id="btn-jquery-label">Recept</span>
+        <span id="btn-jquery-label">Recept</span>
         <i class="fa fa-angle-down pull-right" id="PageRecipeAngleDown" style="margin-top: 5px"></i>
         <i class="fa fa-angle-up pull-right hidden" id="PageRecipeAngleUp" style="margin-top: 5px"></i>
     </button>
@@ -52,48 +52,21 @@
         </ol>
 
     </div>
-    <script>
 
+    <div id="container">
 
-        $("#btn-jquery").click(function () {
-
-            if ($("#text3").is(":hidden") == true) {
-                $("#text3").slideDown(500);
-                document.getElementById("btn-jquery-label").innerHTML = 'Gör så här';
-            }
-            else {
-                $("#text3").slideUp(500);
-                document.getElementById("btn-jquery-label").innerHTML = 'Recept';
-            }
-
-            $("#PageRecipeAngleDown").toggleClass("hidden");
-            $("#PageRecipeAngleUp").toggleClass("hidden");
-        });
-        //$("#animateMessage").hover(function () {
-        //    var div = $("#animateMessage");
-        //    div.animate({ center: '50px' }, "slow");
-        //    div.animate({ fontSize: '22px' }, "slow");
-        //});
-        //$("#animateMessage").mouseleave(function () {
-        //    var div = $("#animateMessage");
-        //    div.animate({ fontSize: '17px' });
-        //});
-    </script>
-
-   <div id="container">
-
-    <div id="labelLeaveCom">
-           <asp:Label ID="leaveAComment" runat="server" Text="Label">Skriv till oss vad du tycker...</asp:Label>
-    </div>
+        <div id="labelLeaveCom">
+            <asp:Label ID="leaveAComment" runat="server" Text="Label">Skriv till oss vad du tycker...</asp:Label>
+        </div>
 
         <div id="cooontainer">
             <asp:TextBox ID="TextBox1" runat="server" placeholder="Namn:"></asp:TextBox>
-    <div id="TextAreaComment">
-        <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
-        <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
-    </div>
+            <div id="TextAreaComment">
+                <textarea placeholder="Skriv vad du tycker..." id="TextArea1" cols="20" rows="2"></textarea>
+                <input id="Button1" type="button" value="Submit" onclick="addelement(); return false;" />
+            </div>
         </div>
 
-        </div>
+    </div>
 
 </asp:Content>

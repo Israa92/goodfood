@@ -7,6 +7,7 @@
     <script src="Script/jquery-2.1.4.min.js"></script>
     <script src="CreateElementDiv.js"></script>
     <script src="foodmenu.js"></script>
+    <script src="myJavaScript.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link href="style.css" rel="stylesheet" type="text/css" />

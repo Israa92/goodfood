@@ -50,34 +50,7 @@
 
         </ol>
     </div>
-    <script>
 
-
-        $("#btn-jquery").click(function () {
-
-            if ($("#text3").is(":hidden") == true) {
-                $("#text3").slideDown(500);
-                document.getElementById("btn-jquery-label").innerHTML = 'Gör så här';
-            }
-            else {
-                $("#text3").slideUp(500);
-                document.getElementById("btn-jquery-label").innerHTML = 'Recept';
-            }
-
-            $("#PageRecipeAngleDown").toggleClass("hidden");
-            $("#PageRecipeAngleUp").toggleClass("hidden");
-        });
-        //$("#animateMessage").hover(function () {
-        //    var div = $("#animateMessage");
-        //    div.animate({ center: '50px' }, "slow");
-        //    div.animate({ fontSize: '22px' }, "slow");
-        //});
-        //$("#animateMessage").mouseleave(function () {
-        //    var div = $("#animateMessage");
-
-        //    div.animate({ fontSize: '17px' });
-        //});
-    </script>
 
     <div id="container">
     
