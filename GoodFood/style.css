@@ -73,6 +73,40 @@ body {
     border: 1px solid #ffffff;
 }
 
+#menu-container {
+    width: 200px;
+    float: left;
+}
+
+.aptitretareMenu {
+}
+
+.mainMenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    width: 200px;
+    float: left;
+    position: absolute;
+    margin-top: 70px;
+}
+
+    .mainMenu li {
+        font-size: 16px;
+        border: solid;
+        border-radius: 10px;
+        background-color: rgba(122,199,67,1);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-color: rgba(255, 255, 255, 0.3);
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        
+        width: 169px;
+        margin-left: 15px;
+        border: 1px solid rgba(105,181,50,1);
+    }
 
 /**********************defult page /Home Page ***********************************/
 
@@ -1583,7 +1617,7 @@ p.rec {
         margin-top: 10px;
         float: left;
         width: 150px;
-    height: 150px;
+        height: 150px;
         align-items: center;
     }
 
@@ -1629,7 +1663,7 @@ p.rec {
 
     p.rec {
         font-family: "Comic Sans MS", cursive, sans-serif;
-font-size: 15px;
+        font-size: 15px;
         font-style: normal;
     }
 
