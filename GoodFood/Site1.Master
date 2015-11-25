@@ -61,35 +61,13 @@
             </asp:ContentPlaceHolder>
         </div>
         <script>
-            
-            //function  DisplayNone() {
-            //    document.querySelector("#mainMenu").style.display = "none";
-            //    aptitretareMenu = false;
-            //}
-
-            
-
             function DisplayInitial() {
-
-                //if (!aptitretareMenu) {
                 document.querySelector("#mainMenu").style.display = "block";
                 return false;
-                    //aptitretareMenu = true;
-
-                //}
-                //else 
-                //{
-                    //document.querySelector(".aptitretareMenu").addEventListener("mouseout", DisplayNone);
-                  
             };
-
             function mouseExit() {
                 document.querySelector('#mainMenu').style.display = 'none';
             }
-            //};   
-
-           // var aptitretareMenu = false;
-            //document.querySelector(".aptitretareMenu").addEventListener("click", DisplayInitial);          
 
         </script>
     </form>
