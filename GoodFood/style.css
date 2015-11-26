@@ -967,8 +967,10 @@ p.rec {
         margin-left: -23px;
     }
 
-    /*****aptitretare*/
-
+    /*****aptitretare**************************************************************/
+    #mainMenu li {
+        display: none;
+    }
     /*change in margin-top*/
     .message {
         font-size: large;
@@ -1502,6 +1504,10 @@ p.rec {
 
 
     /***********style till Aptiretare och receptsidor 1,2,3,4******************/
+
+     #mainMenu li {
+        display: none;
+    }
     /*text i receptsidor*/
     .message {
         text-align: justify;
