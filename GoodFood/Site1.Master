@@ -45,9 +45,7 @@
                         <ul id="mainMenu">
                             <li><a href="recept1.aspx">Dadlar i julskinka</a></li>
                             <li><a href="recept2.aspx">Fulkorv i ugn med salami höstsvamp</a></li>
-                            <li><a href="recept3.aspx">Julköt
-                                
-                                tbullar med mandel ,grönkål och apelsin</a></li>
+                            <li><a href="recept3.aspx">Julköttbullar med mandel ,grönkål och apelsin</a></li>
                             <li><a href="recept4.aspx">Enkla snacks med wasabi and sesame</a></li>
                         </ul>
                     </div>
@@ -61,35 +59,13 @@
             </asp:ContentPlaceHolder>
         </div>
         <script>
-            
-            //function  DisplayNone() {
-            //    document.querySelector("#mainMenu").style.display = "none";
-            //    aptitretareMenu = false;
-            //}
-
-            
-
             function DisplayInitial() {
-
-                //if (!aptitretareMenu) {
                 document.querySelector("#mainMenu").style.display = "block";
                 return false;
-                    //aptitretareMenu = true;
-
-                //}
-                //else 
-                //{
-                    //document.querySelector(".aptitretareMenu").addEventListener("mouseout", DisplayNone);
-                  
             };
-
             function mouseExit() {
                 document.querySelector('#mainMenu').style.display = 'none';
             }
-            //};   
-
-           // var aptitretareMenu = false;
-            //document.querySelector(".aptitretareMenu").addEventListener("click", DisplayInitial);          
 
         </script>
     </form>

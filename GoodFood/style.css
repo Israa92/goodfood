@@ -78,9 +78,6 @@ body {
     float: left;
 }
 
-.aptitretareMenu {
-}
-
 #mainMenu {
     list-style: none;
     margin: 0;
@@ -102,7 +99,6 @@ body {
         border-color: rgba(255, 255, 255, 0.3);
         text-align: center;
         font-family: "Comic Sans MS", cursive, sans-serif;
-        
         width: 169px;
         margin-left: 15px;
         border: 1px solid rgba(105,181,50,1);
@@ -791,11 +787,18 @@ p.rec {
         font-size: 20px;
     }
 
+    #menu-container {
+        width: 100%;
+    }
+
+    #mainMenu li {
+        display: none;
+    }
 
     /*Style till label och text i dafault*/
-    div.Logga.in a {
+    /*div.Logga.in a {
         margin-top: -303px;
-    }
+    }*/
     /*text in the default page*/
     #text p {
         float: left;
@@ -1189,6 +1192,13 @@ p.rec {
         margin-left: 150px;
     }
 
+    #menu-container {
+        width: 100%;
+    }
+
+    #mainMenu li {
+        display: none;
+    }
     /*text in the defult page*/
     #text p {
         width: 340px;
@@ -1353,7 +1363,6 @@ p.rec {
     /*****Leave A Comment in ReceptPgaes********/
     #labelLeaveCom {
         font-size: 25px;
-        margin-top: 10px;
         margin-left: 1px;
     }
 
@@ -1401,7 +1410,7 @@ p.rec {
     }
 
     #container {
-        width: 450px;
+        width: 360px;
         height: 400px;
         margin-left: 6px;
         text-align: left;
